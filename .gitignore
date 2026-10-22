@@ -1,0 +1,20 @@
+# Bản dựng tạo lại được bằng tools/build.py (docs/ = bản GitHub Pages thì GIỮ)
+site/
+artifact/
+wordpress/
+
+# Mô hình gốc lợn rừng (OBJ 100MB + texture 4K) — bản web đã nén ở src/models/
+lon rung/
+
+# Cache của các script: chỉ giữ manifest ảnh (build cần) và bản đồ chuyển động
+tools/.cache/*
+!tools/.cache/manifest.json
+!tools/.cache/motion/
+__pycache__/
+*.pyc
+
+# Ảnh tham khảo của người khác
+851818727_*.png
+
+# Nhật ký chạy script
+*.log

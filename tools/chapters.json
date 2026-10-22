@@ -1,0 +1,26 @@
+{
+  "book": {
+    "title": "Gã Thợ Rèn Ở Xứ Sở Thần Kỳ",
+    "title_en": "The Blacksmith of Wonderland",
+    "tagline": "Ngươi thật sự muốn kết thúc ở đây sao?",
+    "hero": "boar",
+    "pdf": "../dan trang/dan trang.pdf",
+    "indd": "../dan trang/dan trang.indd",
+    "docx_pattern": "../dan trang/Gã Thợ Rèn Ở Xứ Sở Thần Kỳ chương {n}.docx"
+  },
+  "chapters": [
+    {"n": 0, "label": "Prologue", "title": "Dưới Những Tầng Rễ",        "title_en": "Beneath the Roots",                  "page": 2,   "bg": "#0b111c", "accent": "#9fb8d9", "published": true},
+    {"n": 1, "label": "Chương 1", "title": "Khu Vườn Thường Xanh",      "title_en": "The Evergreen Garden",               "page": 12,  "bg": "#0c1610", "accent": "#b7d38c", "published": true},
+    {"n": 2, "label": "Chương 2", "title": "Thung Lũng Vọng Âm",        "title_en": "The Valley of Echoes",               "page": 34,  "bg": "#17110b", "accent": "#d9a35b", "published": true},
+    {"n": 3, "label": "Chương 3", "title": "Khoảng Trời Dưới Sâu",      "title_en": "A Patch of Sky Below",               "page": 61,  "bg": "#08171a", "accent": "#82cfc4", "published": true},
+    {"n": 4, "label": "Chương 4", "title": "Trưa Hè Thong Dong",        "title_en": "A Leisurely Summer Noon",            "page": 80,  "bg": "#18140a", "accent": "#efc66a", "published": true},
+    {"n": 5, "label": "Chương 5", "title": "Vòm Trời Khói Trắng",       "title_en": "The White Veil Above",               "page": 107, "bg": "#131519", "accent": "#e4dfd3", "published": true},
+    {"n": 6, "label": "Chương 6", "title": "Mùa Đông Ửng Hồng",         "title_en": "Winter’s Blush",                     "page": 163, "bg": "#191117", "accent": "#efb2c0", "published": true},
+    {"n": 7, "label": "Chương 7", "title": "Khúc Hát Ru Của Đại Dương",  "title_en": "The Ocean’s Lullaby",                "page": 202, "bg": "#061322", "accent": "#72b8e6", "published": true},
+    {"n": 8, "label": "Chương 8", "title": "Sợi Tơ Đáy Vực",            "title_en": "The Silk Strand",                    "page": 255, "bg": "#0a0c14", "accent": "#b6a6ff", "published": true},
+    {"n": 9, "label": "Chương 9", "title": "Đóa Hoa Thép Trên Đe Lạnh",  "title_en": "The Steel Flower on the Cold Anvil", "page": 326, "bg": "#111315", "accent": "#ff8a4c", "published": true}
+  ],
+  "upcoming": [
+    {"label": "Chương 10", "title": "Đang được viết…"}
+  ]
+}
