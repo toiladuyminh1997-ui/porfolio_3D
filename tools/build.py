@@ -706,7 +706,7 @@ def main():
         TARGET, OUT = 'pages', os.path.join(WEB, 'docs')
         # giữ các bản cũ (docs/vNN/, ảnh dùng chung ../img) và trang danh sách phiên bản
         for f in os.listdir(OUT) if os.path.isdir(OUT) else []:
-            if re.fullmatch(r'v\d+', f) or f == 'phien-ban.html':
+            if re.fullmatch(r'v\d+', f) or f in ('phien-ban.html', 'portfolio'):   # portfolio: tools/build_portfolio.py
                 continue
             p = os.path.join(OUT, f)
             shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio 3D — Gã Thợ Rèn Ở Xứ Sở Thần Kỳ</title>
+<meta name="description" content="Portfolio minh hoạ 3D: bối cảnh và nhân vật của tiểu thuyết giả tưởng Gã Thợ Rèn Ở Xứ Sở Thần Kỳ.">
+<meta name="theme-color" content="#05070a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%2305070a'/%3E%3Cpath d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z' fill='%239fe3d6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600&display=swap&subset=vietnamese">
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body class="is-loading">
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- màn chờ -->
+<div class="loader" id="loader"><span class="loader-n" id="loader-n">000</span><span class="loader-t">Đang thắp lò rèn</span></div>
+
+<!-- thanh trên -->
+<a class="brand" href="#/" aria-label="Trang đầu"><span class="brand-star">✦</span><span class="brand-t">Gã Thợ Rèn<br><em>3D Portfolio</em></span></a>
+<nav class="pill" aria-label="Điều hướng">
+  <a href="#/du-an" data-nav="work">Dự án</a>
+  <span class="pill-line" aria-hidden="true"><i></i></span>
+  <a href="#/lien-he" data-nav="contact">Liên hệ</a>
+</nav>
+<div class="pager" id="pager" hidden>
+  <button class="pager-b" id="prev" aria-label="Dự án trước">&lt;&lt;</button>
+  <span class="pager-t" id="pager-t">—</span>
+  <button class="pager-b" id="next" aria-label="Dự án sau">&gt;&gt;</button>
+</div>
+
+<!-- trang đầu -->
+<section class="home" id="home">
+  <p class="home-k">Minh hoạ 3D · Tiểu thuyết giả tưởng phương Bắc</p>
+  <h1 class="home-t" data-scramble>The Blacksmith of Wonderland</h1>
+  <button class="home-go" data-go="work"><span>Bước vào</span><i aria-hidden="true">↓</i></button>
+</section>
+
+<!-- danh sách dự án (góc trái) -->
+<aside class="index" id="index" hidden>
+  <p class="index-h">Mục lục dự án</p>
+  <ol id="index-list"></ol>
+  <p class="index-hint">Cuộn · kéo · ← → để xem · bấm tấm kính để mở</p>
+</aside>
+
+<!-- tên dự án đang xem (dưới tấm kính) -->
+<div class="cap" id="cap" hidden>
+  <span class="cap-k" id="cap-k"></span>
+  <span class="cap-t" id="cap-t"></span>
+</div>
+
+<!-- chi tiết dự án -->
+<article class="detail" id="detail" hidden>
+  <div class="detail-in">
+    <header class="detail-h">
+      <p class="detail-k" id="d-k"></p>
+      <h2 class="detail-t" id="d-t"></h2>
+      <p class="detail-en" id="d-en"></p>
+      <dl class="detail-meta" id="d-meta"></dl>
+      <div class="detail-act" id="d-act"></div>
+    </header>
+    <div class="detail-g" id="d-g"></div>
+  </div>
+  <button class="x" id="d-x" aria-label="Đóng">Đóng ✕</button>
+</article>
+
+<!-- liên hệ -->
+<article class="contact" id="contact" hidden>
+  <div class="contact-in">
+    <p class="detail-k">Liên hệ</p>
+    <h2 class="contact-t">Cùng dựng một thế giới?</h2>
+    <p class="contact-p">Bối cảnh, nhân vật, rig và minh hoạ 3D cho sách, game và trải nghiệm tương tác.</p>
+    <ul class="contact-l">
+      <li><a href="../">→ Đọc sách trực tuyến</a></li>
+      <li><a href="https://github.com/toiladuyminh1997-ui/porfolio_3D" target="_blank" rel="noopener">→ GitHub</a></li>
+    </ul>
+  </div>
+  <button class="x" id="c-x" aria-label="Đóng">Đóng ✕</button>
+</article>
+
+<!-- xem ảnh lớn -->
+<div class="lb" id="lb" hidden><img alt=""><button class="x" aria-label="Đóng">Đóng ✕</button></div>
+
+<noscript><p class="nojs">Trang cần JavaScript và WebGL. <a href="../">Đọc sách trực tuyến</a>.</p></noscript>
+
+<script src="data.js"></script>
+<script type="importmap">{"imports": {"three": "../assets/vendor/three/build/three.module.min.js", "three/addons/": "../assets/vendor/three/examples/jsm/"}}</script>
+<script type="module" src="portfolio.js"></script>
+</body>
+</html>
