@@ -704,7 +704,12 @@ def main():
         # GitHub Pages (repo con: https://<user>.github.io/<repo>/): như bản Artifact — đường dẫn tương đối,
         # file phẳng chuong-N.html, một cỡ ảnh — nhưng là trang HTML đầy đủ, mô hình giữ đuôi .glb
         TARGET, OUT = 'pages', os.path.join(WEB, 'docs')
-        shutil.rmtree(OUT, ignore_errors=True)
+        # giữ các bản cũ (docs/vNN/, ảnh dùng chung ../img) và trang danh sách phiên bản
+        for f in os.listdir(OUT) if os.path.isdir(OUT) else []:
+            if re.fullmatch(r'v\d+', f) or f == 'phien-ban.html':
+                continue
+            p = os.path.join(OUT, f)
+            shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     placements = json.load(open(MANIFEST, encoding='utf8'))['placements'] if os.path.exists(MANIFEST) else []
     os.makedirs(OUT, exist_ok=True)
     # three.module.js (bản chưa nén, 1,3MB) chỉ để đọc mã; trang dùng three.module.min.js

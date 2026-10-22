@@ -34,6 +34,10 @@ python tools/build.py --pages   ->  docs/  (đường dẫn tương đối, ch�
 Trên GitHub: Settings > Pages > Source: "Deploy from a branch", Branch `main`, thư mục `/docs` > Save.
 Trang sẽ ở https://toiladuyminh1997-ui.github.io/porfolio_3D/
 
+Các bản cũ: `docs/vNN/` (ảnh dùng chung `docs/img`), danh sách ở `docs/phien-ban.html`
+→ https://toiladuyminh1997-ui.github.io/porfolio_3D/phien-ban.html — `build.py --pages` không xoá các thư mục này.
+Trước khi đăng bản mới: chép bản đang chạy thành `docs/vNN/`, thêm một dòng vào `phien-ban.html`, `git tag vNN`.
+
 Ảnh "sống" trong phần Đọc (cây lay, nước gợn, người thở) dùng bản đồ chuyển động:
 `python tools/motion_maps.py` (cần mô hình ONNX trong `tools/.cache/models/`, xem đầu file) rồi build lại.
 
