@@ -704,9 +704,10 @@ def main():
         # GitHub Pages (repo con: https://<user>.github.io/<repo>/): như bản Artifact — đường dẫn tương đối,
         # file phẳng chuong-N.html, một cỡ ảnh — nhưng là trang HTML đầy đủ, mô hình giữ đuôi .glb
         TARGET, OUT = 'pages', os.path.join(WEB, 'docs')
-        # giữ các bản cũ (docs/vNN/, ảnh dùng chung ../img) và trang danh sách phiên bản
+        # giữ các bản cũ (docs/vNN/, ảnh dùng chung ../img) và trang danh sách phiên bản.
+        # img/ chỉ thêm, không xoá: tên ảnh theo xref của PDF, PDF xuất lại thì tên đổi -> bản cũ vẫn cần ảnh cũ
         for f in os.listdir(OUT) if os.path.isdir(OUT) else []:
-            if re.fullmatch(r'v\d+', f) or f in ('phien-ban.html', 'portfolio'):   # portfolio: tools/build_portfolio.py
+            if re.fullmatch(r'v\d+', f) or f in ('phien-ban.html', 'portfolio', 'img'):   # portfolio: tools/build_portfolio.py
                 continue
             p = os.path.join(OUT, f)
             shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)

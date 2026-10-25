@@ -18,3 +18,5 @@ __pycache__/
 
 # Nhật ký chạy script
 *.log
+# Bản dàn trang xuất từ InDesign (sách gốc, không đưa lên mạng)
+dan trang.pdf

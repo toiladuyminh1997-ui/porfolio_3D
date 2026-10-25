@@ -29,6 +29,9 @@ SIZES = {'full': [960, 1600, 2560], 'inline': [720, 1280], 'cutout': [480, 900]}
 
 # ---------------------------------------------------------------- helpers
 def linked_originals():
+    if not os.path.exists(INDD):   # không có file .indd: chỉ tìm ảnh gốc trong thư mục bối cảnh (render_pool)
+        print('không thấy', INDD, '-> bỏ qua link trong .indd')
+        return []
     b = open(INDD, 'rb').read()
     s = set()
     for m in re.finditer(rb'file:(?:///)?([A-Za-z]:/[^\x00"<>|\r\n]{3,240}?\.(?:png|jpe?g|tiff?|webp))', b, re.I):
@@ -52,6 +55,27 @@ def render_pool():
                     if not skip.search(p) and os.path.getsize(p) > 300_000:
                         out.append(p)
     return out
+
+
+def previous_outputs():
+    """Ảnh gốc đã bị chuyển/xoá khỏi ổ (vd. boi canh/chuong 1-3): dùng lại bản WebP nét cao đã xuất
+    lần trước (site/img hoặc docs/img của GitHub Pages) làm ứng viên ảnh gốc.
+    Danh sách lấy từ các manifest cũ đã sao lưu: tools/.cache/manifest-*.json."""
+    import glob
+    root = os.path.dirname(WEB)
+    out = set()
+    for mf in glob.glob(os.path.join(CACHE, 'manifest-*.json')):
+        for x in json.load(open(mf, encoding='utf8'))['placements']:
+            src = x.get('source')
+            if not src or src == 'pdf' or os.path.exists(os.path.join(root, src)):
+                continue
+            names = [f[0] for f in x.get('files', [])] + ([x['pageimg'][0]] if x.get('pageimg') else [])
+            for base in (IMG_OUT, os.path.join(WEB, 'docs', 'img')):
+                found = [os.path.join(base, f) for f in names if os.path.exists(os.path.join(base, f))]
+                if found:
+                    out.add(os.path.normcase(max(found, key=os.path.getsize)))
+                    break
+    return sorted(out)
 
 
 def to_rgb(im, bg=128):
@@ -300,8 +324,9 @@ def main():
     doc = pymupdf.open(PDF)
     print('PDF', doc.page_count, 'trang')
     links = linked_originals()
-    pool = sorted(set(links) | set(render_pool()))
-    print('ảnh gốc được link:', len(links), '| tổng ứng viên:', len(pool))
+    prev = previous_outputs()
+    pool = sorted(set(links) | set(render_pool()) | set(prev))
+    print('ảnh gốc được link:', len(links), '| dùng lại bản xuất cũ:', len(prev), '| tổng ứng viên:', len(pool))
     thumbs = orig_thumbs(pool)
     print('đã có ảnh nhỏ:', len(thumbs))
 
@@ -401,8 +426,13 @@ def main():
         done[xref] = res
         obj.update(res)
 
-    json.dump({'placements': placements}, open(os.path.join(CACHE, 'manifest.json'), 'w', encoding='utf8'),
-              ensure_ascii=False, indent=1)
+    # giữ manifest lần trước (previous_outputs() đọc lại khi ảnh gốc bị chuyển khỏi ổ)
+    mf = os.path.join(CACHE, 'manifest.json')
+    if os.path.exists(mf):
+        import shutil, time
+        stamp = time.strftime('%Y%m%d-%H%M', time.localtime(os.path.getmtime(mf)))
+        shutil.copy2(mf, os.path.join(CACHE, f'manifest-{stamp}.json'))
+    json.dump({'placements': placements}, open(mf, 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     # xoá ảnh cũ không còn dùng
     used = {os.path.normcase(os.path.join(IMG_OUT, f)) for o in placements for f, _, _ in o.get('files', [])}
     used |= {os.path.normcase(os.path.join(IMG_OUT, o['pageimg'][0])) for o in placements if o.get('pageimg')}
