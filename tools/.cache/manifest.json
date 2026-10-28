@@ -2,7 +2,7 @@
  "placements": [
   {
    "page": 0,
-   "xref": 2500,
+   "xref": 2623,
    "rect": [
     -1.4,
     6.5,
@@ -17,14 +17,14 @@
    "score": 0.477,
    "files": [
     [
-     "front/x2500-910.webp",
+     "front/x2623-910.webp",
      910,
      601
     ]
    ],
    "avg": "#4c4c4c",
    "pageimg": [
-    "page/x2500-910.webp",
+    "page/x2623-910.webp",
     910,
     601
    ]
@@ -648,7 +648,7 @@
   },
   {
    "page": 8,
-   "xref": 1975,
+   "xref": 2092,
    "rect": [
     58.5,
     51.4,
@@ -663,14 +663,14 @@
    "score": 0.554,
    "files": [
     [
-     "c0/x1975-211.webp",
+     "c0/x2092-211.webp",
      211,
      246
     ]
    ],
    "avg": "#100d09",
    "pageimg": [
-    "page/x1975-211.webp",
+    "page/x2092-211.webp",
     211,
     246
    ]
@@ -750,7 +750,7 @@
   },
   {
    "page": 9,
-   "xref": 1976,
+   "xref": 2096,
    "rect": [
     1178.4,
     429.8,
@@ -763,7 +763,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x1976-71.webp",
+     "ornament/x2096-71.webp",
      71,
      122
     ]
@@ -771,7 +771,7 @@
    "avg": "#271814",
    "source": "pdf",
    "pageimg": [
-    "ornament/x1976-71.webp",
+    "ornament/x2096-71.webp",
     71,
     122
    ]
@@ -790,7 +790,7 @@
    "after": "số hòn đảo treo lơ lửng giữa không trung. Xa xa, những tòa",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.523,
+   "score": 0.614,
    "files": [
     [
      "c0/x99-466.webp",
@@ -884,7 +884,7 @@
   },
   {
    "page": 11,
-   "xref": 1981,
+   "xref": 2100,
    "rect": [
     1550.0,
     311.8,
@@ -899,14 +899,14 @@
    "score": 0.533,
    "files": [
     [
-     "c0/x1981-207.webp",
+     "c0/x2100-207.webp",
      207,
      269
     ]
    ],
    "avg": "#090805",
    "pageimg": [
-    "page/x1981-207.webp",
+    "page/x2100-207.webp",
     207,
     269
    ]
@@ -1313,7 +1313,7 @@
   },
   {
    "page": 18,
-   "xref": 1975,
+   "xref": 2092,
    "rect": [
     957.1,
     89.7,
@@ -1328,14 +1328,14 @@
    "score": 0.554,
    "files": [
     [
-     "c0/x1975-211.webp",
+     "c0/x2092-211.webp",
      211,
      246
     ]
    ],
    "avg": "#100d09",
    "pageimg": [
-    "page/x1975-211.webp",
+    "page/x2092-211.webp",
     211,
     246
    ]
@@ -1461,7 +1461,7 @@
    "after": "“Tôi không có ý...”",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.626,
+   "score": 0.633,
    "files": [
     [
      "c1/x188-480.webp",
@@ -1775,7 +1775,7 @@
   },
   {
    "page": 25,
-   "xref": 1981,
+   "xref": 2100,
    "rect": [
     1572.5,
     355.7,
@@ -1790,14 +1790,14 @@
    "score": 0.533,
    "files": [
     [
-     "c0/x1981-207.webp",
+     "c0/x2100-207.webp",
      207,
      269
     ]
    ],
    "avg": "#090805",
    "pageimg": [
-    "page/x1981-207.webp",
+    "page/x2100-207.webp",
     207,
     269
    ]
@@ -1874,7 +1874,7 @@
    "after": "“Brann.” Người thợ rèn khẽ giật mình. “Dạ?” “Nếm thử xem.” Alaric đưa mắt về phía tách trà trước mặt. “Nếu để nguội thì Astrid sẽ buồn lắm.” Astrid mở mắt. “Ta ",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.364,
+   "score": 0.378,
    "files": [
     [
      "c1/x242-480.webp",
@@ -2036,7 +2036,7 @@
   },
   {
    "page": 28,
-   "xref": 1984,
+   "xref": 2104,
    "rect": [
     59.1,
     0.0,
@@ -2049,12 +2049,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x1984-480.webp",
+     "ornament/x2104-480.webp",
      480,
      52
     ],
     [
-     "ornament/x1984-622.webp",
+     "ornament/x2104-622.webp",
      622,
      67
     ]
@@ -2062,7 +2062,7 @@
    "avg": "#241b15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x1984-622.webp",
+    "ornament/x2104-622.webp",
     622,
     67
    ]
@@ -2163,30 +2163,20 @@
    "before": "hững điều rất nhỏ nhặt. Brann không nói nhiều. Phần lớn thời gian chỉ lặng lẽ lắng nghe. Nhưng lần đầu tiên sau rất nhiều năm… Khóe môi cậu không còn nặng trĩu.",
    "after": "Khi mặt trời dần khuất sau những tán lá vàng, Astrid đứng dậy, bước vào căn nhà nhỏ phía sau khu vườn. Một lúc sau, nàng quay trở lại với một chiếc hộp gỗ sồi n",
    "kind": "cutout",
-   "source": "boi canh/pose dáng/ngoi an banh tao copy.png",
-   "diff": [
-    8.9,
-    30.6
-   ],
-   "match": "boi canh/pose dáng/ngoi an banh tao copy.png",
-   "score": 0.888,
+   "source": "pdf",
+   "score": 0.627,
    "files": [
     [
-     "c1/x273-f4d3e9-480.webp",
-     480,
-     480
-    ],
-    [
-     "c1/x273-f4d3e9-900.webp",
-     900,
-     900
+     "c1/x273-436.webp",
+     436,
+     530
     ]
    ],
-   "avg": "#1b1514",
+   "avg": "#2d2423",
    "pageimg": [
-    "page/x273-f4d3e9-1180.webp",
-    1180,
-    1436
+    "page/x273-436.webp",
+    436,
+    530
    ]
   },
   {
@@ -2414,7 +2404,7 @@
   },
   {
    "page": 32,
-   "xref": 1976,
+   "xref": 2096,
    "rect": [
     442.6,
     141.7,
@@ -2427,7 +2417,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x1976-71.webp",
+     "ornament/x2096-71.webp",
      71,
      122
     ]
@@ -2435,14 +2425,14 @@
    "avg": "#271814",
    "source": "pdf",
    "pageimg": [
-    "ornament/x1976-71.webp",
+    "ornament/x2096-71.webp",
     71,
     122
    ]
   },
   {
    "page": 32,
-   "xref": 1984,
+   "xref": 2104,
    "rect": [
     69.7,
     1.4,
@@ -2455,12 +2445,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x1984-480.webp",
+     "ornament/x2104-480.webp",
      480,
      52
     ],
     [
-     "ornament/x1984-622.webp",
+     "ornament/x2104-622.webp",
      622,
      67
     ]
@@ -2468,7 +2458,7 @@
    "avg": "#241b15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x1984-622.webp",
+    "ornament/x2104-622.webp",
     622,
     67
    ]
@@ -2769,7 +2759,7 @@
    "after": "Đúng lúc ấy… Một tiếng rít rất khẽ vọng xuống từ tán thông. Brann theo phản xạ ngẩng đầu. Một con diều hâu đang lượn thành những vòng tròn rất cao. Hai hiệp sĩ ",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.722,
+   "score": 0.763,
    "files": [
     [
      "c2/x349-292.webp",
@@ -2831,12 +2821,7 @@
    "after": "Đúng lúc ấy… Một tiếng rít rất khẽ vọng xuống từ tán thông. Brann theo phản xạ ngẩng đầu. Một con diều hâu đang lượn thành những vòng tròn rất cao. Hai hiệp sĩ ",
    "kind": "cutout",
    "source": "pdf",
-   "diff": [
-    37.0,
-    91.0
-   ],
-   "match": "boi canh/chuong 5/loggia/dev/cmp_walll.png",
-   "score": 0.856,
+   "score": 0.74,
    "files": [
     [
      "c2/x356-480.webp",
@@ -2938,7 +2923,7 @@
    "after": "“Rất vui được gặp hai người.” Vừa dứt câu, hai anh em nhìn nhau. Ánh mắt bỗng sáng lên. “Thợ rèn?” Vậy thì tuyệt quá.” Chàng kỵ sĩ leo phắt xuống lưng ngựa, ưỡn",
    "kind": "inline",
    "source": "pdf",
-   "score": 0.403,
+   "score": 0.481,
    "files": [
     [
      "c2/x367-281.webp",
@@ -3084,7 +3069,7 @@
    "after": "“Hai người lên đường mà... không biết mình sẽ đi đâu sao?” Bjorn quay đầu lại, nở một nụ cười đầy hứng khởi. “Nếu biết hết mọi chuyện rồi...” “...thì còn lên đư",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.365,
+   "score": 0.366,
    "files": [
     [
      "c2/x389-480.webp",
@@ -3225,7 +3210,7 @@
    "after": "Brann chỉ biết thở dài. “Các ngươi không thấy phiền à?” Hai anh em nhìn nhau. Rồi gần như đồng thanh.",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.515,
+   "score": 0.668,
    "files": [
     [
      "c2/x411-335.webp",
@@ -3293,7 +3278,7 @@
    "after": "“Không.”",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.542,
+   "score": 0.566,
    "files": [
     [
      "c2/x419-117.webp",
@@ -3351,7 +3336,7 @@
    "after": "Bjorn bước xuống khỏi kỳ lân, phủi lớp bụi trên tấm bia. “Nghe ngầu đấy.” Eirik chống cằm. “Có muốn thi không?” Brann nhíu mày. “Đừng nói là...” Bjorn chỉ về ph",
    "kind": "full",
    "source": "pdf",
-   "score": 0.514,
+   "score": 0.518,
    "files": [
     [
      "c2/x428-960.webp",
@@ -3692,7 +3677,7 @@
    "after": "“Đừng kéo hắn...” “Rồi ngươi sẽ thắng...” “Chỉ cần buông tay...” Bàn tay Eirik khựng lại giữa không trung. Chỉ còn một khoảng rất ngắn nữa thôi là cậu có thể nắ",
    "kind": "inline",
    "source": "pdf",
-   "score": 0.634,
+   "score": 0.703,
    "files": [
     [
      "c2/x476-363.webp",
@@ -4121,11 +4106,11 @@
    "kind": "full",
    "source": "pdf",
    "diff": [
-    91.3,
-    115.8
+    27.2,
+    43.0
    ],
-   "match": "boi canh/chuong 6/ref19_my_bay_cung_cu/cvvbvbbvbvbv copy.jpg",
-   "score": 0.851,
+   "match": "boi canh/chuong 7/ref29_bao_tau_buom/renders/ref29_bao_tau_buom_preview.png",
+   "score": 0.882,
    "files": [
     [
      "c2/x536-372.webp",
@@ -6316,7 +6301,7 @@
    "after": "“...Ớ...” Ngay giây sau đó. Một đám ong đặc kín như mây vàng phụt ra khỏi cửa tổ. Brann mở to mắt. “...Chết rồi.” Brann còn chưa kịp rụt tay, đàn ong đã ập tới.",
    "kind": "full",
    "source": "pdf",
-   "score": 0.668,
+   "score": 0.57,
    "files": [
     [
      "c4/x865-960.webp",
@@ -8751,7 +8736,7 @@
    "after": "dầu lần lượt được thắp lên dọc các hành lang. Cả Vương quốc Khói Trắng chậm rãi chìm vào một buổi tối yên bình. Đúng lúc ấy. Một tiếng “rắc” rất nhỏ vọng tới. B",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.5,
+   "score": 0.559,
    "files": [
     [
      "c5/x1210-456.webp",
@@ -9957,8 +9942,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": "những cụm nấm biến mất, càng không thể ngăn chúng tiếp tục ăn sâu vào da thịt, nhưng chí ít, nó có thể khiến những cơn đau dịu xuống trong một khoảng thời gian.",
-   "after": "Cậu cất nó ở lớp áo trong cùng, nơi hơi ấm cơ thể giữ cho chất dầu khỏi đông đặc, rồi men theo con đường nhỏ dẫn ra khỏi khu rừng. Tấm bản đồ của Eira tới giờ v",
+   "before": "chỉ còn là một khoảng màu xanh và trắng nằm giữa những tầng cây. Cậu đứng đó một lúc, ngất ngây trong ánh nắng sớm mai, ngắm nhìn lần cuối cung điện khói trắng.",
+   "after": "Trong túi áo cậu có một lọ thủy tinh nhỏ mà Osric đã đưa trước lúc chia tay. Thứ tinh dầu màu hổ phách bên trong không thể làm những cụm nấm biến mất, càng khôn",
    "kind": "full",
    "source": "boi canh/chuong 6/wanderer/fdfdfdsfsdfsd copy.jpg",
    "diff": [
@@ -9996,13 +9981,13 @@
    "xref": 1407,
    "rect": [
     987.5,
-    72.7,
+    91.0,
     1733.7,
-    317.4
+    335.7
    ],
    "chapter": 6,
-   "before": "những cụm nấm biến mất, càng không thể ngăn chúng tiếp tục ăn sâu vào da thịt, nhưng chí ít, nó có thể khiến những cơn đau dịu xuống trong một khoảng thời gian.",
-   "after": "Cậu cất nó ở lớp áo trong cùng, nơi hơi ấm cơ thể giữ cho chất dầu khỏi đông đặc, rồi men theo con đường nhỏ dẫn ra khỏi khu rừng. Tấm bản đồ của Eira tới giờ v",
+   "before": "chỉ còn là một khoảng màu xanh và trắng nằm giữa những tầng cây. Cậu đứng đó một lúc, ngất ngây trong ánh nắng sớm mai, ngắm nhìn lần cuối cung điện khói trắng.",
+   "after": "Trong túi áo cậu có một lọ thủy tinh nhỏ mà Osric đã đưa trước lúc chia tay. Thứ tinh dầu màu hổ phách bên trong không thể làm những cụm nấm biến mất, càng khôn",
    "kind": "cutout",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/nui tuyet copy.png",
    "diff": [
@@ -10040,8 +10025,8 @@
     624.9
    ],
    "chapter": 6,
-   "before": "g lớn, và xa hơn khoảng trắng ấy là biển. Brann nhìn một hồi, ngẩng lên xác định hướng mặt trời, rồi gấp bản đồ lại. Cậu tiếp tục rảo chân về phương Bắc xa xôi.",
-   "after": "Càng tiến sâu về phía Bắc, cái lạnh càng trở nên dữ dội. Màu sắc của những khu rừng xanh thẫm dần nhạt nhòa đi, nhường chỗ cho bạch dương bạc nổi lên giữa những",
+   "before": " men theo con đường nhỏ dẫn ra khỏi khu rừng. Tấm bản đồ của Eira tới giờ vẫn là thứ chỉ đường duy nhất. Nhưng ít nhất, lần này Brann đã biết phải nhìn vào đâu.",
+   "after": "Những ngày ở Vương quốc Khói Trắng, Bướm Đêm đã chỉ cho cậu cách nhận ra một vài ký hiệu cổ mà Eira thường dùng thay vì cứ cúi đầu tìm một con đường được vẽ sẵn",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/fdsfdsdsffdsdfs copy.jpg",
    "diff": [
@@ -10084,8 +10069,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": " gì ngoài những cành cây. Brann cau mày, rồi tiếp tục đi. Chưa được ba bước, một nắm tuyết khác rơi xuống. Lần này trúng thẳng vai. Cậu quay phắt lại. “Ai đấy?”",
-   "after": "Khu rừng im lặng. Brann nhìn quanh, đôi tai gần như dựng lên dưới chiếc mũ lông, nhưng ngoài tiếng gió lùa qua những ngọn thông, cậu chẳng nghe thấy gì. Rồi rất",
+   "before": "n vô thức chạm vào chiếc lọ trong túi áo. Cậu đã định lấy nó ra. Nhưng cuối cùng chỉ siết nhẹ bàn tay quanh thân lọ rồi buông. Con đường phía trước còn quá dài.",
+   "after": "Đến buổi chiều, tuyết bắt đầu dày hơn. Brann phải dùng cán búa dò dẫm từng bước bởi lớp tuyết mới có thể che kín những hốc đá sâu. Trời càng lúc càng tối, những",
    "kind": "full",
    "source": "pdf",
    "diff": [
@@ -10123,8 +10108,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": " gì ngoài những cành cây. Brann cau mày, rồi tiếp tục đi. Chưa được ba bước, một nắm tuyết khác rơi xuống. Lần này trúng thẳng vai. Cậu quay phắt lại. “Ai đấy?”",
-   "after": "Khu rừng im lặng. Brann nhìn quanh, đôi tai gần như dựng lên dưới chiếc mũ lông, nhưng ngoài tiếng gió lùa qua những ngọn thông, cậu chẳng nghe thấy gì. Rồi rất",
+   "before": "n vô thức chạm vào chiếc lọ trong túi áo. Cậu đã định lấy nó ra. Nhưng cuối cùng chỉ siết nhẹ bàn tay quanh thân lọ rồi buông. Con đường phía trước còn quá dài.",
+   "after": "Đến buổi chiều, tuyết bắt đầu dày hơn. Brann phải dùng cán búa dò dẫm từng bước bởi lớp tuyết mới có thể che kín những hốc đá sâu. Trời càng lúc càng tối, những",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/ghghfgffgfg copy.jpg",
    "diff": [
@@ -10167,8 +10152,8 @@
     624.7
    ],
    "chapter": 6,
-   "before": "Brann cố gắng kiềm chế. Người cánh trắng nghiêng đầu, nhìn cậu với vẻ tò mò. “Trông ngươi rất tí nị.” Cô lại nhìn chiếc mũ đầy tuyết của cậu, khóe môi giật nhẹ.",
-   "after": "“Với lại, rất dễ ném trúng.” “Nàyyy!” Dứt lời, cô gái cánh trắng bỗng nghiêng người khỏi cành cây. Brann còn chưa kịp hiểu nụ cười nơi khóe môi cô có ý gì, đôi ",
+   "before": "ròn, trong veo, đầy vô tội. Brann cũng đứng im, ngước lên, cau mày khó hiểu. Được một lát, cô gái cánh trắng khúc khích bật cười. Brann phủi nốt tuyết trên đầu.",
+   "after": "“Vui lắm sao?” Cô vội mím môi lại, nhưng nụ cười vẫn còn nguyên trong ánh mắt. “Xin lỗi.” Brann nhìn đống tuyết vẫn còn nằm trên vai mình. “...Cô không có vẻ gì",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/fgfggffggffg copy.jpg",
    "diff": [
@@ -10211,8 +10196,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": "iêng sang một bên. Cô khẽ lắc đầu cho nó ngay lại, rồi ngước lên nhìn cậu bằng đôi mắt trong veo. “Ấm thật đấy.” Brann nhìn cô. Rồi nhìn chiếc mũ. “...Trả tôi.”",
-   "after": "Liv dường như vẫn còn hơi tiếc. Cô chần chừ một lát, rồi cúi thấp người về phía Brann. Brann còn đang không hiểu cô định làm gì thì Liv bỗng hất đầu. Chiếc mũ t",
+   "before": "ng nghiêng đầu, nhìn cậu với vẻ tò mò. “Trông ngươi rất tí nị.” Cô lại nhìn chiếc mũ đầy tuyết của cậu, khóe môi giật nhẹ. “Với lại, rất dễ ném trúng.” “Nàyyy!”",
+   "after": "Dứt lời, cô gái cánh trắng bỗng nghiêng người khỏi cành cây. Brann còn chưa kịp hiểu nụ cười nơi khóe môi cô có ý gì, đôi cánh trắng đã bật mở. Một luồng gió qu",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/xvccvxcxvcvxcvcvxcvx copy.jpg",
    "diff": [
@@ -10255,8 +10240,8 @@
     624.7
    ],
    "chapter": 6,
-   "before": "iêng sang một bên. Cô khẽ lắc đầu cho nó ngay lại, rồi ngước lên nhìn cậu bằng đôi mắt trong veo. “Ấm thật đấy.” Brann nhìn cô. Rồi nhìn chiếc mũ. “...Trả tôi.”",
-   "after": "Liv dường như vẫn còn hơi tiếc. Cô chần chừ một lát, rồi cúi thấp người về phía Brann. Brann còn đang không hiểu cô định làm gì thì Liv bỗng hất đầu. Chiếc mũ t",
+   "before": "ng nghiêng đầu, nhìn cậu với vẻ tò mò. “Trông ngươi rất tí nị.” Cô lại nhìn chiếc mũ đầy tuyết của cậu, khóe môi giật nhẹ. “Với lại, rất dễ ném trúng.” “Nàyyy!”",
+   "after": "Dứt lời, cô gái cánh trắng bỗng nghiêng người khỏi cành cây. Brann còn chưa kịp hiểu nụ cười nơi khóe môi cô có ý gì, đôi cánh trắng đã bật mở. Một luồng gió qu",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/vbcbcbvcbvbv copy.jpg",
    "diff": [
@@ -10299,8 +10284,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": "cười khẽ trước câu trả lời chẳng giúp ích được gì của bạn mình. “Nếu tuyết không dày thêm, các lối núi không bị lấp và ngươi không đi lạc...” Cô ngừng một chút.",
-   "after": "sau lưng cô. “Ý cô là sao?” “Ta là Liv.” Cô đáp tỉnh bơ, như thể đó mới là điều quan trọng nhất cần sửa. Rồi cô nghiêng đầu về phía người bên cạnh. “Còn kia là ",
+   "before": ", chỉ để lộ từng mảng đá đen giữa những triền trắng. “Ngươi định đi qua đó?” “Nếu đây là đường ngắn nhất.” Cô gái cánh trắng ghé lại nhìn tấm bản đồ. “Đi bộ ư?”",
+   "after": "Brann nhìn xuống đôi chân mình. “Tôi đâu còn cách nào khác.” Hai cô gái im lặng. Brann ngẩng lên. “Sao?” Người cánh nâu nhìn dãy núi một lần nữa rồi mới đáp. “N",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/hehehehehhe copy.jpg",
    "diff": [
@@ -10343,8 +10328,8 @@
     624.9
    ],
    "chapter": 6,
-   "before": "cười khẽ trước câu trả lời chẳng giúp ích được gì của bạn mình. “Nếu tuyết không dày thêm, các lối núi không bị lấp và ngươi không đi lạc...” Cô ngừng một chút.",
-   "after": "sau lưng cô. “Ý cô là sao?” “Ta là Liv.” Cô đáp tỉnh bơ, như thể đó mới là điều quan trọng nhất cần sửa. Rồi cô nghiêng đầu về phía người bên cạnh. “Còn kia là ",
+   "before": ", chỉ để lộ từng mảng đá đen giữa những triền trắng. “Ngươi định đi qua đó?” “Nếu đây là đường ngắn nhất.” Cô gái cánh trắng ghé lại nhìn tấm bản đồ. “Đi bộ ư?”",
+   "after": "Brann nhìn xuống đôi chân mình. “Tôi đâu còn cách nào khác.” Hai cô gái im lặng. Brann ngẩng lên. “Sao?” Người cánh nâu nhìn dãy núi một lần nữa rồi mới đáp. “N",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/gffgfgfgfgfg copy.jpg",
    "diff": [
@@ -10387,8 +10372,8 @@
     624.7
    ],
    "chapter": 6,
-   "before": "“Tôi nói cho tôi xuống!” Một tiếng cười khẽ vọng xuống từ phía trên. Brann hé một mắt. Sai lầm. Những ngọn thông đã nằm thấp bên dưới. Cậu lập tức nhắm tịt lại.",
-   "after": "“Tôi không nhìn! Tôi không nhìn nữa!” Giọng Skadi vang lên trên đầu, bình thản đến đáng ghét. “Ngươi có thể mở mắt.” “Không!” “Đẹp lắm.” “Không cần!” Một bóng t",
+   "before": "àm gì?” Không ai trả lời. Liv cũng tiến tới. Brann lùi thêm. “Ê.” Hai người vẫn mỉm cười. “Đừng nói là...” Đôi cánh phía sau họ đồng loạt mở ra. Brann trợn mắt.",
+   "after": "“Không.” Liv chớp mắt. “Không gì?” “Tôi biết các cô đang nghĩ gì.” “Thật sao?” “Tôi không biết bay đâu.” Nụ cười của Liv càng rõ hơn. “Ta đâu có nói vậy.” Brann",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/fgfggfgfffg copy.jpg",
    "diff": [
@@ -10431,8 +10416,8 @@
     623.6
    ],
    "chapter": 6,
-   "before": " còn luồng không khí lạnh lướt qua mặt. Một lúc sau, khi nhận ra mình vẫn chưa chết, Brann mới dám hé mắt lần nữa. Lần này cậu không nhìn xuống. Cậu nhìn ngang.",
-   "after": "Những đỉnh thông đang trôi qua. Xa hơn một chút là những triền núi phủ tuyết. Xa hơn nữa, nơi màn mây tách ra, ánh chiều đang nhuộm cả chân trời thành một dải v",
+   "before": "o dày trên vai mình, chân còn lại giữ chắc phía đối diện. “Khoan” Một luồng gió mạnh quất xuống mặt tuyết. Brann cảm thấy đôi chân rời khỏi mặt đất. “KHÔNGGGG!”",
+   "after": "Tiếng hét vang xuyên qua cả khu rừng. Brann không nhớ mình đã nhắm mắt từ lúc nào. Cậu chỉ biết gió đang gào bên tai, hai chân hoàn toàn không chạm vào bất cứ t",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/gfffgfgfggfdgfd copy.jpg",
    "diff": [
@@ -10458,7 +10443,7 @@
      2667
     ]
    ],
-   "avg": "#656b73",
+   "avg": "#656b74",
    "pageimg": [
     "page/x1474-60a866-2000.webp",
     2000,
@@ -10475,8 +10460,8 @@
     624.1
    ],
    "chapter": 6,
-   "before": "hỉ là những đường nét nằm trên mặt đất. Liv bay ngang qua, thấy vẻ mặt Brann thì mỉm cười. “Đỡ sợ chưa?” Brann im lặng vài giây. “...Một chút.” Liv bay gần hơn.",
-   "after": "“Thật không?” “Ừ.” Cô nhìn Skadi. Rồi nhìn Brann. Nụ cười nơi khóe môi Liv khiến Brann lập tức cảnh giác. “Khoan.” Skadi cũng cúi xuống nhìn cậu. “Tôi vừa nói m",
+   "before": "!” Một bóng trắng lướt ngang. Liv đang bay bên cạnh. Mái tóc và lớp lông mềm quanh cổ cô tung lên trong gió. Thấy Brann co rúm giữa hai chân Skadi, cô bật cười.",
+   "after": "“Ngươi đang ôm chân Skadi kìa.” Brann lúc này mới nhận ra hai tay mình đang quặp chặt lấy một chân chim phủ lông nâu. Cậu càng ôm chặt hơn. “Tôi không quan tâm!",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/hckhxkhfkkh copy.jpg",
    "diff": [
@@ -10519,8 +10504,8 @@
     624.9
    ],
    "chapter": 6,
-   "before": " không?” Brann từ từ ngẩng đầu. Hai cô đang cười. Không hề ác ý. Chỉ vui đến mức mắt đều cong lại. Brann thở hổn hển. “Tôi...” Cậu nuốt xuống. “...ghét các cô.”",
-   "after": "Liv quay mặt đi, cố giấu tiếng cười. Skadi cũng phải cúi đầu. Nhưng chỉ một lúc sau, Brann nhìn xuống. Cậu đang nằm trên lưng Skadi. Không còn bị treo lơ lửng n",
+   "before": "oàn. Những thứ từng ngăn cản cậu không còn là những bức tường. Chúng chỉ là những đường nét nằm trên mặt đất. Liv bay ngang qua, thấy vẻ mặt Brann thì mỉm cười.",
+   "after": "“Đỡ sợ chưa?” Brann im lặng vài giây. “...Một chút.” Liv bay gần hơn. “Thật không?” “Ừ.” Cô nhìn Skadi. Rồi nhìn Brann. Nụ cười nơi khóe môi Liv khiến Brann lập",
    "kind": "full",
    "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/fzjjfsitd copy.jpg",
    "diff": [
@@ -10563,8 +10548,8 @@
     623.3
    ],
    "chapter": 6,
-   "before": " không?” Brann từ từ ngẩng đầu. Hai cô đang cười. Không hề ác ý. Chỉ vui đến mức mắt đều cong lại. Brann thở hổn hển. “Tôi...” Cậu nuốt xuống. “...ghét các cô.”",
-   "after": "Liv quay mặt đi, cố giấu tiếng cười. Skadi cũng phải cúi đầu. Nhưng chỉ một lúc sau, Brann nhìn xuống. Cậu đang nằm trên lưng Skadi. Không còn bị treo lơ lửng n",
+   "before": "oàn. Những thứ từng ngăn cản cậu không còn là những bức tường. Chúng chỉ là những đường nét nằm trên mặt đất. Liv bay ngang qua, thấy vẻ mặt Brann thì mỉm cười.",
+   "after": "“Đỡ sợ chưa?” Brann im lặng vài giây. “...Một chút.” Liv bay gần hơn. “Thật không?” “Ừ.” Cô nhìn Skadi. Rồi nhìn Brann. Nụ cười nơi khóe môi Liv khiến Brann lập",
    "kind": "full",
    "source": "boi canh/chuong 6/dao_bay_tuyet/vcxcxvcxvvcxvcvcvcx copy.jpg",
    "diff": [
@@ -10601,14 +10586,14 @@
    "page": 176,
    "xref": 1499,
    "rect": [
-    906.0,
+    466.6,
     -0.0,
-    1347.5,
+    908.2,
     623.7
    ],
    "chapter": 6,
-   "before": "hiêng đầu quan sát. “Ngươi ổn chứ?” Brann chống hai tay lên đầu gối, cố lấy lại hơi. “Ta nghĩ...” Cậu hít một hơi thật sâu. “...ruột gan ta vẫn còn ở trên kia.”",
-   "after": "Liv bật cười, tiếng cười nhỏ và trong, còn Skadi vừa khép cánh vừa bước ngang qua, tiện thể dùng đầu cánh chỉnh lại chiếc mũ đang lệch trên đầu Brann. Cử chỉ nh",
+   "before": ", nhưng giờ cậu có thể nhìn thấy cả hai cánh mở rộng ở hai bên, mỗi nhịp đập đều đẩy những luồng khí mạnh chạy dọc cơ thể. Phía dưới, mặt trời đang lặn sau núi.",
+   "after": "Brann từ từ ngồi dậy. Gió tạt mái tóc cậu ra sau. Liv lướt ngang bên cạnh. Lần này, khi cô lao xuống rồi vút ngược lên, Brann không nhắm mắt nữa. Cậu nhìn theo.",
    "kind": "full",
    "source": "boi canh/chuong 6/ref01_lau_dai_may_thien_than/kjlkljkljkljklj copy.jpg",
    "diff": [
@@ -10642,8 +10627,47 @@
    ]
   },
   {
+   "page": 176,
+   "xref": 1503,
+   "rect": [
+    1374.8,
+    124.0,
+    1814.2,
+    624.6
+   ],
+   "chapter": 6,
+   "before": "lập tức quay sang. Skadi cũng nhìn lại. Brann thấy hai ánh mắt ấy, lập tức hiểu mình vừa tự đào hố. “Khoan.” Hai đôi cánh đồng thời mở rộng. “Tôi chỉ hỏi thôi.”",
+   "after": "Liv đã lao lên phía trước. “Không cần thật đâu.” Skadi bắt đầu tăng tốc. “Skadi.” Gió rít lên. “SKADI!” Nhưng lần này, tiếng hét của Brann không còn hoàn toàn v",
+   "kind": "inline",
+   "source": "boi canh/chuong 6/vuc copy.jpg",
+   "diff": [
+    1.7,
+    5.1
+   ],
+   "match": "boi canh/chuong 6/vuc copy.jpg",
+   "score": 0.993,
+   "files": [
+    [
+     "c6/x1503-0bb30b-720.webp",
+     720,
+     964
+    ],
+    [
+     "c6/x1503-0bb30b-1280.webp",
+     1280,
+     1714
+    ]
+   ],
+   "avg": "#a6afbc",
+   "pageimg": [
+    "page/x1503-0bb30b-1792.webp",
+    1792,
+    2036
+   ]
+  },
+  {
    "page": 177,
-   "xref": 1506,
+   "xref": 1510,
    "rect": [
     907.1,
     -1.1,
@@ -10651,8 +10675,8 @@
     624.7
    ],
    "chapter": 6,
-   "before": "ann chạy dưới đất. Liv bay là là ngay trên đầu. Cứ mỗi lần cậu tưởng mình sắp bắt được cô, đôi cánh trắng lại nâng cô lên khỏi tầm tay chỉ một chút. “Đứng lại!”",
-   "after": "Liv quay người giữa không trung, vẫn bay lùi. Brann cúi xuống nhặt tuyết. Cô lập tức vút lên. Nắm tuyết bay hụt. Nhưng Liv mải ngoái đầu nhìn Brann nên không để",
+   "before": " Brann giục thêm. Đôi cánh nâu mở rộng. Một nhịp. Hai nhịp. Rồi cả khu rừng lao ngược về phía sau. Đến lúc ba người đáp xuống, trời đã chuyển sang màu tím nhạt.",
+   "after": "Brann bước khỏi lưng Skadi với hai chân mềm nhũn, đi được vài bước đã phải chống tay vào một thân bạch dương. Hơi thở cậu phả thành từng làn trắng đục, tóc rối ",
    "kind": "full",
    "source": "boi canh/chuong 6/ref02_rung_thong_nang_tuyet/fdsfdfsdfdsfdfds copy.png",
    "diff": [
@@ -10663,162 +10687,606 @@
    "score": 0.993,
    "files": [
     [
-     "c6/x1506-93ce20-960.webp",
+     "c6/x1510-93ce20-960.webp",
      960,
      720
     ],
     [
-     "c6/x1506-93ce20-1600.webp",
+     "c6/x1510-93ce20-1600.webp",
      1600,
      1200
     ],
     [
-     "c6/x1506-93ce20-2560.webp",
+     "c6/x1510-93ce20-2560.webp",
      2560,
      1920
     ]
    ],
    "avg": "#8a8f9a",
    "pageimg": [
-    "page/x1506-93ce20-2400.webp",
+    "page/x1510-93ce20-2400.webp",
     2400,
     1650
    ]
   },
   {
    "page": 178,
-   "xref": 1513,
+   "xref": 1517,
    "rect": [
-    -1.2,
     0.0,
-    1159.9,
-    624.9
+    -0.1,
+    1106.6,
+    623.7
+   ],
+   "chapter": 6,
+   "before": " Brann giục thêm. Đôi cánh nâu mở rộng. Một nhịp. Hai nhịp. Rồi cả khu rừng lao ngược về phía sau. Đến lúc ba người đáp xuống, trời đã chuyển sang màu tím nhạt.",
+   "after": "Brann bước khỏi lưng Skadi với hai chân mềm nhũn, đi được vài bước đã phải chống tay vào một thân bạch dương. Hơi thở cậu phả thành từng làn trắng đục, tóc rối ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref13_cuc_quang_nui_bang/gfggfggfgf copy.jpg",
+   "diff": [
+    1.4,
+    4.7
+   ],
+   "match": "boi canh/chuong 6/ref13_cuc_quang_nui_bang/gfggfggfgf copy.jpg",
+   "score": 0.993,
+   "files": [
+    [
+     "c6/x1517-a5c97e-960.webp",
+     960,
+     540
+    ],
+    [
+     "c6/x1517-a5c97e-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1517-a5c97e-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#61a0b5",
+   "pageimg": [
+    "page/x1517-a5c97e-2400.webp",
+    2400,
+    1350
+   ]
+  },
+  {
+   "page": 179,
+   "xref": 1524,
+   "rect": [
+    768.9,
+    -0.1,
+    1815.6,
+    623.8
    ],
    "chapter": 6,
    "before": "ann chạy dưới đất. Liv bay là là ngay trên đầu. Cứ mỗi lần cậu tưởng mình sắp bắt được cô, đôi cánh trắng lại nâng cô lên khỏi tầm tay chỉ một chút. “Đứng lại!”",
    "after": "Liv quay người giữa không trung, vẫn bay lùi. Brann cúi xuống nhặt tuyết. Cô lập tức vút lên. Nắm tuyết bay hụt. Nhưng Liv mải ngoái đầu nhìn Brann nên không để",
    "kind": "full",
-   "source": "pdf",
-   "score": 0.772,
+   "source": "boi canh/chuong 6/ref29_minh_bay_dan_chim/fhgfgfghghgh copy.jpg",
+   "diff": [
+    0.8,
+    2.0
+   ],
+   "match": "boi canh/chuong 6/ref29_minh_bay_dan_chim/fhgfgfghghgh copy.jpg",
+   "score": 0.996,
    "files": [
     [
-     "c6/x1513-960.webp",
+     "c6/x1524-fb2216-960.webp",
      960,
-     516
+     540
     ],
     [
-     "c6/x1513-1162.webp",
-     1162,
+     "c6/x1524-fb2216-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1524-fb2216-1920.webp",
+     1920,
+     1080
+    ]
+   ],
+   "avg": "#996f72",
+   "pageimg": [
+    "page/x1524-fb2216-1809.webp",
+    1809,
+    1080
+   ]
+  },
+  {
+   "page": 180,
+   "xref": 1531,
+   "rect": [
+    -0.7,
+    -1.0,
+    433.5,
+    623.6
+   ],
+   "chapter": 6,
+   "before": ". Cả một mảng tuyết trên cành đổ xuống đầu cậu. Brann đứng chết lặng giữa màn trắng. Trên cao, Skadi quay mặt đi. Nhưng vai cô rung lên. Brann nhìn cô. Rồi nhìn",
+   "after": "Liv đang ôm bụng cười cách đó không xa. Cậu chậm rãi cúi xuống. Lần này, cậu lấy tuyết bằng cả hai tay. Chiều hôm ấy, khi trở về, Brann để hai người đi trước. C",
+   "kind": "full",
+   "source": "pdf",
+   "score": 0.758,
+   "files": [
+    [
+     "c6/x1531-435.webp",
+     435,
      625
     ]
    ],
-   "avg": "#a7b0bf",
+   "avg": "#a0bacf",
    "pageimg": [
-    "page/x1513-1162.webp",
-    1162,
+    "page/x1531-435.webp",
+    435,
     625
    ]
   },
   {
-   "page": 179,
-   "xref": 1520,
-   "rect": [
-    785.3,
-    0.7,
-    1815.5,
-    622.9
-   ],
-   "chapter": 6,
-   "before": "ng vẫn nằm trong tay cậu cho tới tận lúc vào phòng. Ít ngày sau, Skadi đưa họ tới một hồ băng nằm lọt giữa những đỉnh núi. Mặt hồ trong đến kỳ lạ, lớp băng xanh",
-   "after": "thẫm kéo dài hàng trăm bước, dưới đó là những dải thực vật màu bạc đang lay động theo dòng nước chảy sâu bên dưới. Dọc hai bên bờ, những căn nhà gỗ nhỏ nép dưới",
-   "kind": "full",
-   "source": "boi canh/chuong 6/ref19_my_bay_cung_cu/cvvbvbbvbvbv copy.jpg",
-   "diff": [
-    0.7,
-    1.5
-   ],
-   "match": "boi canh/chuong 6/ref19_my_bay_cung_cu/cvvbvbbvbvbv copy.jpg",
-   "score": 0.995,
-   "files": [
-    [
-     "c6/x1520-27cb4b-960.webp",
-     960,
-     524
-    ],
-    [
-     "c6/x1520-27cb4b-1600.webp",
-     1600,
-     873
-    ],
-    [
-     "c6/x1520-27cb4b-2560.webp",
-     2560,
-     1396
-    ]
-   ],
-   "avg": "#75593c",
-   "pageimg": [
-    "page/x1520-27cb4b-2400.webp",
-    2400,
-    1451
-   ]
-  },
-  {
-   "page": 181,
-   "xref": 1529,
+   "page": 180,
+   "xref": 1535,
    "rect": [
     906.4,
-    -0.0,
-    1361.7,
-    621.8
+    -1.0,
+    1376.0,
+    623.6
    ],
    "chapter": 6,
-   "before": "ua. Không quá nghiêm trọng.” Brann quay lại. “Vì sao cô ấy không nói?” “Vì cô ấy biết ngươi sẽ lo.” Brann định phản bác. Nhưng Skadi đã bước qua cậu. “Đi thôi.”",
-   "after": "“Đi đâu?” “Ngươi vừa nhìn tháp phía Tây ba lần.” Brann đứng lại. Skadi tiếp tục đi, đôi cánh nâu khẽ rung lên trong nắng. Một lúc sau, cậu bước theo. Liv đang n",
+   "before": "ọt vào lòng bàn tay, xoa lên vùng da lạnh cứng rồi ngồi yên cho đến khi hơi ấm bắt đầu thấm vào. Những ngón tay từ từ cử động trở lại. Cậu thử nắm tay. Một lần.",
+   "after": "Hai lần. Đến lần thứ ba, bàn tay đã đủ chắc. Brann kéo tay áo xuống, cất lọ vào sâu trong người rồi cúi xuống nhặt một cành cây nhỏ nằm cạnh chân. Khi trở về, L",
    "kind": "full",
-   "source": "boi canh/chuong 6/ref16_huong_my_rung/dggfdgfdgdgfd copy.jpg",
+   "source": "boi canh/chuong 6/ref08_my_cat_canh_hoang_hon/ghgfggfff.png",
    "diff": [
-    1.2,
-    3.5
+    2.3,
+    10.2
    ],
-   "match": "boi canh/chuong 6/ref16_huong_my_rung/dggfdgfdgdgfd copy.jpg",
-   "score": 0.996,
+   "match": "boi canh/chuong 6/ref08_my_cat_canh_hoang_hon/ghgfggfff.png",
+   "score": 0.933,
    "files": [
     [
-     "c6/x1529-b07dbe-960.webp",
+     "c6/x1535-8d720c-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1529-b07dbe-1600.webp",
+     "c6/x1535-8d720c-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1529-b07dbe-2000.webp",
+     "c6/x1535-8d720c-2000.webp",
      2000,
      2667
     ]
    ],
-   "avg": "#4a5667",
+   "avg": "#ccaaa1",
    "pageimg": [
-    "page/x1529-b07dbe-1952.webp",
-    1952,
+    "page/x1535-8d720c-2000.webp",
+    2000,
     2667
    ]
   },
   {
-   "page": 185,
+   "page": 181,
    "xref": 1542,
    "rect": [
-    439.7,
+    775.0,
+    -0.1,
+    1815.4,
+    623.7
+   ],
+   "chapter": 6,
+   "before": " những bước chân nhẹ đến mức gần như không để lại vết trên băng. Cô quay người, chìa tay về phía Brann. Cậu nhìn bàn tay ấy. Rồi nhìn mặt băng. “Ta tự đi được.”",
+   "after": "Liv vẫn để tay ở đó. Brann đi thêm hai bước. Chân trượt. Cậu chụp lấy tay cô. Liv bật cười nhưng không nói gì, chỉ kéo cậu đi. Ban đầu Brann bám rất chặt. Sau đ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/to_chim_03_my_to_go_lua/renders/to_chim_03_my_to_go_lua_final copy.jpg",
+   "diff": [
+    1.3,
+    3.7
+   ],
+   "match": "boi canh/chuong 6/to_chim_03_my_to_go_lua/renders/to_chim_03_my_to_go_lua_final copy.jpg",
+   "score": 0.984,
+   "files": [
+    [
+     "c6/x1542-7c9b0a-960.webp",
+     960,
+     540
+    ],
+    [
+     "c6/x1542-7c9b0a-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1542-7c9b0a-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#a28b7a",
+   "pageimg": [
+    "page/x1542-7c9b0a-2400.webp",
+    2400,
+    1433
+   ]
+  },
+  {
+   "page": 182,
+   "xref": 1549,
+   "rect": [
+    453.5,
+    23.3,
+    885.8,
+    602.3
+   ],
+   "chapter": 6,
+   "before": "úi áo. “Ta chỉ trượt thôi.” Liv không nói gì. Cô đưa tay ra lần nữa. Lần này Brann không từ chối. Cái lạnh ngày càng tìm được nhiều cách chui vào cơ thể cậu. Có",
+   "after": "hôm nó bắt đầu từ đầu ngón tay. Có hôm từ những cụm nấm gần khuỷu tay. Có hôm Brann đang ngủ thì tỉnh dậy vì cảm giác hàng trăm sợi chỉ lạnh đang kéo sâu bên dư",
+   "kind": "cutout",
+   "source": "boi canh/chuong 6/ngoi co ro copy.png",
+   "diff": [
+    1.4,
+    3.4
+   ],
+   "match": "boi canh/chuong 6/ngoi co ro copy.png",
+   "score": 0.997,
+   "files": [
+    [
+     "c6/x1549-a74ce3-480.webp",
+     480,
+     643
+    ],
+    [
+     "c6/x1549-a74ce3-900.webp",
+     900,
+     1205
+    ]
+   ],
+   "avg": "#282222",
+   "pageimg": [
+    "page/x1549-a74ce3-1792.webp",
+    1792,
+    2400
+   ]
+  },
+  {
+   "page": 182,
+   "xref": 1553,
+   "rect": [
+    1373.7,
+    22.7,
+    1815.2,
+    587.1
+   ],
+   "chapter": 6,
+   "before": "adi không quay lại tìm thường xuyên như vậy. Cô chỉ bay chậm hơn.Đủ chậm để khoảng cách giữa họ không bao giờ quá xa. Brann không hỏi. Hai người cũng không nói.",
+   "after": "Một buổi sáng, Liv không đến. Brann thức dậy khi nắng đã lọt qua cửa sổ. Cậu nằm thêm một lúc, chờ tiếng móng chân quen thuộc chạm lên bậu cửa. Không có. Brann ",
+   "kind": "cutout",
+   "source": "boi canh/chuong 6/do thuoc len tay copy.png",
+   "diff": [
+    1.6,
+    4.2
+   ],
+   "match": "boi canh/chuong 6/do thuoc len tay copy.png",
+   "score": 0.997,
+   "files": [
+    [
+     "c6/x1553-1b2b12-480.webp",
+     480,
+     480
+    ],
+    [
+     "c6/x1553-1b2b12-900.webp",
+     900,
+     900
+    ]
+   ],
+   "avg": "#1f1b17",
+   "pageimg": [
+    "page/x1553-1b2b12-1600.webp",
+    1600,
+    2048
+   ]
+  },
+  {
+   "page": 183,
+   "xref": 1560,
+   "rect": [
+    -1.0,
+    -1.3,
+    1120.7,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "adi không quay lại tìm thường xuyên như vậy. Cô chỉ bay chậm hơn.Đủ chậm để khoảng cách giữa họ không bao giờ quá xa. Brann không hỏi. Hai người cũng không nói.",
+   "after": "Một buổi sáng, Liv không đến. Brann thức dậy khi nắng đã lọt qua cửa sổ. Cậu nằm thêm một lúc, chờ tiếng móng chân quen thuộc chạm lên bậu cửa. Không có. Brann ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref02_rung_thong_nang_tuyet/renders/ref02_rung_thong_nang_tuyet_opt_2_final copy.jpg",
+   "diff": [
+    2.5,
+    7.0
+   ],
+   "match": "boi canh/chuong 6/ref02_rung_thong_nang_tuyet/renders/ref02_rung_thong_nang_tuyet_opt_2_final copy.jpg",
+   "score": 0.956,
+   "files": [
+    [
+     "c6/x1560-993d62-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1560-993d62-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1560-993d62-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#626c7c",
+   "pageimg": [
+    "page/x1560-993d62-2400.webp",
+    2400,
+    1339
+   ]
+  },
+  {
+   "page": 184,
+   "xref": 1567,
+   "rect": [
+    693.5,
+    -1.3,
+    1815.2,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "ăng chạy giữa thung lũng. Brann đã quen với việc ngồi trên lưng Skadi. Quen đến mức có thể nhận ra khi cô sắp đổi hướng chỉ bằng chuyển động rất nhỏ của cơ thể.",
+   "after": "Vang. Tự do đến mức chính cậu cũng không nhận ra giọng mình. Rồi bàn tay đang dang ra bắt đầu run. Rất nhẹ. Brann khép nó lại. Nụ cười vẫn còn. Đến chiều, cậu k",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref_nha_go_hoa_van/renders/ref_nha_go_hoa_van_final copy.jpg",
+   "diff": [
+    1.9,
+    6.3
+   ],
+   "match": "boi canh/chuong 6/ref_nha_go_hoa_van/renders/ref_nha_go_hoa_van_final copy.jpg",
+   "score": 0.985,
+   "files": [
+    [
+     "c6/x1567-e0d0c0-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1567-e0d0c0-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1567-e0d0c0-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#667491",
+   "pageimg": [
+    "page/x1567-e0d0c0-2400.webp",
+    2400,
+    1339
+   ]
+  },
+  {
+   "page": 185,
+   "xref": 1574,
+   "rect": [
+    -1.3,
+    28.7,
+    1034.6,
+    594.9
+   ],
+   "chapter": 6,
+   "before": "ăng chạy giữa thung lũng. Brann đã quen với việc ngồi trên lưng Skadi. Quen đến mức có thể nhận ra khi cô sắp đổi hướng chỉ bằng chuyển động rất nhỏ của cơ thể.",
+   "after": "Vang. Tự do đến mức chính cậu cũng không nhận ra giọng mình. Rồi bàn tay đang dang ra bắt đầu run. Rất nhẹ. Brann khép nó lại. Nụ cười vẫn còn. Đến chiều, cậu k",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/sdfsdfsdfdfsdsfdfs copy.jpg",
+   "diff": [
+    0.8,
+    2.2
+   ],
+   "match": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/sdfsdfsdfdfsdsfdfs copy.jpg",
+   "score": 0.989,
+   "files": [
+    [
+     "c6/x1574-7eb118-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1574-7eb118-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1574-7eb118-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#6a6779",
+   "pageimg": [
+    "page/x1574-7eb118-2400.webp",
+    2400,
+    1309
+   ]
+  },
+  {
+   "page": 186,
+   "xref": 1581,
+   "rect": [
+    67.3,
+    -1.3,
+    810.9,
+    274.6
+   ],
+   "chapter": 6,
+   "before": "rộng hết mức. Skadi tăng tốc. Ba cái bóng lướt qua sườn núi. Tiếng Brann vang giữa khoảng trời rộng. Lần này không phải tiếng hét vì rơi. Là một tiếng reo. Dài.",
+   "after": "Cậu xoay chiếc lọ trong âu lo. Nó trượt xuống rất chậm. Ngoài cửa sổ, một bóng trắng bay qua. Brann lập tức khép bàn tay. Liv đáp xuống bậu cửa. “Ngày mai đi vớ",
+   "kind": "inline",
+   "source": "pdf",
+   "score": 0.716,
+   "files": [
+    [
+     "c6/x1581-720.webp",
+     720,
+     267
+    ],
+    [
+     "c6/x1581-744.webp",
+     744,
+     276
+    ]
+   ],
+   "avg": "#b6b9c3",
+   "pageimg": [
+    "page/x1581-744.webp",
+    744,
+    276
+   ]
+  },
+  {
+   "page": 186,
+   "xref": 1585,
+   "rect": [
+    1360.6,
+    324.9,
+    1814.2,
+    624.8
+   ],
+   "chapter": 6,
+   "before": "gồi sát. Chỉ chọn một phiến đá cách cậu một khoảng vừa đủ. Liv sau đó cũng tới, nằm xuống tuyết phía bên kia. Ba người ở đó rất lâu. Không ai cần nghĩ ra chuyện",
+   "after": "áo xuống. “Ta phải đi.” Liv ngẩng lên. “Đi đâu?” “Xuống phía Nam trước.” Cậu phải dừng lại lấy hơi. “Hoặc ra biển. Nơi nào thấp hơn.” Skadi nhìn cậu. “Ngay bây ",
+   "kind": "cutout",
+   "source": "pdf",
+   "score": 0.343,
+   "files": [
+    [
+     "c6/x1585-454.webp",
+     454,
+     300
+    ]
+   ],
+   "avg": "#343933",
+   "pageimg": [
+    "page/x1585-454.webp",
+    454,
+    300
+   ]
+  },
+  {
+   "page": 187,
+   "xref": 1592,
+   "rect": [
+    910.6,
+    -1.1,
+    1815.3,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "p nhau. Chúng mọc dày thành từng mảng trắng xám, những sợi rễ tối màu hằn dưới làn da tái lạnh, một vài vùng quanh đó đã tím sẫm. Không ai nói gì. Brann kéo tay",
+   "after": "“Ta chỉnh lại dây áo.” Hai cô tiếp tục thêm một quãng rồi đáp xuống chờ phía trước. Brann khuất sau mỏm đá. Chiếc lọ được lấy ra. Một giọt. Cậu xoa lên cổ tay. ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/dao_bay_tuyet/ghjjjh copy.jpg",
+   "diff": [
+    4.9,
+    18.6
+   ],
+   "match": "boi canh/chuong 6/dao_bay_tuyet/ghjjjh copy.jpg",
+   "score": 0.835,
+   "files": [
+    [
+     "c6/x1592-fc2327-960.webp",
+     960,
+     720
+    ],
+    [
+     "c6/x1592-fc2327-1600.webp",
+     1600,
+     1200
+    ],
+    [
+     "c6/x1592-fc2327-2560.webp",
+     2560,
+     1920
+    ]
+   ],
+   "avg": "#a4a0aa",
+   "pageimg": [
+    "page/x1592-fc2327-2400.webp",
+    2400,
+    1660
+   ]
+  },
+  {
+   "page": 188,
+   "xref": 1599,
+   "rect": [
+    0.0,
     -0.0,
-    907.1,
+    996.9,
+    624.7
+   ],
+   "chapter": 6,
+   "before": "p nhau. Chúng mọc dày thành từng mảng trắng xám, những sợi rễ tối màu hằn dưới làn da tái lạnh, một vài vùng quanh đó đã tím sẫm. Không ai nói gì. Brann kéo tay",
+   "after": "“Ta chỉnh lại dây áo.” Hai cô tiếp tục thêm một quãng rồi đáp xuống chờ phía trước. Brann khuất sau mỏm đá. Chiếc lọ được lấy ra. Một giọt. Cậu xoa lên cổ tay. ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/dfsfdsdfsdfsdfs copy.jpg",
+   "diff": [
+    4.7,
+    16.1
+   ],
+   "match": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/dfsfdsdfsdfsdfs copy.jpg",
+   "score": 0.949,
+   "files": [
+    [
+     "c6/x1599-f52575-960.webp",
+     960,
+     540
+    ],
+    [
+     "c6/x1599-f52575-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1599-f52575-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#7a818d",
+   "pageimg": [
+    "page/x1599-f52575-2400.webp",
+    2400,
+    1497
+   ]
+  },
+  {
+   "page": 189,
+   "xref": 1606,
+   "rect": [
+    -1.1,
+    -0.0,
+    466.3,
     623.6
    ],
    "chapter": 6,
-   "before": "bật dậy. “Brann?” “Không sao.” Cậu nói quá nhanh. Brann đứng lên. Chân không giữ được. Cậu quỳ xuống tuyết. Lần này không ai tin nữa. Liv tới trước. Cô vừa chạm",
-   "after": "vào vai, Brann đã khẽ rùng mình. Skadi quỳ xuống bên kia. Brann đưa tay vào áo, vội lấy chiếc lọ tinh dầu. Cậu dốc nó. Không còn gì. Không một giọt nào rơi. Liv",
+   "before": "t nhỏ. Cô đưa tay đến. Brann lập tức nhìn. Skadi dừng trước khi chạm vào. Ánh mắt cô hỏi. Brann không hiểu ngay. Cho đến khi cô khẽ giữ lấy thân nấm. “Skadi...”",
+   "after": "Cô không kéo. Chỉ giữ. Liv ngồi xuống bên cạnh. Ba người nhìn cây nấm nhỏ. Một ý nghĩ xuất hiện giữa họ mà chẳng ai cần nói thành lời. Nếu thứ khiến Brann phải ",
    "kind": "full",
    "source": "pdf",
    "diff": [
@@ -10829,109 +11297,109 @@
    "score": 0.944,
    "files": [
     [
-     "c6/x1542-468.webp",
+     "c6/x1606-468.webp",
      468,
      624
     ]
    ],
    "avg": "#64728a",
    "pageimg": [
-    "page/x1542-468.webp",
+    "page/x1606-468.webp",
     468,
     624
    ]
   },
   {
-   "page": 185,
-   "xref": 1546,
+   "page": 189,
+   "xref": 1610,
    "rect": [
-    1344.7,
+    907.1,
     -0.0,
-    1812.4,
+    1374.5,
     623.6
    ],
    "chapter": 6,
-   "before": "rắng xám, những sợi rễ tối màu hằn dưới làn da tái lạnh, một vài vùng quanh đó đã tím sẫm. Không ai nói gì. Brann kéo tay áo xuống. “Ta phải đi.” Liv ngẩng lên.",
-   "after": "“Đi đâu?” “Xuống phía Nam trước.” Cậu phải dừng lại lấy hơi. “Hoặc ra biển. Nơi nào thấp hơn.” Skadi nhìn cậu. “Ngay bây giờ?” Brann nhìn thung lũng. Những đóa ",
+   "before": "lẽ phải dừng ở đó. Nhưng hy vọng là một thứ rất khó dừng lại khi nó vừa mới bắt đầu có hình dạng. Skadi chuyển sang một cụm lớn hơn. Liv giữ cánh tay của Brann.",
+   "after": "Cậu gật đầu. Skadi kéo. Cả người Brann giật mạnh. Một tiếng kêu bật khỏi cổ họng. Cây nấm không rời ra. Skadi lập tức buông. Brann thở dốc. Máu từ chân cụm nấm ",
    "kind": "full",
    "source": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/fghfhhfghfhghf copy.jpg",
    "diff": [
     1.4,
-    3.7
+    3.8
    ],
    "match": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/fghfhhfghfhghf copy.jpg",
-   "score": 0.996,
+   "score": 0.995,
    "files": [
     [
-     "c6/x1546-2ce2e9-960.webp",
+     "c6/x1610-2ce2e9-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1546-2ce2e9-1600.webp",
+     "c6/x1610-2ce2e9-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1546-2ce2e9-2000.webp",
+     "c6/x1610-2ce2e9-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#6e7282",
    "pageimg": [
-    "page/x1546-2ce2e9-2000.webp",
+    "page/x1610-2ce2e9-2000.webp",
     2000,
     2667
    ]
   },
   {
-   "page": 186,
-   "xref": 1553,
+   "page": 190,
+   "xref": 1617,
    "rect": [
     -1.2,
     -1.3,
-    996.9,
+    1014.4,
     624.9
    ],
    "chapter": 6,
-   "before": "rắng xám, những sợi rễ tối màu hằn dưới làn da tái lạnh, một vài vùng quanh đó đã tím sẫm. Không ai nói gì. Brann kéo tay áo xuống. “Ta phải đi.” Liv ngẩng lên.",
-   "after": "“Đi đâu?” “Xuống phía Nam trước.” Cậu phải dừng lại lấy hơi. “Hoặc ra biển. Nơi nào thấp hơn.” Skadi nhìn cậu. “Ngay bây giờ?” Brann nhìn thung lũng. Những đóa ",
+   "before": "lẽ phải dừng ở đó. Nhưng hy vọng là một thứ rất khó dừng lại khi nó vừa mới bắt đầu có hình dạng. Skadi chuyển sang một cụm lớn hơn. Liv giữ cánh tay của Brann.",
+   "after": "Cậu gật đầu. Skadi kéo. Cả người Brann giật mạnh. Một tiếng kêu bật khỏi cổ họng. Cây nấm không rời ra. Skadi lập tức buông. Brann thở dốc. Máu từ chân cụm nấm ",
    "kind": "full",
    "source": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/gfgfghfghfgfghfhf copy.jpg",
    "diff": [
-    1.4,
-    4.3
+    1.7,
+    5.3
    ],
    "match": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/gfgfghfghfgfghfhf copy.jpg",
-   "score": 0.986,
+   "score": 0.98,
    "files": [
     [
-     "c6/x1553-962dad-960.webp",
+     "c6/x1617-962dad-960.webp",
      960,
      540
     ],
     [
-     "c6/x1553-962dad-1600.webp",
+     "c6/x1617-962dad-1600.webp",
      1600,
      900
     ],
     [
-     "c6/x1553-962dad-2560.webp",
+     "c6/x1617-962dad-2560.webp",
      2560,
      1440
     ]
    ],
    "avg": "#818591",
    "pageimg": [
-    "page/x1553-962dad-2400.webp",
+    "page/x1617-962dad-2400.webp",
     2400,
-    1511
+    1475
    ]
   },
   {
-   "page": 187,
-   "xref": 1560,
+   "page": 191,
+   "xref": 1624,
    "rect": [
     907.1,
     -0.0,
@@ -10939,28 +11407,28 @@
     624.8
    ],
    "chapter": 6,
-   "before": "u. Skadi kéo. Cả người Brann giật mạnh. Một tiếng kêu bật khỏi cổ họng. Cây nấm không rời ra. Skadi lập tức buông. Brann thở dốc. Máu từ chân cụm nấm bắt đầu rỉ",
-   "after": "xuống. Liv lắc đầu. “Đủ rồi.” Brann nhìn khoảng da đã sạch bên dưới cổ tay. Rồi nhìn cụm nấm còn lại. “Thêm một lần.” Skadi không động. “Brann.” “Thêm một lần t",
+   "before": "rann mở mắt, cô biết ngay. Hai người nhìn nhau qua khoảng tối nhỏ giữa những đôi cánh. Không ai nói gì. Skadi chỉ chậm rãi mở cánh ra một chút. Ánh sáng ùa vào.",
+   "after": "Lúc ấy Brann mới nhìn thấy thung lũng. Những đóa hồng vẫn còn đó. Sau trận tuyết đêm qua, cả thung lũng đã trắng hơn, những bông hoa đỏ nhô lên giữa tuyết mới n",
    "kind": "full",
    "source": "pdf",
    "score": 0.751,
    "files": [
     [
-     "c6/x1560-468.webp",
+     "c6/x1624-468.webp",
      468,
      625
     ]
    ],
    "avg": "#788498",
    "pageimg": [
-    "page/x1560-468.webp",
+    "page/x1624-468.webp",
     468,
     625
    ]
   },
   {
-   "page": 187,
-   "xref": 1564,
+   "page": 191,
+   "xref": 1628,
    "rect": [
     0.0,
     0.9,
@@ -10968,8 +11436,8 @@
     624.8
    ],
    "chapter": 6,
-   "before": " xuất hiện giữa họ mà chẳng ai cần nói thành lời. Nếu thứ khiến Brann phải đi là chúng… Brann nhìn bàn tay Skadi. Rồi chậm rãi đưa cánh tay ra. Cây đầu tiên bật",
-   "after": "khỏi da dễ hơn họ tưởng. Đau. Nhưng chịu được. Một giọt máu xuất hiện ở chân nấm. Skadi thả cây nấm xuống tuyết. Bên dưới nó là một khoảng da trống. Brann nhìn.",
+   "before": " trắng. Nó nằm ngay trước mắt, hơi rung lên theo từng nhịp thở. Brann mất một lúc mới nhận ra mình đang nằm giữa hai đôi cánh. Liv ở bên trái. Skadi ở bên phải.",
+   "after": "Cả hai đã khép cánh quanh cậu từ lúc nào, tạo thành một khoảng tối nhỏ giữa tuyết. Hơi ấm từ cơ thể họ giữ lại bên trong, đủ để Brann không còn run, nhưng cánh ",
    "kind": "full",
    "source": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/jghg copy.jpg",
    "diff": [
@@ -10980,75 +11448,148 @@
    "score": 0.831,
    "files": [
     [
-     "c6/x1564-45b1b4-960.webp",
+     "c6/x1628-45b1b4-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1564-45b1b4-1600.webp",
+     "c6/x1628-45b1b4-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1564-45b1b4-2000.webp",
+     "c6/x1628-45b1b4-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#8c8c9a",
    "pageimg": [
-    "page/x1564-45b1b4-2000.webp",
+    "page/x1628-45b1b4-2000.webp",
     2000,
     2667
    ]
   },
   {
    "page": 192,
-   "xref": 1579,
+   "xref": 1633,
    "rect": [
-    0.0,
-    -0.0,
-    467.7,
-    623.6
+    -1.2,
+    -1.3,
+    1815.4,
+    624.7
    ],
    "chapter": 6,
-   "before": "ậu. Brann không quay sang. Nếu nhìn, cậu biết mình sẽ chậm lại. Nếu chậm lại, cậu sẽ nghĩ. Mà Brann đã nghĩ quá nhiều suốt đêm rồi. Cậu đã nghĩ đến căn nhà trên",
-   "after": "cây, nơi mỗi sáng mở cửa ra là biển mây. Nghĩ đến những khu rừng bạch dương. Nghĩ đến mặt hồ đóng băng. Nghĩ đến những buổi chiều chẳng cần đi đâu cả, chỉ nằm g",
+   "before": "rann mở mắt, cô biết ngay. Hai người nhìn nhau qua khoảng tối nhỏ giữa những đôi cánh. Không ai nói gì. Skadi chỉ chậm rãi mở cánh ra một chút. Ánh sáng ùa vào.",
+   "after": "Lúc ấy Brann mới nhìn thấy thung lũng. Những đóa hồng vẫn còn đó. Sau trận tuyết đêm qua, cả thung lũng đã trắng hơn, những bông hoa đỏ nhô lên giữa tuyết mới n",
    "kind": "full",
-   "source": "boi canh/chuong 6/ref04_sirin_huong/ewwqweqqwe copy.jpg",
+   "source": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/fgfghgh copy.jpg",
    "diff": [
-    1.6,
-    4.6
+    3.1,
+    12.3
    ],
-   "match": "boi canh/chuong 6/ref04_sirin_huong/ewwqweqqwe copy.jpg",
-   "score": 0.996,
+   "match": "boi canh/chuong 6/ref03_dong_lua_goc_co_thu/fgfghgh copy.jpg",
+   "score": 0.965,
    "files": [
     [
-     "c6/x1579-d98659-960.webp",
+     "c6/x1633-798446-960.webp",
      960,
-     1280
+     330
     ],
     [
-     "c6/x1579-d98659-1600.webp",
+     "c6/x1633-798446-1600.webp",
      1600,
-     2134
+     550
     ],
     [
-     "c6/x1579-d98659-2000.webp",
-     2000,
-     2667
+     "c6/x1633-798446-2560.webp",
+     2560,
+     880
     ]
    ],
-   "avg": "#537483",
+   "avg": "#bbb9be",
    "pageimg": [
-    "page/x1579-d98659-2000.webp",
-    2000,
-    2667
+    "page/x1633-798446-2400.webp",
+    2400,
+    820
    ]
   },
   {
-   "page": 192,
-   "xref": 1583,
+   "page": 193,
+   "xref": 1639,
+   "rect": [
+    -1.2,
+    -1.3,
+    433.5,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "ng khiến phần còn lại nhỏ đi. Cậu nhìn rất lâu. Rồi khẽ thở ra. Một âm thanh rất nhỏ. Nhưng đủ để khiến Liv tỉnh giấc. Cô bật dậy gần như ngay lập tức. “Brann?”",
+   "after": "Cậu quay sang. Liv nhìn mặt cậu, nhìn cánh tay, rồi lại nhìn mặt cậu một lần nữa. Dường như cô muốn chắc chắn rằng đôi mắt đang mở kia không phải do mình tưởng ",
+   "kind": "cutout",
+   "source": "boi canh/chuong 6/hoa hong mau copy.png",
+   "diff": [
+    4.2,
+    13.4
+   ],
+   "match": "boi canh/chuong 6/hoa hong mau copy.png",
+   "score": 0.986,
+   "files": [
+    [
+     "c6/x1639-e4f88e-480.webp",
+     480,
+     358
+    ],
+    [
+     "c6/x1639-e4f88e-900.webp",
+     900,
+     672
+    ]
+   ],
+   "avg": "#3e392b",
+   "pageimg": [
+    "page/x1639-e4f88e-1243.webp",
+    1243,
+    1792
+   ]
+  },
+  {
+   "page": 193,
+   "xref": 1643,
+   "rect": [
+    907.1,
+    -1.1,
+    1357.5,
+    624.7
+   ],
+   "chapter": 6,
+   "before": "ọi thành tên. Liv vẫn là Liv. Khi đun nước, cô vẫn quên mất chiếc bình đang nóng rồi suýt chạm tay vào. Skadi vẫn lặng lẽ kéo nó ra xa trước khi cô kịp làm vậy.",
+   "after": "Nhưng hôm nay Liv không chạy. Skadi cũng không bay. Cả hai đều ở trong khoảng cách mà chỉ cần Brann đưa tay ra là có thể chạm tới. Một lúc sau, Liv mang cho cậu",
+   "kind": "cutout",
+   "source": "pdf",
+   "diff": [
+    5.5,
+    21.1
+   ],
+   "match": "boi canh/chuong 6/character_lying_in_red_liquid_0723cc42_2k copy.jpg",
+   "score": 0.925,
+   "files": [
+    [
+     "c6/x1643-451.webp",
+     451,
+     626
+    ]
+   ],
+   "avg": "#231314",
+   "pageimg": [
+    "page/x1643-451.webp",
+    451,
+    626
+   ]
+  },
+  {
+   "page": 194,
+   "xref": 1650,
    "rect": [
     1346.5,
     -0.0,
@@ -11056,8 +11597,8 @@
     623.6
    ],
    "chapter": 6,
-   "before": "một chút tinh dầu để bắt nó im lặng. Khi tinh dầu hết, cậu đã dùng ý chí. Khi ý chí không còn đủ, Skadi và Liv dùng đôi cánh của họ để giữ cậu ấm. Và cuối cùng,",
-   "after": "cả ba đã ngồi giữa tuyết, cố kéo căn bệnh khỏi người cậu bằng tay. Brann nhìn vệt máu khô trên cánh trắng của Liv. Cậu không thể để ngày hôm qua trở thành cách ",
+   "before": "là biển mây. Nghĩ đến những khu rừng bạch dương. Nghĩ đến mặt hồ đóng băng. Nghĩ đến những buổi chiều chẳng cần đi đâu cả, chỉ nằm giữa tuyết nghe Liv nói những",
+   "after": "chuyện không đầu không cuối, trong khi Skadi ngồi gần đó chải lại những chiếc lông bị gió làm rối. Cậu đã nghĩ đến việc ở lại. Không phải một ngày. Không phải m",
    "kind": "full",
    "source": "boi canh/chuong 6/ref04_sirin_huong/jghgggj.png",
    "diff": [
@@ -11068,26 +11609,495 @@
    "score": 0.997,
    "files": [
     [
-     "c6/x1583-0d7bd0-960.webp",
+     "c6/x1650-0d7bd0-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1583-0d7bd0-1600.webp",
+     "c6/x1650-0d7bd0-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1583-0d7bd0-2000.webp",
+     "c6/x1650-0d7bd0-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#3a5254",
    "pageimg": [
-    "page/x1583-0d7bd0-2000.webp",
+    "page/x1650-0d7bd0-2000.webp",
     2000,
     2667
+   ]
+  },
+  {
+   "page": 194,
+   "xref": 1654,
+   "rect": [
+    0.0,
+    -0.0,
+    467.7,
+    623.6
+   ],
+   "chapter": 6,
+   "before": " nhìn họ. Brann phủi lớp tuyết bám trên áo, cúi xuống nhặt chiếc túi rồi khoác lên vai bằng cánh tay còn lành. Chỉ từng ấy thôi. Không ai cần hỏi. Liv đứng lên.",
+   "after": "“Brann.” Cậu siết lại dây túi. “Ừ.” “Vết thương của ngươi còn chưa lành” “Ta biết.” Liv im bặt. Brann cúi xuống nhặt tấm bản đồ đã rơi khỏi túi từ hôm qua. Một ",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref04_sirin_huong/ewwqweqqwe copy.jpg",
+   "diff": [
+    1.6,
+    4.6
+   ],
+   "match": "boi canh/chuong 6/ref04_sirin_huong/ewwqweqqwe copy.jpg",
+   "score": 0.996,
+   "files": [
+    [
+     "c6/x1654-d98659-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c6/x1654-d98659-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c6/x1654-d98659-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#537483",
+   "pageimg": [
+    "page/x1654-d98659-2000.webp",
+    2000,
+    2667
+   ]
+  },
+  {
+   "page": 195,
+   "xref": 1661,
+   "rect": [
+    -1.2,
+    0.0,
+    1159.9,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "là biển mây. Nghĩ đến những khu rừng bạch dương. Nghĩ đến mặt hồ đóng băng. Nghĩ đến những buổi chiều chẳng cần đi đâu cả, chỉ nằm giữa tuyết nghe Liv nói những",
+   "after": "chuyện không đầu không cuối, trong khi Skadi ngồi gần đó chải lại những chiếc lông bị gió làm rối. Cậu đã nghĩ đến việc ở lại. Không phải một ngày. Không phải m",
+   "kind": "full",
+   "source": "pdf",
+   "score": 0.772,
+   "files": [
+    [
+     "c6/x1661-960.webp",
+     960,
+     516
+    ],
+    [
+     "c6/x1661-1162.webp",
+     1162,
+     625
+    ]
+   ],
+   "avg": "#a7b0bf",
+   "pageimg": [
+    "page/x1661-1162.webp",
+    1162,
+    625
+   ]
+  },
+  {
+   "page": 196,
+   "xref": 1668,
+   "rect": [
+    785.3,
+    0.7,
+    1815.5,
+    622.9
+   ],
+   "chapter": 6,
+   "before": "ây. Ngày mai. Thêm một ngày. Chỉ một chuyến nữa. Brann nhắm mắt. Khi mở lại, cậu nhìn về phía Skadi. Cô vẫn chưa nói gì. Có lẽ vì trong ba người, Skadi là người",
+   "after": "hiểu sớm nhất rằng lần này không thể giữ cậu lại thêm một ngày nữa. Cô đứng dậy. Bước tới trước mặt Brann. Khoảng cách giữa họ rất gần. Brann phải ngẩng lên một",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref19_my_bay_cung_cu/cvvbvbbvbvbv copy.jpg",
+   "diff": [
+    0.7,
+    1.5
+   ],
+   "match": "boi canh/chuong 6/ref19_my_bay_cung_cu/cvvbvbbvbvbv copy.jpg",
+   "score": 0.995,
+   "files": [
+    [
+     "c6/x1668-27cb4b-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1668-27cb4b-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1668-27cb4b-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#75593c",
+   "pageimg": [
+    "page/x1668-27cb4b-2400.webp",
+    2400,
+    1451
+   ]
+  },
+  {
+   "page": 197,
+   "xref": 1675,
+   "rect": [
+    452.4,
+    -0.0,
+    908.1,
+    623.6
+   ],
+   "chapter": 6,
+   "before": " cố.” Đó là tất cả. Nhưng không hiểu sao Liv quay mặt đi. Họ không đưa Brann trở về khu rừng phía Nam. Họ đưa cậu tới rìa phía Bắc của thung lũng. Nơi ấy là một",
+   "after": "vách núi rất cao. Từ đây có thể nhìn xuyên qua một khoảng trống lớn giữa những dãy núi, và ở tận cuối đường chân trời, phía dưới những tầng mây, là một dải xanh",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref16_huong_my_rung/dggfdgfdgdgfd copy.jpg",
+   "diff": [
+    1.3,
+    4.0
+   ],
+   "match": "boi canh/chuong 6/ref16_huong_my_rung/dggfdgfdgdgfd copy.jpg",
+   "score": 0.993,
+   "files": [
+    [
+     "c6/x1675-b07dbe-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c6/x1675-b07dbe-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c6/x1675-b07dbe-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#4a5667",
+   "pageimg": [
+    "page/x1675-b07dbe-1952.webp",
+    1952,
+    2667
+   ]
+  },
+  {
+   "page": 198,
+   "xref": 1682,
+   "rect": [
+    789.5,
+    0.7,
+    1815.3,
+    622.9
+   ],
+   "chapter": 6,
+   "before": "u bầu trời. Nhưng lần này Brann không nhắm mắt. Skadi cố bay thấp hơn. “Giữ chặt.” Brann nhìn cánh tay mình. Các ngón tay gần như không còn sức. Liv bay sát bên",
+   "after": "kia. Cô chìa tay. “Đưa tay cho ta.” Brann nhìn bàn tay ấy. Chỉ cần nắm lấy. Skadi sẽ quay lại. Họ sẽ đưa cậu về thung lũng. Đợi nhật thực qua. Đợi vết thương là",
+   "kind": "full",
+   "source": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/gdggfdfggfg.png",
+   "diff": [
+    1.6,
+    5.3
+   ],
+   "match": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/gdggfdfggfg.png",
+   "score": 0.982,
+   "files": [
+    [
+     "c6/x1682-dec614-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1682-dec614-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1682-dec614-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#313035",
+   "pageimg": [
+    "page/x1682-dec614-2400.webp",
+    2400,
+    1459
+   ]
+  },
+  {
+   "page": 199,
+   "xref": 1689,
+   "rect": [
+    0.0,
+    -1.2,
+    982.8,
+    622.7
+   ],
+   "chapter": 6,
+   "before": "u bầu trời. Nhưng lần này Brann không nhắm mắt. Skadi cố bay thấp hơn. “Giữ chặt.” Brann nhìn cánh tay mình. Các ngón tay gần như không còn sức. Liv bay sát bên",
+   "after": "kia. Cô chìa tay. “Đưa tay cho ta.” Brann nhìn bàn tay ấy. Chỉ cần nắm lấy. Skadi sẽ quay lại. Họ sẽ đưa cậu về thung lũng. Đợi nhật thực qua. Đợi vết thương là",
+   "kind": "full",
+   "source": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/nvvbnbbnbnbnn copy.jpg",
+   "diff": [
+    1.7,
+    5.4
+   ],
+   "match": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/nvvbnbbnbnbnn copy.jpg",
+   "score": 0.952,
+   "files": [
+    [
+     "c6/x1689-860b9a-960.webp",
+     960,
+     540
+    ],
+    [
+     "c6/x1689-860b9a-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1689-860b9a-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#404555",
+   "pageimg": [
+    "page/x1689-860b9a-2400.webp",
+    2400,
+    1519
+   ]
+  },
+  {
+   "page": 200,
+   "xref": 1696,
+   "rect": [
+    -1.1,
+    -1.1,
+    1815.3,
+    624.8
+   ],
+   "chapter": 6,
+   "before": "lao tới. Đầu ngón tay họ chạm nhau. Cô nắm lấy. Brann siết lại. Trong một nhịp ngắn ngủi, giữa bầu trời đang tối dần, họ nắm tay nhau. Rồi Brann buông. “BRANN!”",
+   "after": "Cậu thả tay khỏi Skadi. Lần đầu tiên rơi khỏi bầu trời, Brann đã hét đến khản giọng. Lần này cậu không hét. Cơ thể rơi xuống. Gió lập tức cuốn lấy áo choàng, ké",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/ffsdfsdfdsfsdfsdfsd copy.jpg",
+   "diff": [
+    3.1,
+    13.8
+   ],
+   "match": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/ffsdfsdfdsfsdfsdfsd copy.jpg",
+   "score": 0.912,
+   "files": [
+    [
+     "c6/x1696-a1010a-960.webp",
+     960,
+     330
+    ],
+    [
+     "c6/x1696-a1010a-1600.webp",
+     1600,
+     550
+    ],
+    [
+     "c6/x1696-a1010a-2560.webp",
+     2560,
+     881
+    ]
+   ],
+   "avg": "#7a8497",
+   "pageimg": [
+    "page/x1696-a1010a-2400.webp",
+    2400,
+    826
+   ]
+  },
+  {
+   "page": 201,
+   "xref": 1703,
+   "rect": [
+    -1.1,
+    -0.0,
+    908.2,
+    624.8
+   ],
+   "chapter": 6,
+   "before": "lao tới. Đầu ngón tay họ chạm nhau. Cô nắm lấy. Brann siết lại. Trong một nhịp ngắn ngủi, giữa bầu trời đang tối dần, họ nắm tay nhau. Rồi Brann buông. “BRANN!”",
+   "after": "Cậu thả tay khỏi Skadi. Lần đầu tiên rơi khỏi bầu trời, Brann đã hét đến khản giọng. Lần này cậu không hét. Cơ thể rơi xuống. Gió lập tức cuốn lấy áo choàng, ké",
+   "kind": "full",
+   "source": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/gfghgghghgh copy.jpg",
+   "diff": [
+    1.9,
+    6.7
+   ],
+   "match": "boi canh/chuong 6/ref05_ho_bang_hoang_hon/gfghgghghgh copy.jpg",
+   "score": 0.93,
+   "files": [
+    [
+     "c6/x1703-194b7d-960.webp",
+     960,
+     720
+    ],
+    [
+     "c6/x1703-194b7d-1600.webp",
+     1600,
+     1200
+    ],
+    [
+     "c6/x1703-194b7d-2560.webp",
+     2560,
+     1920
+    ]
+   ],
+   "avg": "#73829a",
+   "pageimg": [
+    "page/x1703-194b7d-2400.webp",
+    2400,
+    1649
+   ]
+  },
+  {
+   "page": 201,
+   "xref": 1707,
+   "rect": [
+    1359.5,
+    -0.0,
+    1815.3,
+    623.6
+   ],
+   "chapter": 6,
+   "before": " ngược lên vách núi, đánh thẳng vào ba người. Liv bị hất sang một bên. Skadi lao qua Brann chỉ trong gang tấc. Những đầu ngón tay không chạm được nhau. “BRANN!”",
+   "after": "Tiếng gọi xuyên qua gió. Cậu xoay người giữa không trung. Phía trên, vòng sáng quanh mặt trời đen đang treo giữa bầu trời. Và xa hơn nữa… Thung lũng hoa hồng. C",
+   "kind": "cutout",
+   "source": "boi canh/chuong 6/character_falling_backward_from_…_2212e187_2k copy.png",
+   "diff": [
+    2.2,
+    6.9
+   ],
+   "match": "boi canh/chuong 6/character_falling_backward_from_…_2212e187_2k copy.png",
+   "score": 0.984,
+   "files": [
+    [
+     "c6/x1707-043fe5-480.webp",
+     480,
+     643
+    ],
+    [
+     "c6/x1707-043fe5-900.webp",
+     900,
+     1205
+    ]
+   ],
+   "avg": "#3a404b",
+   "pageimg": [
+    "page/x1707-043fe5-1760.webp",
+    1760,
+    2400
+   ]
+  },
+  {
+   "page": 202,
+   "xref": 1714,
+   "rect": [
+    711.1,
+    -1.3,
+    1815.2,
+    624.9
+   ],
+   "chapter": 6,
+   "before": "ày ấy, giữa khu rừng tuyết, cậu biết trước mọi chuyện sẽ kết thúc thế này… Cậu vẫn sẽ để họ đưa mình lên trời. Mặt biển ở ngay dưới lưng. Brann mở mắt lần cuối.",
+   "after": "Trên cao, hai bóng chim vẫn đang lao xuống. Không ai quay về. Không ai bỏ cuộc. Nhưng khoảng cách giữa họ đã quá xa. Một cánh hoa đỏ rơi khỏi áo Brann. Có lẽ nó",
+   "kind": "full",
+   "source": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/final_0001 copy.jpg",
+   "diff": [
+    1.2,
+    4.3
+   ],
+   "match": "boi canh/chuong 6/to_chim_04_minh_bi_thuong/final_0001 copy.jpg",
+   "score": 0.953,
+   "files": [
+    [
+     "c6/x1714-a236bb-960.webp",
+     960,
+     524
+    ],
+    [
+     "c6/x1714-a236bb-1600.webp",
+     1600,
+     873
+    ],
+    [
+     "c6/x1714-a236bb-2560.webp",
+     2560,
+     1396
+    ]
+   ],
+   "avg": "#445b7d",
+   "pageimg": [
+    "page/x1714-a236bb-2400.webp",
+    2400,
+    1364
+   ]
+  },
+  {
+   "page": 203,
+   "xref": 1721,
+   "rect": [
+    0.0,
+    -1.2,
+    1103.2,
+    623.6
+   ],
+   "chapter": 6,
+   "before": "ày ấy, giữa khu rừng tuyết, cậu biết trước mọi chuyện sẽ kết thúc thế này… Cậu vẫn sẽ để họ đưa mình lên trời. Mặt biển ở ngay dưới lưng. Brann mở mắt lần cuối.",
+   "after": "Trên cao, hai bóng chim vẫn đang lao xuống. Không ai quay về. Không ai bỏ cuộc. Nhưng khoảng cách giữa họ đã quá xa. Một cánh hoa đỏ rơi khỏi áo Brann. Có lẽ nó",
+   "kind": "full",
+   "source": "boi canh/chuong 6/minh_roi_lau_dai/final_opt_r2_0001 copy.jpg",
+   "diff": [
+    13.5,
+    16.1
+   ],
+   "match": "boi canh/chuong 6/minh_roi_lau_dai/final_opt_r2_0001 copy.jpg",
+   "score": 0.995,
+   "files": [
+    [
+     "c6/x1721-d7ca05-960.webp",
+     960,
+     540
+    ],
+    [
+     "c6/x1721-d7ca05-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c6/x1721-d7ca05-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#4f6a95",
+   "pageimg": [
+    "page/x1721-d7ca05-2400.webp",
+    2400,
+    1362
    ]
   }
  ]
