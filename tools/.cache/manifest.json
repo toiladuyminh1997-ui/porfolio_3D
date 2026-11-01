@@ -2,7 +2,7 @@
  "placements": [
   {
    "page": 0,
-   "xref": 2623,
+   "xref": 2730,
    "rect": [
     -1.4,
     6.5,
@@ -17,14 +17,14 @@
    "score": 0.477,
    "files": [
     [
-     "front/x2623-910.webp",
+     "front/x2730-910.webp",
      910,
      601
     ]
    ],
    "avg": "#4c4c4c",
    "pageimg": [
-    "page/x2623-910.webp",
+    "page/x2730-910.webp",
     910,
     601
    ]
@@ -120,7 +120,7 @@
    "after": "Brann - Một gã đàn ông thấp bé với đôi vai rộng và hai bàn tay đầy vết sần chai cũng từng ấp ủ một ngọn lửa hy vọng, rằng một ngày nào đó, mình cũng sẽ tạo ra n",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.411,
+   "score": 0.413,
    "files": [
     [
      "c0/x21-432.webp",
@@ -233,7 +233,7 @@
    "after": "Brann - Một gã đàn ông thấp bé với đôi vai rộng và hai bàn tay đầy vết sần chai cũng từng ấp ủ một ngọn lửa hy vọng, rằng một ngày nào đó, mình cũng sẽ tạo ra n",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.2,
+   "score": 0.27,
    "files": [
     [
      "c0/x32-420.webp",
@@ -375,7 +375,7 @@
    "after": "Mỗi lần cậu cảm thấy mình không thuộc về thế giới này. Nấm lại mọc thêm ngày một nhiều hơn. Những người xung quanh bắt đầu sợ hãi. Không ai biết căn bệnh ấy là ",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.686,
+   "score": 0.757,
    "files": [
     [
      "c0/x55-420.webp",
@@ -648,7 +648,7 @@
   },
   {
    "page": 8,
-   "xref": 2092,
+   "xref": 2197,
    "rect": [
     58.5,
     51.4,
@@ -663,14 +663,14 @@
    "score": 0.554,
    "files": [
     [
-     "c0/x2092-211.webp",
+     "c0/x2197-211.webp",
      211,
      246
     ]
    ],
    "avg": "#100d09",
    "pageimg": [
-    "page/x2092-211.webp",
+    "page/x2197-211.webp",
     211,
     246
    ]
@@ -750,7 +750,7 @@
   },
   {
    "page": 9,
-   "xref": 2096,
+   "xref": 2201,
    "rect": [
     1178.4,
     429.8,
@@ -763,7 +763,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2096-71.webp",
+     "ornament/x2201-71.webp",
      71,
      122
     ]
@@ -771,7 +771,7 @@
    "avg": "#271814",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2096-71.webp",
+    "ornament/x2201-71.webp",
     71,
     122
    ]
@@ -884,7 +884,7 @@
   },
   {
    "page": 11,
-   "xref": 2100,
+   "xref": 2205,
    "rect": [
     1550.0,
     311.8,
@@ -899,14 +899,14 @@
    "score": 0.533,
    "files": [
     [
-     "c0/x2100-207.webp",
+     "c0/x2205-207.webp",
      207,
      269
     ]
    ],
    "avg": "#090805",
    "pageimg": [
-    "page/x2100-207.webp",
+    "page/x2205-207.webp",
     207,
     269
    ]
@@ -1167,7 +1167,7 @@
    "rect": [
     0.0,
     -0.0,
-    1545.9,
+    1644.4,
     469.0
    ],
    "chapter": 1,
@@ -1178,20 +1178,20 @@
     [
      "ornament/x153-480.webp",
      480,
-     146
+     137
     ],
     [
      "ornament/x153-900.webp",
      900,
-     274
+     257
     ]
    ],
-   "avg": "#2e2b16",
+   "avg": "#2c2815",
    "source": "pdf",
    "pageimg": [
     "ornament/x153-900.webp",
     900,
-    274
+    257
    ]
   },
   {
@@ -1313,7 +1313,7 @@
   },
   {
    "page": 18,
-   "xref": 2092,
+   "xref": 2197,
    "rect": [
     957.1,
     89.7,
@@ -1328,14 +1328,14 @@
    "score": 0.554,
    "files": [
     [
-     "c0/x2092-211.webp",
+     "c0/x2197-211.webp",
      211,
      246
     ]
    ],
    "avg": "#100d09",
    "pageimg": [
-    "page/x2092-211.webp",
+    "page/x2197-211.webp",
     211,
     246
    ]
@@ -1775,7 +1775,7 @@
   },
   {
    "page": 25,
-   "xref": 2100,
+   "xref": 2205,
    "rect": [
     1572.5,
     355.7,
@@ -1790,14 +1790,14 @@
    "score": 0.533,
    "files": [
     [
-     "c0/x2100-207.webp",
+     "c0/x2205-207.webp",
      207,
      269
     ]
    ],
    "avg": "#090805",
    "pageimg": [
-    "page/x2100-207.webp",
+    "page/x2205-207.webp",
     207,
     269
    ]
@@ -2036,7 +2036,7 @@
   },
   {
    "page": 28,
-   "xref": 2104,
+   "xref": 2209,
    "rect": [
     59.1,
     0.0,
@@ -2049,12 +2049,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2104-480.webp",
+     "ornament/x2209-480.webp",
      480,
      52
     ],
     [
-     "ornament/x2104-622.webp",
+     "ornament/x2209-622.webp",
      622,
      67
     ]
@@ -2062,7 +2062,7 @@
    "avg": "#241b15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2104-622.webp",
+    "ornament/x2209-622.webp",
     622,
     67
    ]
@@ -2290,7 +2290,7 @@
    "after": "Brann cúi đầu rất lâu, rồi cậu chậm rãi mở chiếc túi da bên hông. Bên trong chỉ có vài dụng cụ cũ kỹ. Một chiếc kìm. Một viên đá mài. Và một chiếc đồng hồ bỏ tú",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.395,
+   "score": 0.41,
    "files": [
     [
      "c1/x292-409.webp",
@@ -2382,7 +2382,7 @@
    "after": "“Hôm nay...” “...là lần đầu tiên sau rất nhiều năm...” “...tôi quên mất thời gian.” “Nó nên ở lại nơi đã giúp tôi làm được điều đó.” Không ai nói gì, chỉ có tiế",
    "kind": "full",
    "source": "pdf",
-   "score": 0.616,
+   "score": 0.599,
    "files": [
     [
      "c1/x307-960.webp",
@@ -2404,7 +2404,7 @@
   },
   {
    "page": 32,
-   "xref": 2096,
+   "xref": 2201,
    "rect": [
     442.6,
     141.7,
@@ -2417,7 +2417,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2096-71.webp",
+     "ornament/x2201-71.webp",
      71,
      122
     ]
@@ -2425,14 +2425,14 @@
    "avg": "#271814",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2096-71.webp",
+    "ornament/x2201-71.webp",
     71,
     122
    ]
   },
   {
    "page": 32,
-   "xref": 2104,
+   "xref": 2209,
    "rect": [
     69.7,
     1.4,
@@ -2445,12 +2445,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2104-480.webp",
+     "ornament/x2209-480.webp",
      480,
      52
     ],
     [
-     "ornament/x2104-622.webp",
+     "ornament/x2209-622.webp",
      622,
      67
     ]
@@ -2458,7 +2458,7 @@
    "avg": "#241b15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2104-622.webp",
+    "ornament/x2209-622.webp",
     622,
     67
    ]
@@ -2653,7 +2653,7 @@
    "after": "“Không kịp rồi...” Hai thanh kiếm đồng loạt vung lên. KENG!! Một chùm tia lửa bắn tung giữa khoảng không. Cả khu rừng như rung lên vì cú va chạm ấy. Brann hoảng",
    "kind": "full",
    "source": "pdf",
-   "score": 0.694,
+   "score": 0.698,
    "files": [
     [
      "c2/x337-960.webp",
@@ -2894,7 +2894,7 @@
    "after": "“Ta với hắn?”",
    "kind": "inline",
    "source": "pdf",
-   "score": 0.532,
+   "score": 0.549,
    "files": [
     [
      "c2/x365-281.webp",
@@ -3103,7 +3103,7 @@
    "after": "Một người nhún vai. “Đằng nào người khác cũng gọi nhầm.” Người còn lại cười lớn. “Ngươi cứ gọi bọn ta là ‘này’ cũng được.” “Hoặc...” Người cưỡi kỳ lân chỉ vào c",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.297,
+   "score": 0.286,
    "files": [
     [
      "c2/x393-346.webp",
@@ -3123,7 +3123,7 @@
    "xref": 400,
    "rect": [
     906.0,
-    213.1,
+    228.8,
     1814.2,
     624.7
    ],
@@ -3133,11 +3133,11 @@
    "kind": "cutout",
    "source": "web/docs/img/page/x400-a67cd5-1920.webp",
    "diff": [
-    11.7,
-    38.0
+    11.6,
+    37.9
    ],
    "match": "web/docs/img/page/x400-a67cd5-1920.webp",
-   "score": 0.874,
+   "score": 0.868,
    "files": [
     [
      "c2/x400-25b3e2-480.webp",
@@ -3154,7 +3154,7 @@
    "pageimg": [
     "page/x400-25b3e2-1800.webp",
     1800,
-    819
+    787
    ]
   },
   {
@@ -3278,7 +3278,7 @@
    "after": "“Không.”",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.566,
+   "score": 0.542,
    "files": [
     [
      "c2/x419-117.webp",
@@ -3677,7 +3677,7 @@
    "after": "“Đừng kéo hắn...” “Rồi ngươi sẽ thắng...” “Chỉ cần buông tay...” Bàn tay Eirik khựng lại giữa không trung. Chỉ còn một khoảng rất ngắn nữa thôi là cậu có thể nắ",
    "kind": "inline",
    "source": "pdf",
-   "score": 0.703,
+   "score": 0.709,
    "files": [
     [
      "c2/x476-363.webp",
@@ -3954,7 +3954,7 @@
    "after": "Khi mặt trời khuất hẳn sau dãy núi, ba người cũng rời khỏi Thung Lũng Vọng Âm. Họ không nói nhiều trên quãng đường còn lại. Có lẽ vì ai cũng hiểu rằng, chỉ cần ",
    "kind": "full",
    "source": "pdf",
-   "score": 0.751,
+   "score": 0.747,
    "files": [
     [
      "c2/x520-911.webp",
@@ -4106,11 +4106,11 @@
    "kind": "full",
    "source": "pdf",
    "diff": [
-    27.2,
-    43.0
+    134.8,
+    169.0
    ],
-   "match": "boi canh/chuong 7/ref29_bao_tau_buom/renders/ref29_bao_tau_buom_preview.png",
-   "score": 0.882,
+   "match": "boi canh/chuong 7/ref32_09_minh_lao_xuong/renders/ref32_09_minh_lao_xuong_300spp.png",
+   "score": 0.877,
    "files": [
     [
      "c2/x536-372.webp",
@@ -4139,7 +4139,7 @@
    "after": "Sáng sớm, màn sương còn phủ kín những hàng thông. Ánh nắng đầu ngày len qua kẽ lá, rọi xuống khoảng đất nơi đống lửa đêm qua chỉ còn lại chút tro tàn. Brann cẩn",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.484,
+   "score": 0.531,
    "files": [
     [
      "c2/x540-245.webp",
@@ -6171,7 +6171,7 @@
    "after": "“...Lại không được.” Cậu ngồi phịch xuống bãi cỏ. Đưa tay vò mái tóc đã lấm tấm phấn vàng. Một lúc lâu. Không ai nói gì. Chỉ còn tiếng hát li ti của những bông ",
    "kind": "full",
    "source": "pdf",
-   "score": 0.751,
+   "score": 0.757,
    "files": [
     [
      "c4/x843-910.webp",
@@ -7131,7 +7131,7 @@
    "after": "Cậu vô thức phủi nhẹ hai bên áo. Rồi cúi xuống lau sạch đôi giày bằng ống quần. Một cơn gió khẽ lướt qua. Mặt hồ phía sau gợn lên vài vòng sóng nhỏ rồi nhanh ch",
    "kind": "full",
    "source": "pdf",
-   "score": 0.771,
+   "score": 0.766,
    "files": [
     [
      "c5/x982-908.webp",
@@ -11038,51 +11038,51 @@
   },
   {
    "page": 184,
-   "xref": 1567,
+   "xref": 1565,
    "rect": [
-    693.5,
+    693.2,
     -1.3,
-    1815.2,
-    624.9
+    1815.4,
+    624.7
    ],
    "chapter": 6,
    "before": "ăng chạy giữa thung lũng. Brann đã quen với việc ngồi trên lưng Skadi. Quen đến mức có thể nhận ra khi cô sắp đổi hướng chỉ bằng chuyển động rất nhỏ của cơ thể.",
    "after": "Vang. Tự do đến mức chính cậu cũng không nhận ra giọng mình. Rồi bàn tay đang dang ra bắt đầu run. Rất nhẹ. Brann khép nó lại. Nụ cười vẫn còn. Đến chiều, cậu k",
    "kind": "full",
-   "source": "boi canh/chuong 6/ref_nha_go_hoa_van/renders/ref_nha_go_hoa_van_final copy.jpg",
+   "source": "boi canh/chuong 6/ref_nha_go_hoa_van/ref_nha_go_hoa_van_final copy.jpg",
    "diff": [
-    1.9,
-    6.3
+    8.3,
+    29.5
    ],
-   "match": "boi canh/chuong 6/ref_nha_go_hoa_van/renders/ref_nha_go_hoa_van_final copy.jpg",
-   "score": 0.985,
+   "match": "boi canh/chuong 6/ref_nha_go_hoa_van/ref_nha_go_hoa_van_final copy.jpg",
+   "score": 0.848,
    "files": [
     [
-     "c6/x1567-e0d0c0-960.webp",
+     "c6/x1565-28841b-960.webp",
      960,
-     524
+     540
     ],
     [
-     "c6/x1567-e0d0c0-1600.webp",
+     "c6/x1565-28841b-1600.webp",
      1600,
-     873
+     900
     ],
     [
-     "c6/x1567-e0d0c0-2560.webp",
+     "c6/x1565-28841b-2560.webp",
      2560,
-     1396
+     1440
     ]
    ],
-   "avg": "#667491",
+   "avg": "#5f6f8c",
    "pageimg": [
-    "page/x1567-e0d0c0-2400.webp",
+    "page/x1565-28841b-2400.webp",
     2400,
     1339
    ]
   },
   {
    "page": 185,
-   "xref": 1574,
+   "xref": 1571,
    "rect": [
     -1.3,
     28.7,
@@ -11102,31 +11102,31 @@
    "score": 0.989,
    "files": [
     [
-     "c6/x1574-7eb118-960.webp",
+     "c6/x1571-7eb118-960.webp",
      960,
      524
     ],
     [
-     "c6/x1574-7eb118-1600.webp",
+     "c6/x1571-7eb118-1600.webp",
      1600,
      873
     ],
     [
-     "c6/x1574-7eb118-2560.webp",
+     "c6/x1571-7eb118-2560.webp",
      2560,
      1396
     ]
    ],
    "avg": "#6a6779",
    "pageimg": [
-    "page/x1574-7eb118-2400.webp",
+    "page/x1571-7eb118-2400.webp",
     2400,
     1309
    ]
   },
   {
    "page": 186,
-   "xref": 1581,
+   "xref": 1578,
    "rect": [
     67.3,
     -1.3,
@@ -11138,29 +11138,29 @@
    "after": "Cậu xoay chiếc lọ trong âu lo. Nó trượt xuống rất chậm. Ngoài cửa sổ, một bóng trắng bay qua. Brann lập tức khép bàn tay. Liv đáp xuống bậu cửa. “Ngày mai đi vớ",
    "kind": "inline",
    "source": "pdf",
-   "score": 0.716,
+   "score": 0.675,
    "files": [
     [
-     "c6/x1581-720.webp",
+     "c6/x1578-720.webp",
      720,
      267
     ],
     [
-     "c6/x1581-744.webp",
+     "c6/x1578-744.webp",
      744,
      276
     ]
    ],
    "avg": "#b6b9c3",
    "pageimg": [
-    "page/x1581-744.webp",
+    "page/x1578-744.webp",
     744,
     276
    ]
   },
   {
    "page": 186,
-   "xref": 1585,
+   "xref": 1582,
    "rect": [
     1360.6,
     324.9,
@@ -11172,24 +11172,24 @@
    "after": "áo xuống. “Ta phải đi.” Liv ngẩng lên. “Đi đâu?” “Xuống phía Nam trước.” Cậu phải dừng lại lấy hơi. “Hoặc ra biển. Nơi nào thấp hơn.” Skadi nhìn cậu. “Ngay bây ",
    "kind": "cutout",
    "source": "pdf",
-   "score": 0.343,
+   "score": 0.348,
    "files": [
     [
-     "c6/x1585-454.webp",
+     "c6/x1582-454.webp",
      454,
      300
     ]
    ],
    "avg": "#343933",
    "pageimg": [
-    "page/x1585-454.webp",
+    "page/x1582-454.webp",
     454,
     300
    ]
   },
   {
    "page": 187,
-   "xref": 1592,
+   "xref": 1589,
    "rect": [
     910.6,
     -1.1,
@@ -11209,31 +11209,31 @@
    "score": 0.835,
    "files": [
     [
-     "c6/x1592-fc2327-960.webp",
+     "c6/x1589-fc2327-960.webp",
      960,
      720
     ],
     [
-     "c6/x1592-fc2327-1600.webp",
+     "c6/x1589-fc2327-1600.webp",
      1600,
      1200
     ],
     [
-     "c6/x1592-fc2327-2560.webp",
+     "c6/x1589-fc2327-2560.webp",
      2560,
      1920
     ]
    ],
    "avg": "#a4a0aa",
    "pageimg": [
-    "page/x1592-fc2327-2400.webp",
+    "page/x1589-fc2327-2400.webp",
     2400,
     1660
    ]
   },
   {
    "page": 188,
-   "xref": 1599,
+   "xref": 1596,
    "rect": [
     0.0,
     -0.0,
@@ -11253,31 +11253,31 @@
    "score": 0.949,
    "files": [
     [
-     "c6/x1599-f52575-960.webp",
+     "c6/x1596-f52575-960.webp",
      960,
      540
     ],
     [
-     "c6/x1599-f52575-1600.webp",
+     "c6/x1596-f52575-1600.webp",
      1600,
      900
     ],
     [
-     "c6/x1599-f52575-2560.webp",
+     "c6/x1596-f52575-2560.webp",
      2560,
      1440
     ]
    ],
    "avg": "#7a818d",
    "pageimg": [
-    "page/x1599-f52575-2400.webp",
+    "page/x1596-f52575-2400.webp",
     2400,
     1497
    ]
   },
   {
    "page": 189,
-   "xref": 1606,
+   "xref": 1603,
    "rect": [
     -1.1,
     -0.0,
@@ -11297,21 +11297,21 @@
    "score": 0.944,
    "files": [
     [
-     "c6/x1606-468.webp",
+     "c6/x1603-468.webp",
      468,
      624
     ]
    ],
    "avg": "#64728a",
    "pageimg": [
-    "page/x1606-468.webp",
+    "page/x1603-468.webp",
     468,
     624
    ]
   },
   {
    "page": 189,
-   "xref": 1610,
+   "xref": 1607,
    "rect": [
     907.1,
     -0.0,
@@ -11331,31 +11331,31 @@
    "score": 0.995,
    "files": [
     [
-     "c6/x1610-2ce2e9-960.webp",
+     "c6/x1607-2ce2e9-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1610-2ce2e9-1600.webp",
+     "c6/x1607-2ce2e9-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1610-2ce2e9-2000.webp",
+     "c6/x1607-2ce2e9-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#6e7282",
    "pageimg": [
-    "page/x1610-2ce2e9-2000.webp",
+    "page/x1607-2ce2e9-2000.webp",
     2000,
     2667
    ]
   },
   {
    "page": 190,
-   "xref": 1617,
+   "xref": 1614,
    "rect": [
     -1.2,
     -1.3,
@@ -11375,31 +11375,31 @@
    "score": 0.98,
    "files": [
     [
-     "c6/x1617-962dad-960.webp",
+     "c6/x1614-962dad-960.webp",
      960,
      540
     ],
     [
-     "c6/x1617-962dad-1600.webp",
+     "c6/x1614-962dad-1600.webp",
      1600,
      900
     ],
     [
-     "c6/x1617-962dad-2560.webp",
+     "c6/x1614-962dad-2560.webp",
      2560,
      1440
     ]
    ],
    "avg": "#818591",
    "pageimg": [
-    "page/x1617-962dad-2400.webp",
+    "page/x1614-962dad-2400.webp",
     2400,
     1475
    ]
   },
   {
    "page": 191,
-   "xref": 1624,
+   "xref": 1621,
    "rect": [
     907.1,
     -0.0,
@@ -11414,21 +11414,21 @@
    "score": 0.751,
    "files": [
     [
-     "c6/x1624-468.webp",
+     "c6/x1621-468.webp",
      468,
      625
     ]
    ],
    "avg": "#788498",
    "pageimg": [
-    "page/x1624-468.webp",
+    "page/x1621-468.webp",
     468,
     625
    ]
   },
   {
    "page": 191,
-   "xref": 1628,
+   "xref": 1625,
    "rect": [
     0.0,
     0.9,
@@ -11448,31 +11448,31 @@
    "score": 0.831,
    "files": [
     [
-     "c6/x1628-45b1b4-960.webp",
+     "c6/x1625-45b1b4-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1628-45b1b4-1600.webp",
+     "c6/x1625-45b1b4-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1628-45b1b4-2000.webp",
+     "c6/x1625-45b1b4-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#8c8c9a",
    "pageimg": [
-    "page/x1628-45b1b4-2000.webp",
+    "page/x1625-45b1b4-2000.webp",
     2000,
     2667
    ]
   },
   {
    "page": 192,
-   "xref": 1633,
+   "xref": 1630,
    "rect": [
     -1.2,
     -1.3,
@@ -11492,31 +11492,31 @@
    "score": 0.965,
    "files": [
     [
-     "c6/x1633-798446-960.webp",
+     "c6/x1630-798446-960.webp",
      960,
      330
     ],
     [
-     "c6/x1633-798446-1600.webp",
+     "c6/x1630-798446-1600.webp",
      1600,
      550
     ],
     [
-     "c6/x1633-798446-2560.webp",
+     "c6/x1630-798446-2560.webp",
      2560,
      880
     ]
    ],
    "avg": "#bbb9be",
    "pageimg": [
-    "page/x1633-798446-2400.webp",
+    "page/x1630-798446-2400.webp",
     2400,
     820
    ]
   },
   {
    "page": 193,
-   "xref": 1639,
+   "xref": 1636,
    "rect": [
     -1.2,
     -1.3,
@@ -11536,26 +11536,26 @@
    "score": 0.986,
    "files": [
     [
-     "c6/x1639-e4f88e-480.webp",
+     "c6/x1636-e4f88e-480.webp",
      480,
      358
     ],
     [
-     "c6/x1639-e4f88e-900.webp",
+     "c6/x1636-e4f88e-900.webp",
      900,
      672
     ]
    ],
    "avg": "#3e392b",
    "pageimg": [
-    "page/x1639-e4f88e-1243.webp",
+    "page/x1636-e4f88e-1243.webp",
     1243,
     1792
    ]
   },
   {
    "page": 193,
-   "xref": 1643,
+   "xref": 1640,
    "rect": [
     907.1,
     -1.1,
@@ -11575,21 +11575,21 @@
    "score": 0.925,
    "files": [
     [
-     "c6/x1643-451.webp",
+     "c6/x1640-451.webp",
      451,
      626
     ]
    ],
    "avg": "#231314",
    "pageimg": [
-    "page/x1643-451.webp",
+    "page/x1640-451.webp",
     451,
     626
    ]
   },
   {
    "page": 194,
-   "xref": 1650,
+   "xref": 1647,
    "rect": [
     1346.5,
     -0.0,
@@ -11609,31 +11609,31 @@
    "score": 0.997,
    "files": [
     [
-     "c6/x1650-0d7bd0-960.webp",
+     "c6/x1647-0d7bd0-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1650-0d7bd0-1600.webp",
+     "c6/x1647-0d7bd0-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1650-0d7bd0-2000.webp",
+     "c6/x1647-0d7bd0-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#3a5254",
    "pageimg": [
-    "page/x1650-0d7bd0-2000.webp",
+    "page/x1647-0d7bd0-2000.webp",
     2000,
     2667
    ]
   },
   {
    "page": 194,
-   "xref": 1654,
+   "xref": 1651,
    "rect": [
     0.0,
     -0.0,
@@ -11653,31 +11653,31 @@
    "score": 0.996,
    "files": [
     [
-     "c6/x1654-d98659-960.webp",
+     "c6/x1651-d98659-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1654-d98659-1600.webp",
+     "c6/x1651-d98659-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1654-d98659-2000.webp",
+     "c6/x1651-d98659-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#537483",
    "pageimg": [
-    "page/x1654-d98659-2000.webp",
+    "page/x1651-d98659-2000.webp",
     2000,
     2667
    ]
   },
   {
    "page": 195,
-   "xref": 1661,
+   "xref": 1658,
    "rect": [
     -1.2,
     0.0,
@@ -11692,26 +11692,26 @@
    "score": 0.772,
    "files": [
     [
-     "c6/x1661-960.webp",
+     "c6/x1658-960.webp",
      960,
      516
     ],
     [
-     "c6/x1661-1162.webp",
+     "c6/x1658-1162.webp",
      1162,
      625
     ]
    ],
    "avg": "#a7b0bf",
    "pageimg": [
-    "page/x1661-1162.webp",
+    "page/x1658-1162.webp",
     1162,
     625
    ]
   },
   {
    "page": 196,
-   "xref": 1668,
+   "xref": 1665,
    "rect": [
     785.3,
     0.7,
@@ -11731,31 +11731,31 @@
    "score": 0.995,
    "files": [
     [
-     "c6/x1668-27cb4b-960.webp",
+     "c6/x1665-27cb4b-960.webp",
      960,
      524
     ],
     [
-     "c6/x1668-27cb4b-1600.webp",
+     "c6/x1665-27cb4b-1600.webp",
      1600,
      873
     ],
     [
-     "c6/x1668-27cb4b-2560.webp",
+     "c6/x1665-27cb4b-2560.webp",
      2560,
      1396
     ]
    ],
    "avg": "#75593c",
    "pageimg": [
-    "page/x1668-27cb4b-2400.webp",
+    "page/x1665-27cb4b-2400.webp",
     2400,
     1451
    ]
   },
   {
    "page": 197,
-   "xref": 1675,
+   "xref": 1672,
    "rect": [
     452.4,
     -0.0,
@@ -11775,31 +11775,31 @@
    "score": 0.993,
    "files": [
     [
-     "c6/x1675-b07dbe-960.webp",
+     "c6/x1672-b07dbe-960.webp",
      960,
      1280
     ],
     [
-     "c6/x1675-b07dbe-1600.webp",
+     "c6/x1672-b07dbe-1600.webp",
      1600,
      2134
     ],
     [
-     "c6/x1675-b07dbe-2000.webp",
+     "c6/x1672-b07dbe-2000.webp",
      2000,
      2667
     ]
    ],
    "avg": "#4a5667",
    "pageimg": [
-    "page/x1675-b07dbe-1952.webp",
+    "page/x1672-b07dbe-1952.webp",
     1952,
     2667
    ]
   },
   {
    "page": 198,
-   "xref": 1682,
+   "xref": 1679,
    "rect": [
     789.5,
     0.7,
@@ -11819,31 +11819,31 @@
    "score": 0.982,
    "files": [
     [
-     "c6/x1682-dec614-960.webp",
+     "c6/x1679-dec614-960.webp",
      960,
      524
     ],
     [
-     "c6/x1682-dec614-1600.webp",
+     "c6/x1679-dec614-1600.webp",
      1600,
      873
     ],
     [
-     "c6/x1682-dec614-2560.webp",
+     "c6/x1679-dec614-2560.webp",
      2560,
      1396
     ]
    ],
    "avg": "#313035",
    "pageimg": [
-    "page/x1682-dec614-2400.webp",
+    "page/x1679-dec614-2400.webp",
     2400,
     1459
    ]
   },
   {
    "page": 199,
-   "xref": 1689,
+   "xref": 1686,
    "rect": [
     0.0,
     -1.2,
@@ -11863,31 +11863,31 @@
    "score": 0.952,
    "files": [
     [
-     "c6/x1689-860b9a-960.webp",
+     "c6/x1686-860b9a-960.webp",
      960,
      540
     ],
     [
-     "c6/x1689-860b9a-1600.webp",
+     "c6/x1686-860b9a-1600.webp",
      1600,
      900
     ],
     [
-     "c6/x1689-860b9a-2560.webp",
+     "c6/x1686-860b9a-2560.webp",
      2560,
      1440
     ]
    ],
    "avg": "#404555",
    "pageimg": [
-    "page/x1689-860b9a-2400.webp",
+    "page/x1686-860b9a-2400.webp",
     2400,
     1519
    ]
   },
   {
    "page": 200,
-   "xref": 1696,
+   "xref": 1693,
    "rect": [
     -1.1,
     -1.1,
@@ -11907,31 +11907,31 @@
    "score": 0.912,
    "files": [
     [
-     "c6/x1696-a1010a-960.webp",
+     "c6/x1693-a1010a-960.webp",
      960,
      330
     ],
     [
-     "c6/x1696-a1010a-1600.webp",
+     "c6/x1693-a1010a-1600.webp",
      1600,
      550
     ],
     [
-     "c6/x1696-a1010a-2560.webp",
+     "c6/x1693-a1010a-2560.webp",
      2560,
      881
     ]
    ],
    "avg": "#7a8497",
    "pageimg": [
-    "page/x1696-a1010a-2400.webp",
+    "page/x1693-a1010a-2400.webp",
     2400,
     826
    ]
   },
   {
    "page": 201,
-   "xref": 1703,
+   "xref": 1700,
    "rect": [
     -1.1,
     -0.0,
@@ -11951,31 +11951,31 @@
    "score": 0.93,
    "files": [
     [
-     "c6/x1703-194b7d-960.webp",
+     "c6/x1700-194b7d-960.webp",
      960,
      720
     ],
     [
-     "c6/x1703-194b7d-1600.webp",
+     "c6/x1700-194b7d-1600.webp",
      1600,
      1200
     ],
     [
-     "c6/x1703-194b7d-2560.webp",
+     "c6/x1700-194b7d-2560.webp",
      2560,
      1920
     ]
    ],
    "avg": "#73829a",
    "pageimg": [
-    "page/x1703-194b7d-2400.webp",
+    "page/x1700-194b7d-2400.webp",
     2400,
     1649
    ]
   },
   {
    "page": 201,
-   "xref": 1707,
+   "xref": 1704,
    "rect": [
     1359.5,
     -0.0,
@@ -11995,26 +11995,26 @@
    "score": 0.984,
    "files": [
     [
-     "c6/x1707-043fe5-480.webp",
+     "c6/x1704-043fe5-480.webp",
      480,
      643
     ],
     [
-     "c6/x1707-043fe5-900.webp",
+     "c6/x1704-043fe5-900.webp",
      900,
      1205
     ]
    ],
    "avg": "#3a404b",
    "pageimg": [
-    "page/x1707-043fe5-1760.webp",
+    "page/x1704-043fe5-1760.webp",
     1760,
     2400
    ]
   },
   {
    "page": 202,
-   "xref": 1714,
+   "xref": 1711,
    "rect": [
     711.1,
     -1.3,
@@ -12034,31 +12034,31 @@
    "score": 0.953,
    "files": [
     [
-     "c6/x1714-a236bb-960.webp",
+     "c6/x1711-a236bb-960.webp",
      960,
      524
     ],
     [
-     "c6/x1714-a236bb-1600.webp",
+     "c6/x1711-a236bb-1600.webp",
      1600,
      873
     ],
     [
-     "c6/x1714-a236bb-2560.webp",
+     "c6/x1711-a236bb-2560.webp",
      2560,
      1396
     ]
    ],
    "avg": "#445b7d",
    "pageimg": [
-    "page/x1714-a236bb-2400.webp",
+    "page/x1711-a236bb-2400.webp",
     2400,
     1364
    ]
   },
   {
    "page": 203,
-   "xref": 1721,
+   "xref": 1718,
    "rect": [
     0.0,
     -1.2,
@@ -12078,26 +12078,989 @@
    "score": 0.995,
    "files": [
     [
-     "c6/x1721-d7ca05-960.webp",
+     "c6/x1718-d7ca05-960.webp",
      960,
      540
     ],
     [
-     "c6/x1721-d7ca05-1600.webp",
+     "c6/x1718-d7ca05-1600.webp",
      1600,
      900
     ],
     [
-     "c6/x1721-d7ca05-2560.webp",
+     "c6/x1718-d7ca05-2560.webp",
      2560,
      1440
     ]
    ],
    "avg": "#4f6a95",
    "pageimg": [
-    "page/x1721-d7ca05-2400.webp",
+    "page/x1718-d7ca05-2400.webp",
     2400,
     1362
+   ]
+  },
+  {
+   "page": 206,
+   "xref": 1729,
+   "rect": [
+    0.0,
+    69.8,
+    481.9,
+    553.4
+   ],
+   "chapter": 7,
+   "before": " trung. Tất cả đều đứt đoạn. Giữa khoảng không vô tận chỉ còn lại tiếng nước chuyển mình và nhịp tim đơn độc của chính cậu đang đập thình thịch trong lồng ngực.",
+   "after": "Brann chìm dần. Chiếc mũ lông văng khỏi đầu, xoay một vòng lười biếng trong dòng nước xoáy rồi mất hút. Tấm áo choàng phồng lên quanh thân hình cậu như một chiế",
+   "kind": "inline",
+   "source": "boi canh/chuong 7/ref32_01_minh_roi_bien_may/renders/ref32_01_render copy.jpg",
+   "diff": [
+    2.0,
+    5.9
+   ],
+   "match": "boi canh/chuong 7/ref32_01_minh_roi_bien_may/renders/ref32_01_render copy.jpg",
+   "score": 0.997,
+   "files": [
+    [
+     "c7/x1729-38c298-720.webp",
+     720,
+     960
+    ],
+    [
+     "c7/x1729-38c298-1280.webp",
+     1280,
+     1707
+    ]
+   ],
+   "avg": "#5680a7",
+   "pageimg": [
+    "page/x1729-38c298-2000.webp",
+    2000,
+    2013
+   ]
+  },
+  {
+   "page": 206,
+   "xref": 1733,
+   "rect": [
+    905.8,
+    0.9,
+    1815.5,
+    622.7
+   ],
+   "chapter": 7,
+   "before": " trung. Tất cả đều đứt đoạn. Giữa khoảng không vô tận chỉ còn lại tiếng nước chuyển mình và nhịp tim đơn độc của chính cậu đang đập thình thịch trong lồng ngực.",
+   "after": "Brann chìm dần. Chiếc mũ lông văng khỏi đầu, xoay một vòng lười biếng trong dòng nước xoáy rồi mất hút. Tấm áo choàng phồng lên quanh thân hình cậu như một chiế",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_09_minh_lao_xuong/renders/ref32_09_minh_lao_xuong_300spp.png",
+   "diff": [
+    0.7,
+    1.3
+   ],
+   "match": "boi canh/chuong 7/ref32_09_minh_lao_xuong/renders/ref32_09_minh_lao_xuong_300spp.png",
+   "score": 0.999,
+   "files": [
+    [
+     "c7/x1733-c67728-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1733-c67728-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1733-c67728-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#1b4a7a",
+   "pageimg": [
+    "page/x1733-c67728-2400.webp",
+    2400,
+    1643
+   ]
+  },
+  {
+   "page": 207,
+   "xref": 1740,
+   "rect": [
+    0.0,
+    0.0,
+    1814.2,
+    623.6
+   ],
+   "chapter": 7,
+   "before": " trung. Tất cả đều đứt đoạn. Giữa khoảng không vô tận chỉ còn lại tiếng nước chuyển mình và nhịp tim đơn độc của chính cậu đang đập thình thịch trong lồng ngực.",
+   "after": "Brann chìm dần. Chiếc mũ lông văng khỏi đầu, xoay một vòng lười biếng trong dòng nước xoáy rồi mất hút. Tấm áo choàng phồng lên quanh thân hình cậu như một chiế",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref02_bien_dem_trang/renders/ref02_bien_dem_trang_2_render copy.jpg",
+   "diff": [
+    0.7,
+    1.5
+   ],
+   "match": "boi canh/chuong 7/ref02_bien_dem_trang/renders/ref02_bien_dem_trang_2_render copy.jpg",
+   "score": 0.998,
+   "files": [
+    [
+     "c7/x1740-0763ea-960.webp",
+     960,
+     330
+    ],
+    [
+     "c7/x1740-0763ea-1600.webp",
+     1600,
+     550
+    ],
+    [
+     "c7/x1740-0763ea-2560.webp",
+     2560,
+     880
+    ]
+   ],
+   "avg": "#2a5074",
+   "pageimg": [
+    "page/x1740-0763ea-2400.webp",
+    2400,
+    825
+   ]
+  },
+  {
+   "page": 208,
+   "xref": 1747,
+   "rect": [
+    0.0,
+    -1.2,
+    1116.9,
+    624.7
+   ],
+   "chapter": 7,
+   "before": " trung. Tất cả đều đứt đoạn. Giữa khoảng không vô tận chỉ còn lại tiếng nước chuyển mình và nhịp tim đơn độc của chính cậu đang đập thình thịch trong lồng ngực.",
+   "after": "Brann chìm dần. Chiếc mũ lông văng khỏi đầu, xoay một vòng lười biếng trong dòng nước xoáy rồi mất hút. Tấm áo choàng phồng lên quanh thân hình cậu như một chiế",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_03_xuong_thuy_quai/renders/ref32_03_xuong_thuy_quai_300spp copy.jpg",
+   "diff": [
+    0.8,
+    2.4
+   ],
+   "match": "boi canh/chuong 7/ref32_03_xuong_thuy_quai/renders/ref32_03_xuong_thuy_quai_300spp copy.jpg",
+   "score": 0.997,
+   "files": [
+    [
+     "c7/x1747-d6b8b5-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1747-d6b8b5-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1747-d6b8b5-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#1c6194",
+   "pageimg": [
+    "page/x1747-d6b8b5-2400.webp",
+    2400,
+    1350
+   ]
+  },
+  {
+   "page": 209,
+   "xref": 1754,
+   "rect": [
+    701.6,
+    -1.4,
+    1815.5,
+    625.1
+   ],
+   "chapter": 7,
+   "before": "cậu hoàn toàn không thấy sợ. Cho đến khi lưng cậu chạm phải một thứ gì đó mềm mại. Không phải đá ngầm. Cũng chẳng phải rong biển. Brann nặng nhọc ngoái đầu lại.",
+   "after": "Giăng ngang vùng nước tối là một tấm lưới khổng lồ được bện từ những sợi dây to bằng cổ tay. Mỗi mắt lưới rộng bằng cả sải tay người lớn, trải dài sang hai phía",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref02_bien_dem_trang/renders/ref02_render_2 copy.jpg",
+   "diff": [
+    1.2,
+    3.8
+   ],
+   "match": "boi canh/chuong 7/ref02_bien_dem_trang/renders/ref02_render_2 copy.jpg",
+   "score": 0.989,
+   "files": [
+    [
+     "c7/x1754-6c99e9-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1754-6c99e9-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1754-6c99e9-1920.webp",
+     1920,
+     1080
+    ]
+   ],
+   "avg": "#4b667e",
+   "pageimg": [
+    "page/x1754-6c99e9-1920.webp",
+    1920,
+    1080
+   ]
+  },
+  {
+   "page": 211,
+   "xref": 1761,
+   "rect": [
+    452.3,
+    -0.0,
+    908.3,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "eng keng yếu ớt mỗi khi dòng nước lướt qua. Cả tấm lưới khổng lồ là một bảo tàng câm lặng lưu giữ những thứ người đời buộc phải bỏ lại khi bị thần chết mang đi.",
+   "after": "Cậu cố lục tìm trong trí nhớ xem mình vừa bỏ quên thứ gì trên mặt nước. À, chiếc mũ lông. Brann bật cười. Một tiếng cười không thành tiếng, chỉ hóa thành vài bọ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref04_bien_bao/renders/ref04_bien_bao_300spp copy.png",
+   "diff": [
+    1.1,
+    3.0
+   ],
+   "match": "boi canh/chuong 7/ref04_bien_bao/renders/ref04_bien_bao_300spp copy.png",
+   "score": 0.999,
+   "files": [
+    [
+     "c7/x1761-0023ca-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1761-0023ca-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1761-0023ca-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#6b7683",
+   "pageimg": [
+    "page/x1761-0023ca-1952.webp",
+    1952,
+    2667
+   ]
+  },
+  {
+   "page": 212,
+   "xref": 1767,
+   "rect": [
+    -1.1,
+    -0.0,
+    1092.5,
+    624.7
+   ],
+   "chapter": 7,
+   "before": "vươn dài, cắm phập những chiếc răng nanh to hơn cả cột buồm xuống lớp bùn đen đặc, sừng sững như những cột mốc biên giới của một vương quốc cổ đại đã diệt vong.",
+   "after": "Brann ngừng hẳn việc giãy giụa. Cậu chợt nhớ lại câu chuyện từng nghe trong một đêm bão tuyết năm nào. Người kể chuyện đã nói rằng, có một con mãng xà khổng lồ ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref03_song_vo_mom_da/renders/ref03_song_vo_mom_da_300spp copy.jpg",
+   "diff": [
+    2.7,
+    9.6
+   ],
+   "match": "boi canh/chuong 7/ref03_song_vo_mom_da/renders/ref03_song_vo_mom_da_300spp copy.jpg",
+   "score": 0.977,
+   "files": [
+    [
+     "c7/x1767-83e001-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1767-83e001-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1767-83e001-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#5a626c",
+   "pageimg": [
+    "page/x1767-83e001-2400.webp",
+    2400,
+    1375
+   ]
+  },
+  {
+   "page": 213,
+   "xref": 1774,
+   "rect": [
+    764.3,
+    -0.0,
+    1815.4,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "gẩng cao. Cô lướt nhìn Brann từ đầu đến chân, dừng lại khá lâu ở bộ râu rậm rạp, rồi nghiêng đầu đánh giá cậu hệt như một thương nhân đang định giá món hàng lạ.",
+   "after": "Cô gái đuôi hồng bơi tới chậm hơn một nhịp. Làn da cô ửng hồng màu quả đào chín, mái tóc mềm mại mang sắc san hô ngâm trong sữa tươi, những cánh vây mỏng nơi và",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref29_bao_tau_buom/renders/ref29_bao_tau_buom_300spp copy.jpg",
+   "diff": [
+    0.7,
+    1.7
+   ],
+   "match": "boi canh/chuong 7/ref29_bao_tau_buom/renders/ref29_bao_tau_buom_300spp copy.jpg",
+   "score": 0.998,
+   "files": [
+    [
+     "c7/x1774-5c2615-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1774-5c2615-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1774-5c2615-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#6d665e",
+   "pageimg": [
+    "page/x1774-5c2615-2400.webp",
+    2400,
+    1426
+   ]
+  },
+  {
+   "page": 214,
+   "xref": 1781,
+   "rect": [
+    -1.2,
+    -0.0,
+    454.8,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "ì. “Tay chàng ấy đang phát sáng kìa,” cô gái đuôi hồng khẽ thốt lên. “Còn sống mà lại phát sáng. Kỳ quặc thật.” “Chàng ta có râu.” “Rất nhiều râu là đằng khác.”",
+   "after": "Hai chị em quay sang nhìn nhau, rồi đồng loạt gật đầu cái rụp như vừa thống nhất xong một quyết định vô cùng hệ trọng. Cô gái đuôi hồng rút từ mái tóc mình ra m",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref01_lach_bang_tien_ca/renders/ref01_render copy.jpg",
+   "diff": [
+    1.2,
+    3.0
+   ],
+   "match": "boi canh/chuong 7/ref01_lach_bang_tien_ca/renders/ref01_render copy.jpg",
+   "score": 0.998,
+   "files": [
+    [
+     "c7/x1781-265f1b-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1781-265f1b-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1781-265f1b-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#758fa5",
+   "pageimg": [
+    "page/x1781-265f1b-1952.webp",
+    1952,
+    2667
+   ]
+  },
+  {
+   "page": 214,
+   "xref": 1785,
+   "rect": [
+    905.9,
+    -0.0,
+    1361.8,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "người lớn khi chịu buông tay đứa trẻ cứng đầu. Tấm lưới lặng lẽ thu mình rút về phía bóng tối vực sâu, mang theo chiếc ủng mục, chiếc tù và cùng cái chuông nhỏ.",
+   "after": "Tiếng chuông leng keng vang lên một nhịp cuối cùng trong nước, nghe như một lời vẫy chào tạm biệt. Hai nàng tiên cá luồn tay xốc nách Brann lên. Họ dìu cậu bơi ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref08_duoi_nuoc_nhin_len/renders/ref08_duoi_nuoc_nhin_len_render copy.jpg",
+   "diff": [
+    1.2,
+    2.8
+   ],
+   "match": "boi canh/chuong 7/ref08_duoi_nuoc_nhin_len/renders/ref08_duoi_nuoc_nhin_len_render copy.jpg",
+   "score": 0.989,
+   "files": [
+    [
+     "c7/x1785-8461f0-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1785-8461f0-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1785-8461f0-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#6891a6",
+   "pageimg": [
+    "page/x1785-8461f0-1952.webp",
+    1952,
+    2667
+   ]
+  },
+  {
+   "page": 215,
+   "xref": 1792,
+   "rect": [
+    905.9,
+    -0.0,
+    1361.8,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "hẳng khác nào người ta vắt một chiếc khăn lau. “Chắc phải đong đầy cả một cái hồ con.” “Chị này,” cô em khẽ nhắc. “Thì chị đang khen chàng ta bụng rộng còn gì.”",
+   "after": "Brann nằm ngửa trên đá, mở bừng mắt nhìn lên bầu trời. Vòm trời phía trên đục lờ như màu sữa. Một vầng trăng khuyết treo lơ lửng thấp thoáng sau màn sương mù, n",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref05_hem_da_tien_ca/renders/ref05_hem_da_tien_ca_render_v2 copy.jpg",
+   "diff": [
+    1.4,
+    3.8
+   ],
+   "match": "boi canh/chuong 7/ref05_hem_da_tien_ca/renders/ref05_hem_da_tien_ca_render_v2 copy.jpg",
+   "score": 0.996,
+   "files": [
+    [
+     "c7/x1792-6fe46f-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1792-6fe46f-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1792-6fe46f-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#97735a",
+   "pageimg": [
+    "page/x1792-6fe46f-1952.webp",
+    1952,
+    2667
+   ]
+  },
+  {
+   "page": 216,
+   "xref": 1799,
+   "rect": [
+    726.8,
+    -1.0,
+    1815.2,
+    624.7
+   ],
+   "chapter": 7,
+   "before": "của muối, mùi nồng của tảo biển, và kỳ lạ thay, phảng phất cả một hương thơm ngòn ngọt, ấm áp như mùi bánh mì mới nướng vọng về từ một miền ký ức xa xôi nào đó.",
+   "after": "Và ở tận cùng đường chân trời mờ sương, một ngọn đồi màu trắng xóa nhô hẳn lên khỏi mặt nước.Không. Không phải ngọn đồi. Brann lập tức nhận ra những đường cong ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref26_thuyen_buom_cam/renders/ref26_thuyen_buom_cam_render_cu.png",
+   "diff": [
+    11.6,
+    38.8
+   ],
+   "match": "boi canh/chuong 7/ref26_thuyen_buom_cam/renders/ref26_thuyen_buom_cam_render_cu.png",
+   "score": 0.805,
+   "files": [
+    [
+     "c7/x1799-ae2633-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1799-ae2633-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1799-ae2633-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#808287",
+   "pageimg": [
+    "page/x1799-ae2633-2400.webp",
+    2400,
+    1381
+   ]
+  },
+  {
+   "page": 217,
+   "xref": 1806,
+   "rect": [
+    -1.2,
+    -0.0,
+    460.6,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "nh. Thực ra là cả một danh sách dài mới đúng. Nào là ‘Liv’, nào là ‘Skadi’, rồi lại ‘Ta ổn mà’. Riêng câu cuối cùng thì nghe giống một lời nói dối vụng về đấy.”",
+   "after": "Brann há miệng định nói gì đó, rồi lại ngậm chặt lại. Một lúc sau, cậu mới khàn giọng: “…Cảm ơn hai cô.” “Khoan hãy cảm ơn,” Unn phẩy tay. “Chàng còn chưa bỏ bụ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref13_ho_rung_dem/renders/ref13_ho_rung_dem_300spp copy.jpg",
+   "diff": [
+    1.5,
+    4.5
+   ],
+   "match": "boi canh/chuong 7/ref13_ho_rung_dem/renders/ref13_ho_rung_dem_300spp copy.jpg",
+   "score": 0.994,
+   "files": [
+    [
+     "c7/x1806-9f8578-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1806-9f8578-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1806-9f8578-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#2d4856",
+   "pageimg": [
+    "page/x1806-9f8578-1976.webp",
+    1976,
+    2667
+   ]
+  },
+  {
+   "page": 217,
+   "xref": 1810,
+   "rect": [
+    905.9,
+    -0.0,
+    1367.7,
+    623.6
+   ],
+   "chapter": 7,
+   "before": " Thế nhưng sau vài miếng đầu tiên, cậu bỗng ăn chậm lại, nhấm nháp từng chút một như thể sợ rằng nếu mình cử động mạnh quá, giấc mơ kỳ lạ này sẽ lập tức vỡ tan.",
+   "after": "Cánh tay trái của cậu lại bắt đầu nhức nhối. Những cụm nấm ký sinh vốn đã nằm im suốt mấy ngày băng rừng lội suối, nay gặp hơi lạnh của biển cả liền cựa mình th",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_06_tien_ca_va_nguoi_tao/renders/ref32_06_tien_ca_va_nguoi_tao_300spp copy.jpg",
+   "diff": [
+    1.1,
+    2.7
+   ],
+   "match": "boi canh/chuong 7/ref32_06_tien_ca_va_nguoi_tao/renders/ref32_06_tien_ca_va_nguoi_tao_300spp copy.jpg",
+   "score": 0.999,
+   "files": [
+    [
+     "c7/x1810-af39b4-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1810-af39b4-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1810-af39b4-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#4a5d4b",
+   "pageimg": [
+    "page/x1810-af39b4-1976.webp",
+    1976,
+    2667
+   ]
+  },
+  {
+   "page": 218,
+   "xref": 1817,
+   "rect": [
+    810.2,
+    -0.0,
+    1815.4,
+    623.6
+   ],
+   "chapter": 7,
+   "before": "ẳng, kéo áo choàng đắp kín người, đầu gối lên chiếc túi hành lý mới chỉ khô được một nửa. Cậu mở to mắt nhìn trăng, hoàn toàn không có ý định chìm vào giấc ngủ.",
+   "after": "Thoạt đầu, cậu ngỡ đó là tiếng gió lùa qua vách đá. Một ngân âm kéo rất dài, mềm mại như sương khói từ đáy biển vọng lên. Rồi âm thanh ấy khẽ tách làm hai bè. M",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref20_tien_ca_hai_au/renders/ref20_tien_ca_hai_au_300spp copy.jpg",
+   "diff": [
+    1.5,
+    5.5
+   ],
+   "match": "boi canh/chuong 7/ref20_tien_ca_hai_au/renders/ref20_tien_ca_hai_au_300spp copy.jpg",
+   "score": 0.985,
+   "files": [
+    [
+     "c7/x1817-67cdd5-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1817-67cdd5-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1817-67cdd5-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#554348",
+   "pageimg": [
+    "page/x1817-67cdd5-2400.webp",
+    2400,
+    1490
+   ]
+  },
+  {
+   "page": 219,
+   "xref": 1824,
+   "rect": [
+    0.0,
+    -1.1,
+    907.1,
+    624.7
+   ],
+   "chapter": 7,
+   "before": "ẳng, kéo áo choàng đắp kín người, đầu gối lên chiếc túi hành lý mới chỉ khô được một nửa. Cậu mở to mắt nhìn trăng, hoàn toàn không có ý định chìm vào giấc ngủ.",
+   "after": "Thoạt đầu, cậu ngỡ đó là tiếng gió lùa qua vách đá. Một ngân âm kéo rất dài, mềm mại như sương khói từ đáy biển vọng lên. Rồi âm thanh ấy khẽ tách làm hai bè. M",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref22_xac_thuyen/renders/ref22_xac_thuyen_300spp copy.jpg",
+   "diff": [
+    0.8,
+    2.2
+   ],
+   "match": "boi canh/chuong 7/ref22_xac_thuyen/renders/ref22_xac_thuyen_300spp copy.jpg",
+   "score": 0.998,
+   "files": [
+    [
+     "c7/x1824-86cf4f-960.webp",
+     960,
+     720
+    ],
+    [
+     "c7/x1824-86cf4f-1600.webp",
+     1600,
+     1200
+    ],
+    [
+     "c7/x1824-86cf4f-2560.webp",
+     2560,
+     1920
+    ]
+   ],
+   "avg": "#93897e",
+   "pageimg": [
+    "page/x1824-86cf4f-2400.webp",
+    2400,
+    1650
+   ]
+  },
+  {
+   "page": 220,
+   "xref": 1831,
+   "rect": [
+    907.1,
+    56.7,
+    1814.2,
+    566.9
+   ],
+   "chapter": 7,
+   "before": "sương đã tan bớt, để lộ ra vòm trời màu trắng sữa. Nơi rìa đá, hai chị em Unn và Kolga đang say ngủ, đầu tựa vào vai nhau, hai chiếc đuôi cá quấn quýt lấy nhau.",
+   "after": "Một bên cánh tay của Kolga buông thõng xuống mặt biển; mỗi khi con sóng nhỏ dập dềnh lướt qua, những ngón tay mềm mại của cô lại khẽ đung đưa như đang vuốt ve m",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref27_vinh_da_tien_ca/renders/ref27_vinh_da_tien_ca_render copy.jpg",
+   "diff": [
+    0.8,
+    2.2
+   ],
+   "match": "boi canh/chuong 7/ref27_vinh_da_tien_ca/renders/ref27_vinh_da_tien_ca_render copy.jpg",
+   "score": 0.999,
+   "files": [
+    [
+     "c7/x1831-c1bd7b-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1831-c1bd7b-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1831-c1bd7b-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#72675c",
+   "pageimg": [
+    "page/x1831-c1bd7b-2400.webp",
+    2400,
+    1350
+   ]
+  },
+  {
+   "page": 221,
+   "xref": 1838,
+   "rect": [
+    -1.3,
+    47.9,
+    908.4,
+    575.8
+   ],
+   "chapter": 7,
+   "before": "sương đã tan bớt, để lộ ra vòm trời màu trắng sữa. Nơi rìa đá, hai chị em Unn và Kolga đang say ngủ, đầu tựa vào vai nhau, hai chiếc đuôi cá quấn quýt lấy nhau.",
+   "after": "Một bên cánh tay của Kolga buông thõng xuống mặt biển; mỗi khi con sóng nhỏ dập dềnh lướt qua, những ngón tay mềm mại của cô lại khẽ đung đưa như đang vuốt ve m",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref30_ca_voi_thuyen_nho/renders/ref30_ca_voi_thuyen_nho_300spp copy.jpg",
+   "diff": [
+    6.5,
+    21.0
+   ],
+   "match": "boi canh/chuong 7/ref30_ca_voi_thuyen_nho/renders/ref30_ca_voi_thuyen_nho_300spp copy.jpg",
+   "score": 0.864,
+   "files": [
+    [
+     "c7/x1838-3c6030-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1838-3c6030-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1838-3c6030-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#76b8c4",
+   "pageimg": [
+    "page/x1838-3c6030-2400.webp",
+    2400,
+    1393
+   ]
+  },
+  {
+   "page": 222,
+   "xref": 1845,
+   "rect": [
+    806.8,
+    0.9,
+    1815.3,
+    622.7
+   ],
+   "chapter": 7,
+   "before": "cô lại đột ngột im bặt, phóng tầm mắt nhìn đăm đăm ra vùng biển xa xăm hướng về một khoảng nước trống không mà Brann căng mắt ra cũng chẳng thấy có gì đặc biệt.",
+   "after": "Chợt Brann nhớ lại âm thanh trầm đục, đều đặn mà mình từng nghe thấy vào cái đêm đầu tiên tỉnh dậy. Mặt biển phồng lên rồi xẹp xuống như lồng ngực của một cự th",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_04_tien_ca_rung_tao/renders/ref32_04_tien_ca_rung_tao_300spp copy.jpg",
+   "diff": [
+    0.9,
+    2.4
+   ],
+   "match": "boi canh/chuong 7/ref32_04_tien_ca_rung_tao/renders/ref32_04_tien_ca_rung_tao_300spp copy.jpg",
+   "score": 0.995,
+   "files": [
+    [
+     "c7/x1845-15e9a9-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1845-15e9a9-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1845-15e9a9-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#497e7b",
+   "pageimg": [
+    "page/x1845-15e9a9-2400.webp",
+    2400,
+    1475
+   ]
+  },
+  {
+   "page": 223,
+   "xref": 1852,
+   "rect": [
+    -1.2,
+    -1.2,
+    1815.3,
+    624.8
+   ],
+   "chapter": 7,
+   "before": "cô lại đột ngột im bặt, phóng tầm mắt nhìn đăm đăm ra vùng biển xa xăm hướng về một khoảng nước trống không mà Brann căng mắt ra cũng chẳng thấy có gì đặc biệt.",
+   "after": "Chợt Brann nhớ lại âm thanh trầm đục, đều đặn mà mình từng nghe thấy vào cái đêm đầu tiên tỉnh dậy. Mặt biển phồng lên rồi xẹp xuống như lồng ngực của một cự th",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_02_lang_tren_xuong_may_bay/renders/ref32_02_lang_tren_xuong_may_bay_300spp.png",
+   "diff": [
+    3.2,
+    11.0
+   ],
+   "match": "boi canh/chuong 7/ref32_02_lang_tren_xuong_may_bay/renders/ref32_02_lang_tren_xuong_may_bay_300spp.png",
+   "score": 0.934,
+   "files": [
+    [
+     "c7/x1852-2dbb44-960.webp",
+     960,
+     330
+    ],
+    [
+     "c7/x1852-2dbb44-1600.webp",
+     1600,
+     550
+    ],
+    [
+     "c7/x1852-2dbb44-2560.webp",
+     2560,
+     880
+    ]
+   ],
+   "avg": "#8eb0a2",
+   "pageimg": [
+    "page/x1852-2dbb44-2400.webp",
+    2400,
+    831
+   ]
+  },
+  {
+   "page": 224,
+   "xref": 1859,
+   "rect": [
+    -1.1,
+    0.9,
+    908.2,
+    622.7
+   ],
+   "chapter": 7,
+   "before": "cô lại đột ngột im bặt, phóng tầm mắt nhìn đăm đăm ra vùng biển xa xăm hướng về một khoảng nước trống không mà Brann căng mắt ra cũng chẳng thấy có gì đặc biệt.",
+   "after": "Chợt Brann nhớ lại âm thanh trầm đục, đều đặn mà mình từng nghe thấy vào cái đêm đầu tiên tỉnh dậy. Mặt biển phồng lên rồi xẹp xuống như lồng ngực của một cự th",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref24_bai_bien_trang/renders/ref24_bai_bien_trang_300spp copy.jpg",
+   "diff": [
+    1.2,
+    3.5
+   ],
+   "match": "boi canh/chuong 7/ref24_bai_bien_trang/renders/ref24_bai_bien_trang_300spp copy.jpg",
+   "score": 0.996,
+   "files": [
+    [
+     "c7/x1859-6e2ade-960.webp",
+     960,
+     540
+    ],
+    [
+     "c7/x1859-6e2ade-1600.webp",
+     1600,
+     900
+    ],
+    [
+     "c7/x1859-6e2ade-2560.webp",
+     2560,
+     1440
+    ]
+   ],
+   "avg": "#4f5b6b",
+   "pageimg": [
+    "page/x1859-6e2ade-2400.webp",
+    2400,
+    1643
+   ]
+  },
+  {
+   "page": 227,
+   "xref": 1870,
+   "rect": [
+    1359.6,
+    -0.0,
+    1815.2,
+    623.7
+   ],
+   "chapter": 7,
+   "before": "san hô nhìn theo bóng lưng hắn, đôi bàn tay vẫn ngơ ngác chìa ra phía trước, như thể sợ rằng người ta đi vội quá mà quên chưa lấy nốt phần còn lại của tim mình.",
+   "after": "Người thứ hai là một gã thủy thủ loài người may mắn sống sót sau vụ đắm tàu. Cô đã cưu mang hắn suốt một mùa đông lạnh giá, trao cho hắn chiếc tù và uống nước, ",
+   "kind": "full",
+   "source": "boi canh/chuong 7/ref32_05_thuyen_cam_tren_xuong/renders/ref32_05_thuyen_cam_tren_xuong_300spp copy.jpg",
+   "diff": [
+    1.2,
+    3.3
+   ],
+   "match": "boi canh/chuong 7/ref32_05_thuyen_cam_tren_xuong/renders/ref32_05_thuyen_cam_tren_xuong_300spp copy.jpg",
+   "score": 0.99,
+   "files": [
+    [
+     "c7/x1870-fa9bca-960.webp",
+     960,
+     1280
+    ],
+    [
+     "c7/x1870-fa9bca-1600.webp",
+     1600,
+     2134
+    ],
+    [
+     "c7/x1870-fa9bca-2000.webp",
+     2000,
+     2667
+    ]
+   ],
+   "avg": "#344945",
+   "pageimg": [
+    "page/x1870-fa9bca-1952.webp",
+    1952,
+    2667
    ]
   }
  ]
