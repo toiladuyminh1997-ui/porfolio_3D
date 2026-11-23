@@ -187,7 +187,8 @@ if (renderer) {
     requestAnimationFrame(frame);
     // con lợn gần như ẩn (sau mục lục): vẽ cách một khung hình, đỡ tốn pin
     odd = !odd;
-    if (odd && cur.fade < 0.12) return;
+    // tranh bìa chương đang phủ kín (mục lục) thì cũng chỉ vẽ cách một khung
+    if (odd && (cur.fade < 0.12 || document.body.classList.contains('toc-cover-on'))) return;
     const dt = Math.min(clock.getDelta(), 0.05);
     if (!ready || document.hidden) return;
     const t = reduce ? 0 : clock.elapsedTime;

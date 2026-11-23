@@ -215,6 +215,30 @@ a.toc-row:hover .toc-t { transform: translateX(1.2rem); color: var(--accent); }
 .toc-list.hovering a.toc-row:not(:hover) { opacity: .35; }
 .toc-row { transition: opacity .5s; }
 .toc-soon { opacity: .4; }
+/* mục lục: tranh bìa của chương đang chọn phủ kín nền (lớp cố định, nằm trên con lợn 3D, dưới chữ) */
+.toc { position: relative; z-index: 1; }
+.toc-cover {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none; background: #07080b;
+  opacity: 0; visibility: hidden; transition: opacity 1s var(--ease), visibility 0s 1s;
+}
+.toc-cover-on .toc-cover { opacity: 1; visibility: visible; transition: opacity 1s var(--ease), visibility 0s; }
+.toc-cover img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 42%;
+  opacity: 0; transform: scale(1.08); transition: opacity 1.1s var(--ease), transform 9s cubic-bezier(.16, .6, .2, 1);
+}
+.toc-cover img.on { opacity: 1; transform: scale(1); }
+/* tối dần sang bên trái (cột chữ) + mép trên/dưới, giữ tranh rõ ở bên phải */
+.toc-cover::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(90deg, rgba(6, 7, 10, .84) 0%, rgba(6, 7, 10, .62) 42%, rgba(6, 7, 10, .3) 100%),
+    linear-gradient(180deg, rgba(6, 7, 10, .55) 0%, transparent 22%, transparent 72%, rgba(6, 7, 10, .7) 100%);
+}
+.toc-cover-on .toc-t, .toc-cover-on .toc-n, .toc-cover-on .toc-m, .toc-cover-on .toc-head { text-shadow: 0 2px 24px rgba(0, 0, 0, .7); }
+@media (max-width: 760px), (orientation: portrait) {
+  .toc-cover::after { background: linear-gradient(180deg, rgba(6, 7, 10, .7) 0%, rgba(6, 7, 10, .55) 45%, rgba(6, 7, 10, .78) 100%); }
+}
+@media (prefers-reduced-motion: reduce) { .toc-cover img { transform: none; transition: opacity .4s; } }
 
 .cursor-img {
   position: fixed; left: 0; top: 0; z-index: 20; pointer-events: none;

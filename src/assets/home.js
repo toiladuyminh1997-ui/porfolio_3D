@@ -63,18 +63,46 @@
     if (ci) ci.style.transform = `translate3d(${cx}px, ${cy}px, 0) translate(-50%, -50%) rotate(${(tx - cx) * .02}deg)`;
     requestAnimationFrame(follow);
   })();
+  /* tranh bìa chương làm ảnh nền mục lục: chương đang rê chuột / đang ở giữa màn hình */
+  const coverBox = $('#toc-cover');
+  const covers = coverBox ? $$('img', coverBox) : [];
+  const loadCover = img => {
+    if (img.src || !img.dataset.src) return;
+    if (img.dataset.srcset) img.srcset = img.dataset.srcset;
+    img.src = img.dataset.src;
+  };
+  let coverN = null;
+  const showCover = row => {
+    const img = row && covers.find(c => c.dataset.n === row.dataset.n);
+    body.classList.toggle('toc-cover-on', !!img);
+    if (!img || img.dataset.n === coverN) return;   // tắt: giữ tranh cũ để nó mờ dần cùng lớp nền
+    coverN = img.dataset.n;
+    loadCover(img);
+    covers.forEach(c => c.classList.toggle('on', c === img));
+  };
+  if (covers.length) {   // tải sẵn mọi tranh bìa khi mục lục còn cách một màn hình
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) { covers.forEach(loadCover); io.disconnect(); }
+    }, { rootMargin: '100% 0px' });
+    io.observe($('#muc-luc'));
+  }
+
   $$('a.toc-row').forEach(row => {
     row.addEventListener('pointerenter', () => {
       list.classList.add('hovering');
       body.classList.add('toc-tint');
       body.style.backgroundColor = row.dataset.bg;
       body.style.setProperty('--accent', row.dataset.accent);
+      showCover(row);
       if (row.dataset.img && ciImg) { ciImg.src = row.dataset.img; ci.classList.add('on'); }
     });
     row.addEventListener('pointerleave', () => {
       list.classList.remove('hovering');
-      body.classList.toggle('toc-tint', !!$('.toc-row.is-active'));
+      const act = $('.toc-row.is-active');
+      body.classList.toggle('toc-tint', !!act);
       body.style.backgroundColor = baseBg;
+      if (act) body.style.setProperty('--accent', act.dataset.accent);
+      showCover(act);
       ci && ci.classList.remove('on');
     });
   });
@@ -106,9 +134,11 @@
         if (!list.classList.contains('hovering')) {
           body.style.backgroundColor = best.dataset.bg;
           body.style.setProperty('--accent', best.dataset.accent);
+          showCover(best);
         }
       } else if (!list.classList.contains('hovering')) {
         body.style.backgroundColor = baseBg;
+        showCover(null);
       }
     };
     addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(pick); } }, { passive: true });

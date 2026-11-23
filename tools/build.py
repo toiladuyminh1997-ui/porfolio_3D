@@ -528,6 +528,31 @@ def build_chapter(ch, prev, nxt, placements):
     return {'words': words, 'mins': mins, 'hero': hero, 'imgs': len(imgs), 'misses': misses}
 
 
+def chapter_cover(ch, placements, fallback=None):
+    """Tranh bìa chương = ảnh lớn nhất trên trang tên chương (trang ch['page'] của PDF, nửa trái trang đôi)."""
+    cands = [p for p in placements if p['page'] == ch['page'] and p.get('files')
+             and p.get('kind') in ('full', 'inline')]
+    if not cands:
+        return fallback
+    return max(cands, key=lambda p: (p['rect'][2] - p['rect'][0]) * (p['rect'][3] - p['rect'][1]))
+
+
+def toc_covers(chapters, info, placements):
+    """Lớp nền mục lục: mỗi chương một tranh bìa, home.js bật tranh của chương đang chọn.
+    Ảnh chỉ tải (data-src -> src) khi mục lục sắp hiện, để không tranh băng thông với đầu trang."""
+    out = []
+    for ch in chapters:
+        cv = chapter_cover(ch, placements, info[ch['n']]['hero'])
+        if not cv:
+            continue
+        fs = img_files(cv)
+        USED.update(f for f, _, _ in fs)
+        srcset = ', '.join(f'{u_img(f)} {w}w' for f, w, _ in fs)
+        out.append(f'<img data-n="{ch["n"]}" data-src="{u_img(fs[-1][0])}" data-srcset="{srcset}" sizes="100vw" '
+                   f'alt="" decoding="async" style="background:{cv["avg"]}">')
+    return f'<div class="toc-cover" id="toc-cover" aria-hidden="true">{"".join(out)}</div>' if out else ''
+
+
 def build_index(chapters, info, placements):
     front = [p for p in placements if p.get('chapter') is None and p['kind'] in ('full', 'inline')]
     cover = front[0] if front else info[chapters[0]['n']]['hero']
@@ -535,7 +560,7 @@ def build_index(chapters, info, placements):
     for ch in chapters:
         h = info[ch['n']]['hero']
         thumb = img_src(h, 1) if h else ''
-        rows.append(f'''<a class="toc-row" href="{u_ch(ch['n'])}" data-bg="{ch['bg']}" data-accent="{ch['accent']}" data-img="{thumb}">
+        rows.append(f'''<a class="toc-row" href="{u_ch(ch['n'])}" data-n="{ch['n']}" data-bg="{ch['bg']}" data-accent="{ch['accent']}" data-img="{thumb}">
   <span class="toc-n">{ch['label']}</span>
   <span class="toc-t">{html.escape(ch['title'])}<em>{html.escape(ch['title_en'])}</em></span>
   <span class="toc-m">{info[ch['n']]['mins']} phút</span>
@@ -548,7 +573,8 @@ def build_index(chapters, info, placements):
     title_letters = ' '.join('<span class="word">' + ''.join(f'<span class="ch">{html.escape(c)}</span>' for c in w)
                              + '</span>' for w in unicodedata.normalize('NFC', BOOK['title']).split())
     tagline = ' '.join(f'<span class="w">{html.escape(w)}</span>' for w in BOOK['tagline'].split())
-    body = body_index(chapters, info, cover, rows, words, title_letters, tagline)
+    body = body_index(chapters, info, cover, rows, words, title_letters, tagline,
+                      toc_covers(chapters, info, placements))
     scripts = ('<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>'
                '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>'
                '<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>'
@@ -604,7 +630,7 @@ def hero_html(cover, title_letters):
             f'<div class="hero-text">{kicker}{title}</div>{cue}</section>')
 
 
-def body_index(chapters, info, cover, rows, words, title_letters, tagline):
+def body_index(chapters, info, cover, rows, words, title_letters, tagline, covers=''):
     words_s = f'{words:,}'.replace(',', '.')
     return f'''
 <div class="cursor-img" id="cursor-img"><img alt=""></div>
@@ -617,6 +643,7 @@ def body_index(chapters, info, cover, rows, words, title_letters, tagline):
   <p class="quote-text">{tagline}</p>
   <a class="btn" href="{u_ch(chapters[0]['n'])}">Bắt đầu đọc</a>
 </section>
+{covers}
 <section class="toc" id="muc-luc">
   <div class="toc-head"><h2>Mục lục</h2><span>{len(chapters)} chương · {words_s} chữ</span></div>
   <div class="toc-list">
