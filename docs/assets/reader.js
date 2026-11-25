@@ -105,7 +105,12 @@
      Chỉ ảnh của vài trang đôi gần nhất có canvas (trình duyệt giới hạn số ngữ cảnh WebGL). */
   const living = (() => {
     const VS = 'attribute vec2 p; varying vec2 uv; void main() { uv = vec2(p.x, -p.y) * .5 + .5; gl_Position = vec4(p, 0., 1.); }';
-    const FS = `precision mediump float;
+    // highp: ảnh trang tới 2400px, mediump (fp16 trên nhiều GPU) chỉ phân biệt ~2048 vị trí -> ảnh nhoè
+    const FS = `#ifdef GL_FRAGMENT_PRECISION_HIGH
+      precision highp float;
+      #else
+      precision mediump float;
+      #endif
       varying vec2 uv; uniform sampler2D img, map; uniform float t, amp, asp; uniform vec2 mouse, mrect;
       float h(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
       float n(vec2 p) { vec2 i = floor(p), f = fract(p); f = f * f * (3. - 2. * f);
@@ -170,7 +175,18 @@
       const loc = gl.getAttribLocation(pr, 'p');
       gl.enableVertexAttribArray(loc);
       gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
-      tex(gl, img, 0);
+      // WebGL1 không có mipmap cho ảnh NPOT: ảnh lớn hơn khung nhiều thì thu nhỏ trước (chất lượng cao),
+      // nếu không chi tiết nhỏ (lá cây đang lay) bị răng cưa, nhấp nháy
+      let src = img;
+      const tw = Math.round(box.offsetWidth * Math.min(devicePixelRatio || 1, 2) * 1.1);
+      if (tw > 64 && img.naturalWidth > tw * 1.25) {
+        src = document.createElement('canvas');
+        src.width = tw; src.height = Math.max(1, Math.round(tw * img.naturalHeight / img.naturalWidth));
+        const c2 = src.getContext('2d');
+        c2.imageSmoothingQuality = 'high';
+        c2.drawImage(img, 0, 0, src.width, src.height);
+      }
+      tex(gl, src, 0);
       tex(gl, map, 1);
       gl.uniform1i(gl.getUniformLocation(pr, 'img'), 0);
       gl.uniform1i(gl.getUniformLocation(pr, 'map'), 1);
@@ -191,13 +207,14 @@
     function frame() {
       raf = 0;
       if (document.hidden || isBook()) return;
-      const t = (performance.now() - t0) / 1000, dpr = Math.min(devicePixelRatio || 1, 1.5);
+      const t = (performance.now() - t0) / 1000, dpr = Math.min(devicePixelRatio || 1, 2);   // 1.5 làm ảnh mờ trên màn retina
       msx += (mx - msx) * .06; msy += (my - msy) * .06;
       let any = false;
       live.forEach((L, box) => {
         if (!L || !L.gl || !box.closest('.mv.on')) return;
         any = true;
-        const r = box.getBoundingClientRect(), w = Math.round(r.width * dpr), h = Math.round(r.height * dpr);
+        // cỡ layout (offsetWidth), không phải getBoundingClientRect: ảnh xoay theo bản dàn có hình bao lớn hơn khung
+        const r = { width: box.offsetWidth || 1, height: box.offsetHeight || 1 }, w = Math.round(r.width * dpr), h = Math.round(r.height * dpr);
         if (w !== L.w || h !== L.h) { L.cv.width = L.w = w; L.cv.height = L.h = h; L.gl.viewport(0, 0, w, h); }
         L.a = Math.min(1, L.a + .012);   // chuyển động tăng dần sau khi tới trang
         L.gl.uniform1f(L.t, t);

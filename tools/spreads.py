@@ -7,6 +7,7 @@ hình của trang rồi chữ của trang đó, cỡ chữ dễ đọc.
 """
 import html
 import json
+import math
 import os
 import pymupdf
 
@@ -60,17 +61,28 @@ class SpreadBuilder:
             p = self.by_xref.get(info['xref'])
             if not p or not p.get('pageimg'):
                 continue
+            # transform (a,b,c,d,e,f): trục ngang của ảnh -> (a,b), trục dọc -> (c,d), góc ảnh -> (e,f).
+            # Khung = ảnh chưa xoay đặt quanh tâm, rồi xoay bằng CSS; bbox của PDF chỉ là hình bao sau khi xoay
+            # (đặt ảnh xoay vào bbox thì ảnh bị kéo giãn, tràn đè lên chữ).
+            a, b, c, d, e, f = info['transform']
             x0, y0, x1, y1 = info['bbox']
-            a, b, c, d, *_ = info['transform']
-            flip = []
-            if a < 0:
-                flip.append('scaleX(-1)')
-            if d < 0:
-                flip.append('scaleY(-1)')
+            iw_pt, ih_pt = math.hypot(a, b), math.hypot(c, d)
+            ang = math.degrees(math.atan2(b, a))
+            mirror = a * d - b * c < 0        # một trục bị lật
+            if abs(ang) < 0.05:
+                ang, flip = 0.0, ['scaleY(-1)'] if d < 0 else []
+            elif abs(abs(ang) - 180) < 0.05:  # a < 0: lật ngang (thêm lật dọc nếu d < 0, như trước)
+                ang, flip = 0.0, ['scaleX(-1)'] + (['scaleY(-1)'] if d < 0 else [])
+            else:
+                flip = ['scaleY(-1)'] if mirror else []
+            cx, cy = e + (a + c) / 2, f + (b + d) / 2
+            x0, y0, x1, y1 = cx - iw_pt / 2, cy - ih_pt / 2, cx + iw_pt / 2, cy + ih_pt / 2
+            # transform-origin ghi thẳng: chế độ Đọc đặt gốc 50% 100% cho ảnh tách nền "thở" -> ảnh xoay lệch khỏi chỗ
+            rot = f';transform:rotate({ang:.3f}deg);transform-origin:50% 50%' if ang else ''
             fn, iw, ih = p['pageimg']
             self.used.add(fn)
             tf = f' style="transform:{" ".join(flip)}"' if flip else ''
-            half = 0 if (x0 + x1) / 2 < half_w else 1
+            half = 0 if cx < half_w else 1
             # loại ảnh cho chuyển động ở chế độ Đọc: ảnh tách nền nổi theo chuột, ảnh lớn phóng chậm
             kind = ' cut' if p.get('kind') == 'cutout' else (' big' if (x1 - x0) * (y1 - y0) > 0.15 * half_w * H else '')
             # bản đồ chuyển động (tools/motion_maps.py): ảnh "sống" nhẹ ở chế độ Đọc
@@ -80,7 +92,7 @@ class SpreadBuilder:
                 self.used.add('motion/' + at[0])
                 motion = f' data-motion="{self.img_url("motion/" + at[0])}" data-mrect="{at[1] / at[3]:.5f},{at[2] / at[3]:.5f}"'
             items.append((half, y0, f'<div class="sp-el sp-img{kind}"{motion} style="--x:{X(x0)};--y:{Y(y0)};--w:{X(x1 - x0)};'
-                                    f'--h:{Y(y1 - y0)};z-index:{z + 1}"><img src="{self.img_url(fn)}" width="{iw}" '
+                                    f'--h:{Y(y1 - y0)};z-index:{z + 1}{rot}"><img src="{self.img_url(fn)}" width="{iw}" '
                                     f'height="{ih}" alt="" loading="lazy" decoding="async"{tf}></div>'))
 
         # chữ: từng dòng đúng vị trí; trên điện thoại các dòng nối lại thành đoạn

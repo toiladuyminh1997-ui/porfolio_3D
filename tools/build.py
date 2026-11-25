@@ -657,14 +657,16 @@ def body_index(chapters, info, cover, rows, words, title_letters, tagline, cover
 '''
 
 
-PAGE_MAX_W = 1800   # ảnh trang dàn trang khi đóng gói WordPress / Artifact (bản web giữ nguyên tới 2400px)
+PAGE_MAX_W = 1800   # ảnh trang dàn trang khi đóng gói WordPress / Artifact (web + GitHub Pages giữ nguyên tới 2400px)
 
 
 def copy_img(f, dst):
-    """Chép ảnh đã dùng sang gói đích; ảnh trang dàn trang rộng quá PAGE_MAX_W thì thu nhỏ cho gói nhẹ."""
+    """Chép ảnh đã dùng sang gói đích; gói WordPress / Artifact thu nhỏ ảnh trang rộng quá PAGE_MAX_W cho nhẹ.
+    GitHub Pages giữ nguyên (extract_book.py đã xuất ảnh trang theo cỡ khung, 1.6 px/pt): thu về 1800px
+    làm ảnh tràn trang đôi bị phóng to, mờ trên màn lớn / retina."""
     src = os.path.join(SITE, 'img', f)
     os.makedirs(os.path.dirname(dst), exist_ok=True)
-    if f.startswith('page/'):
+    if f.startswith('page/') and TARGET in ('wp', 'artifact'):
         from PIL import Image
         im = Image.open(src)
         if im.width > PAGE_MAX_W:

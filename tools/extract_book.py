@@ -25,6 +25,12 @@ THUMB = 224           # cạnh dài của ảnh nhỏ dùng để so khớp
 MATCH_OK = 0.78
 DIFF_MEAN, DIFF_P95 = 14, 45   # sai khác màu tối đa (0-255) để coi ảnh gốc là cùng bản
 SIZES = {'full': [960, 1600, 2560], 'inline': [720, 1280], 'cutout': [480, 900]}
+# Ảnh nhúng trong PDF đã đủ nét (>= EMB_PPT px mỗi pt khung) thì dùng thẳng: đúng khung cắt, đúng bản cuối
+# (ảnh gốc trên ổ có thể là bản render khác, còn khung cắt dò lại từ ảnh nhỏ thì lệch).
+EMB_PPT = 1.3
+PAGE_PPT, PAGE_MAX = 1.6, 2400   # ảnh trang dàn trang: 1.6 px/pt (đủ cho màn retina), tối đa 2400px
+UPSCALE_PPT = 0.9                # ảnh chỉ có bản PDF mà nhỏ hơn mức này: phóng x2 bằng Swin2SR
+MODELS = os.path.join(CACHE, 'models')
 
 
 # ---------------------------------------------------------------- helpers
@@ -268,6 +274,76 @@ def knock_white(im):
     return out
 
 
+def refine_box(emb, orig, box):
+    """Khung cắt chính xác trong ảnh gốc: SIFT + RANSAC (tỉ lệ + dịch chuyển) quanh khung thô
+    của template match (dò ở ảnh 224px nên lệch vài %, ảnh trên web bị phóng / trượt so với sách)."""
+    import math
+    try:
+        E = np.asarray(to_rgb(emb).convert('L'))
+        se = min(1.0, 1200 / max(E.shape))
+        if se < 1:
+            E = cv2.resize(E, None, fx=se, fy=se, interpolation=cv2.INTER_AREA)
+        W, H = orig.size
+        x, y, w, h = box
+        X0, Y0 = round(max(0, x - w * .25) * W), round(max(0, y - h * .25) * H)
+        X1, Y1 = round(min(1, x + w * 1.25) * W), round(min(1, y + h * 1.25) * H)
+        O = np.asarray(to_rgb(orig.crop((X0, Y0, X1, Y1))).convert('L'))
+        so = min(1.0, 1800 / max(O.shape))
+        if so < 1:
+            O = cv2.resize(O, None, fx=so, fy=so, interpolation=cv2.INTER_AREA)
+        sift = cv2.SIFT_create(5000)
+        k1, d1 = sift.detectAndCompute(E, None)
+        k2, d2 = sift.detectAndCompute(O, None)
+        if d1 is None or d2 is None or len(k1) < 15 or len(k2) < 15:
+            return box, 0
+        good = [m[0] for m in cv2.BFMatcher().knnMatch(d1, d2, k=2)
+                if len(m) == 2 and m[0].distance < .75 * m[1].distance]
+        if len(good) < 15:
+            return box, 0
+        src = np.float32([k1[g.queryIdx].pt for g in good])
+        dst = np.float32([k2[g.trainIdx].pt for g in good])
+        M, inl = cv2.estimateAffinePartial2D(src, dst, method=cv2.RANSAC, ransacReprojThreshold=2.5)
+        if M is None or int(inl.sum()) < 12 or abs(math.atan2(M[1, 0], M[0, 0])) > 0.01:
+            return box, 0
+        sc = math.hypot(M[0, 0], M[1, 0])
+        he, we = E.shape
+        nb = ((X0 + M[0, 2] / so) / W, (Y0 + M[1, 2] / so) / H, we * sc / so / W, he * sc / so / H)
+        # khung mới phải nằm gần khung thô và trong ảnh gốc
+        if (abs(nb[2] / w - 1) > .25 or nb[0] < -.01 or nb[1] < -.01
+                or nb[0] + nb[2] > 1.01 or nb[1] + nb[3] > 1.01):
+            return box, 0
+        return nb, int(inl.sum())
+    except Exception as e:
+        print('  refine_box lỗi:', e)
+        return box, 0
+
+
+def upscale2(im):
+    """Swin2SR x2 (tools/.cache/models/sr2.onnx, CPU) theo ô 192px chồng mép 16px; giữ kênh alpha."""
+    import onnxruntime as ort
+    sess = ort.InferenceSession(os.path.join(MODELS, 'sr2.onnx'))
+    alpha = im.getchannel('A') if im.mode in ('RGBA', 'LA') else None
+    rgb = np.asarray(to_rgb(im, 255) if alpha is None else im.convert('RGBA').convert('RGB'), dtype=np.float32) / 255
+    H, W = rgb.shape[:2]
+    T, O = 192, 16
+    out = np.zeros((H * 2, W * 2, 3), np.float32)
+    for y in range(0, H, T):
+        for x in range(0, W, T):
+            y0, x0, y1, x1 = max(0, y - O), max(0, x - O), min(H, y + T + O), min(W, x + T + O)
+            tile = rgb[y0:y1, x0:x1]
+            ph, pw = (-tile.shape[0]) % 8, (-tile.shape[1]) % 8
+            tile = np.pad(tile, ((0, ph), (0, pw), (0, 0)), mode='reflect')
+            r = sess.run(None, {'pixel_values': tile.transpose(2, 0, 1)[None]})[0][0].transpose(1, 2, 0)
+            cy, cx = (y - y0) * 2, (x - x0) * 2
+            hh, ww = (min(y + T, H) - y) * 2, (min(x + T, W) - x) * 2
+            out[y * 2:y * 2 + hh, x * 2:x * 2 + ww] = r[cy:cy + hh, cx:cx + ww]
+    res = Image.fromarray((np.clip(out, 0, 1) * 255).round().astype(np.uint8))
+    if alpha is not None:
+        res = res.convert('RGBA')
+        res.putalpha(alpha.resize(res.size, Image.LANCZOS))
+    return res
+
+
 def crop_like_pdf(orig, box, pdf_im):
     """Cắt ảnh gốc đúng khung như trong sách (box = vùng khớp, theo tỉ lệ ảnh gốc).
     Nếu ảnh trong sách có mép mờ / nền trong suốt (soft mask của InDesign) thì áp lại lên ảnh gốc."""
@@ -348,7 +424,9 @@ def main():
                 continue
             r = pymupdf.Rect(info['bbox'])
             half = 0 if (r.x0 + r.x1) / 2 < PAGE_W else 1
-            item = {'page': pno, 'xref': xref, 'rect': [round(v, 1) for v in r]}
+            a, b = info['transform'][:2]
+            item = {'page': pno, 'xref': xref, 'rect': [round(v, 1) for v in r],
+                    'fw': round((a * a + b * b) ** .5, 1)}   # bề ngang thật của ảnh (pt), kể cả khi ảnh bị xoay
             placements.append(item)
             seq.append(((pno, half, (r.y0 + r.y1) / 2), 'img', item))
     seq.sort(key=lambda s: s[0])
@@ -366,19 +444,27 @@ def main():
 
     # 3) phân loại + so khớp song song (mỗi xref một lần)
     xinfo = {x[0]: x for p in doc for x in p.get_images(full=True)}
-    first = {}
+    first, fw = {}, {}
     for obj in placements:
         first.setdefault(obj['xref'], obj)
-    imgs, kinds, jobs = {}, {}, []
+        fw[obj['xref']] = max(fw.get(obj['xref'], 0), obj['fw'])   # khung lớn nhất của ảnh này
+    imgs, kinds, jobs, sharp, chash = {}, {}, [], {}, {}
     for xref, obj in first.items():
         im = pdf_image(doc, xref, xinfo[xref][1])
         imgs[xref] = im
         kinds[xref] = classify(pymupdf.Rect(obj['rect']), im)
-        if kinds[xref] != 'ornament':
+        # tên file theo nội dung ảnh (xref đổi số mỗi lần xuất PDF -> tên cũ có thể trỏ nhầm sang ảnh khác)
+        chash[xref] = hashlib.md5(doc.xref_stream_raw(xref) + str(xinfo[xref][1]).encode()).hexdigest()[:6]
+        sharp[xref] = im.width >= 0.95 * min(PAGE_MAX, EMB_PPT * fw[xref])
+        if kinds[xref] != 'ornament' and not sharp[xref]:
             jobs.append((xref, gray_small(im)))
-    from multiprocessing import Pool
-    with Pool(min(10, os.cpu_count()), initializer=_init_worker, initargs=(list(thumbs),)) as pool:
-        matches = dict(pool.map(_match_job, jobs, chunksize=2))
+    print('ảnh PDF đủ nét:', sum(sharp[x] for x in first if kinds[x] != 'ornament'),
+          '| cần tìm ảnh gốc:', len(jobs))
+    matches = {}
+    if jobs:
+        from multiprocessing import Pool
+        with Pool(min(10, os.cpu_count(), len(jobs)), initializer=_init_worker, initargs=(list(thumbs),)) as pool:
+            matches = dict(pool.map(_match_job, jobs, chunksize=1))
 
     done = {}
     stats = {'orig': 0, 'pdf': 0, 'ornament': 0}
@@ -391,25 +477,42 @@ def main():
         res = {'kind': kind}
         if kind == 'ornament':
             stats['ornament'] += 1
-            files, avg = export(im, 'cutout', f'ornament/x{xref}')
+            files, avg = export(im, 'cutout', f'ornament/x{xref}-{chash[xref]}')
             res.update(files=files, avg=avg, source='pdf', pageimg=list(files[-1]))
         else:
-            score, path, box = matches[xref]
+            score, path, box = matches.get(xref, (0.0, None, None))
             src = im
             page_img = im          # ảnh đúng như đặt trong trang sách (đã cắt khung) — cho trang đọc theo bản dàn trang
             res['source'] = 'pdf'
-            if score >= MATCH_OK:
+            tag = '-' + chash[xref]
+            if sharp[xref]:
+                res['sharp'] = True
+            elif score >= MATCH_OK:
                 with Image.open(path) as o:
                     o.load()
+                    box, inl = refine_box(im, o, box)
                     dm, dp = color_diff(im, o, box)
                     res['diff'] = [round(dm, 1), round(dp, 1)]
                     same = dm <= DIFF_MEAN and dp <= DIFF_P95
-                    # cutout chỉ dùng ảnh gốc nếu ảnh gốc có nền trong suốt
-                    if same and (kind != 'cutout' or o.mode in ('RGBA', 'LA', 'P')):
+                    # cutout chỉ dùng ảnh gốc nếu ảnh gốc có nền trong suốt; chỉ khi nét hơn bản PDF
+                    if (same and (kind != 'cutout' or o.mode in ('RGBA', 'LA', 'P'))
+                            and box[2] * o.width > 1.15 * im.width):
                         src = o.copy()
                         res['source'] = os.path.relpath(path, os.path.dirname(WEB)).replace('\\', '/')
                         page_img = crop_like_pdf(src, box, im)
+                        res['box'] = [round(v, 5) for v in box]
+                        res['refined'] = inl
+                        tag = '-' + hashlib.md5(f'{res["source"]}|{res["box"]}|{chash[xref]}'.encode()).hexdigest()[:6]
                     res['match'] = os.path.relpath(path, os.path.dirname(WEB)).replace('\\', '/')
+            if res['source'] == 'pdf' and im.width < UPSCALE_PPT * fw[xref]:
+                # chỉ có bản PDF nhỏ: phóng bằng AI (x2, tối đa 2 lần) để bớt mờ
+                n = 0
+                while page_img.width < 1.2 * fw[xref] and n < 2:
+                    page_img = upscale2(page_img)
+                    n += 1
+                src = page_img
+                res['upscaled'] = 2 ** n
+                tag += f'-sr{2 ** n}'
             if kind != 'cutout' and white_border(src):
                 src = knock_white(src)
                 kind = res['kind'] = 'cutout'
@@ -418,11 +521,12 @@ def main():
             res['score'] = round(score, 3)
             ch = obj['chapter']
             folder = f'c{ch}' if ch is not None else 'front'
-            tag = '' if res['source'] == 'pdf' else '-' + hashlib.md5(res['source'].encode()).hexdigest()[:6]
             tag += '-k' if res.get('knocked') else ''
             files, avg = export(src, kind, f'{folder}/x{xref}{tag}')
-            res.update(files=files, avg=avg, pageimg=export_page(page_img, f'page/x{xref}{tag}'))
-            print(f'  p{obj["page"]:3d} x{xref:<5d} {kind:7s} {score:.2f} {res.get("diff")} {res["source"][-60:]}')
+            pw = min(PAGE_MAX, max(480, round(PAGE_PPT * fw[xref])))
+            res.update(files=files, avg=avg, pageimg=export_page(page_img, f'page/x{xref}{tag}', pw))
+            print(f'  p{obj["page"]:3d} x{xref:<5d} {kind:7s} {"PDF nét" if sharp[xref] else f"{score:.2f}"} '
+                  f'{res.get("diff")} {res["source"][-60:]}{" x" + str(res["upscaled"]) if res.get("upscaled") else ""}')
         done[xref] = res
         obj.update(res)
 
