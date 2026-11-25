@@ -37,10 +37,10 @@
 
   const bar = $('.bar'), prog = $('.progress i');
   const isBook = () => root.classList.contains('mode-book');
-  // máy tính (màn ngang): đọc bằng trang đôi chuyển động (#mvs); điện thoại / màn dọc: ảnh + chữ chảy (#prose)
-  const deskMQ = matchMedia('(min-width: 900px) and (orientation: landscape)');
+  // máy tính và điện thoại đều đọc bằng trang đôi chuyển động (#mvs); màn dọc: mỗi trang đôi tách thành hai trang đơn
+  const portMQ = matchMedia('(orientation: portrait)');
   const mvs = $('#mvs');
-  const desk = () => deskMQ.matches && !!mvs;
+  const desk = () => !!mvs;
   const readEl = () => desk() ? mvs : prose;
 
   /* ================= ĐỌC: cuộn kiểu phim ================= */
@@ -211,7 +211,7 @@
       msx += (mx - msx) * .06; msy += (my - msy) * .06;
       let any = false;
       live.forEach((L, box) => {
-        if (!L || !L.gl || !box.closest('.mv.on')) return;
+        if (!L || !L.gl || !box.closest('.mv.on') || !box.offsetWidth) return;
         any = true;
         // cỡ layout (offsetWidth), không phải getBoundingClientRect: ảnh xoay theo bản dàn có hình bao lớn hơn khung
         const r = { width: box.offsetWidth || 1, height: box.offsetHeight || 1 }, w = Math.round(r.width * dpr), h = Math.round(r.height * dpr);
@@ -228,7 +228,9 @@
     }
     const loop = () => { if (!raf) raf = requestAnimationFrame(frame); };
     document.addEventListener('visibilitychange', loop);
+    const MAXLIVE = matchMedia('(pointer: coarse)').matches ? 4 : 8;   // điện thoại: ít ngữ cảnh WebGL hơn
     return {
+      reset() { [...live.keys()].forEach(drop); order.length = 0; },
       attach(mv) {
         if (reduced) return;
         $$('.sp-img[data-motion]', mv).forEach(box => {
@@ -237,7 +239,7 @@
           order.push(box);
           make(box);
         });
-        while (order.length > 8) drop(order.shift());   // giữ tối đa 8 ảnh "sống" (khoảng 3 trang đôi)
+        while (order.length > MAXLIVE) drop(order.shift());   // giữ tối đa 8 ảnh "sống" (khoảng 3 trang đôi)
         live.forEach(L => { if (L) L.a = Math.min(L.a, .2); });
         loop();
       },
@@ -253,23 +255,37 @@
   const fillMv = mv => {   // nhân bản trang đôi + ảnh nền mờ khi sắp cuộn tới
     if (mv.dataset.filled) return;
     mv.dataset.filled = 1;
-    const s = spByPage.get(mv.dataset.page);
+    const s = spByPage.get(mv.dataset.page), box = $('.mv-sp', mv);
     if (s) {
-      const c = s.cloneNode(true);
-      c.classList.add('cur');
-      $$('.sp-ln', c).forEach((l, i) => l.style.setProperty('--i', Math.min(i, 70)));
-      $$('img', c).forEach(im => { im.loading = 'eager'; });
-      $('.mv-sp', mv).append(c);
+      const [aw, ah] = (mv.style.getPropertyValue('--ar') || '3/1').split('/').map(Number);
+      // màn dọc: trang đôi -> hai trang đơn chồng lên nhau (mỗi trang rộng hết màn hình); bìa (trang đơn) giữ nguyên
+      const split = portMQ.matches && aw / ah > 1.2;
+      box.classList.toggle('split', split);
+      (split ? [0, 1] : [-1]).forEach(h => {
+        const c = s.cloneNode(true);
+        c.classList.add('cur');
+        $$('.sp-ln', c).forEach((l, i) => l.style.setProperty('--i', Math.min(i, 70)));
+        $$('img', c).forEach(im => { im.loading = 'eager'; });
+        if (h < 0) return box.append(c);
+        const pg = document.createElement('div');
+        pg.className = 'mv-pg';
+        pg.dataset.half = h;
+        pg.style.aspectRatio = `${aw / 2} / ${ah}`;
+        c.style.left = h ? '-100%' : '0';
+        pg.append(c);
+        box.append(pg);
+      });
     }
     if (mv.dataset.amb) $('.mv-amb', mv).style.backgroundImage = `url("${mv.dataset.amb}")`;
   };
   const fillIO = new IntersectionObserver(es => es.forEach(e => {
     if (e.isIntersecting) { fillMv(e.target); fillIO.unobserve(e.target); }
   }), { rootMargin: '120% 0px' });
+  // trang đôi đang xem = trang cắt ngang giữa màn hình (đúng cho cả trang cao một màn hình lẫn hai trang đơn chồng nhau)
   const onIO = new IntersectionObserver(es => es.forEach(e => {
     e.target.classList.toggle('on', e.isIntersecting);
     if (e.isIntersecting) { mvCur = e.target; fillMv(e.target); e.target.classList.add('seen'); living.attach(e.target); }
-  }), { threshold: .55 });
+  }), { rootMargin: '-40% 0px -40% 0px' });
   mvList.forEach(mv => { fillIO.observe(mv); onIO.observe(mv); });
   // chuột: lớp ảnh lệch theo con trỏ (CSS dùng --mx / --my), chỉ trên trang đang xem
   let mx = 0, my = 0, mvRaf = 0;
@@ -296,9 +312,18 @@
     scrollTo({ top: to.offsetTop, behavior: reduced ? 'auto' : 'smooth' });
   }, { passive: false });
   // bấm vào trang đôi: mở bản dàn trang đúng trang đó (phóng to, lật trang)
-  mvList.forEach(mv => $('.mv-sp', mv).addEventListener('click', () => setMode('book', +mv.dataset.page)));
+  mvList.forEach(mv => $('.mv-sp', mv).addEventListener('click', e => {
+    const pg = e.target.closest('.mv-pg');
+    setMode('book', +mv.dataset.page, pg ? +pg.dataset.half : 0);
+  }));
   const snap = () => root.classList.toggle('mv-on', desk() && !isBook());
-  deskMQ.addEventListener('change', snap);
+  // xoay máy: dựng lại trang đôi (trang đôi <-> hai trang đơn), giữ trang đang đọc
+  portMQ.addEventListener('change', () => {
+    const keep = mvCur;
+    living.reset();
+    mvList.forEach(mv => { mv.removeAttribute('data-filled'); $('.mv-sp', mv).replaceChildren(); fillIO.observe(mv); });
+    if (keep && !isBook()) { fillMv(keep); requestAnimationFrame(() => { scrollTo(0, keep.offsetTop); living.attach(keep); }); }
+  });
   snap();
 
   /* hiện dần khung chữ */
@@ -475,7 +500,7 @@
     scenes.forEach(s => { if (+s.dataset.page <= page) sc = s; });
     return sc;
   };
-  function setMode(m, page) {
+  function setMode(m, page, h0 = 0) {
     const bk = m === 'book' && !!book;
     if (!bk && isBook() && sps[cur]) {          // rời dàn trang: cuộn tới đúng cảnh của trang đang xem
       root.classList.remove('mode-book');
@@ -505,7 +530,7 @@
       const now = desk() ? mvCur : active;
       const p = page || +(now && now.dataset.page) || 0;
       const i = sps.findIndex(s => +s.dataset.page >= p);
-      show(Math.max(0, i), 0);
+      show(Math.max(0, i), sps[i] && +sps[i].dataset.page === p && single ? h0 : 0);
     } else {
       onScroll();
       if (mvCur && desk()) living.attach(mvCur);   // chạy lại ảnh "sống" sau khi đóng bản dàn trang

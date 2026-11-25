@@ -421,9 +421,10 @@ a.toc-row:hover .toc-t { transform: translateX(1.2rem); color: var(--accent); }
         nền là ảnh lớn của trang làm mờ; ảnh lớn phóng chậm, nhân vật tách nền nổi theo chuột, chữ hiện từng dòng.
         (reader.js nhân bản trang đôi từ bản dàn trang, đặt --mx/--my theo chuột, --i cho từng dòng chữ) ---- */
 .mvs { display: none; }
-@media (min-width: 900px) and (orientation: landscape) {
+/* điện thoại cũng đọc bằng trang đôi chuyển động (giống máy tính); màn dọc: mỗi trang đôi tách thành hai trang đơn xếp chồng */
+@media all {
   html.mv-on { scroll-snap-type: y proximity; }   /* lăn chuột do reader.js lật từng trang đôi; snap chỉ để thanh cuộn / phím dừng đúng trang */
-  .reader .cine-bg, .reader .cine { display: none; }
+  .reader:has(.mvs) .cine-bg, .reader:has(.mvs) .cine { display: none; }
   .mvs { display: block; background: #050608; }
   .mvs ~ .ch-nav { scroll-snap-align: end; }
   .mv { position: relative; height: 100vh; display: grid; place-items: center; padding: 64px 28px 32px; overflow: hidden; scroll-snap-align: start; }
@@ -466,6 +467,21 @@ a.toc-row:hover .toc-t { transform: translateX(1.2rem); color: var(--accent); }
   }
   .mv.seen .sp-ln { opacity: 1; translate: none; }
   .mv-sp { cursor: zoom-in; }
+}
+/* màn dọc (điện thoại): trang đơn rộng hết màn hình, cuộn dừng ở đầu từng trang */
+@media (orientation: portrait) {
+  .mv { height: auto; display: block; padding: 10px 8px; scroll-snap-align: none; }
+  .mvs > .mv:first-child { padding-top: 64px; }
+  .mv-amb { filter: blur(36px) brightness(.38) saturate(1.25); }
+  .mv-sp { width: 100%; aspect-ratio: auto; }
+  .mv-sp:not(.split) { width: min(100%, calc((100svh - 80px) * var(--ar))); aspect-ratio: var(--ar); margin: 0 auto; scroll-snap-align: start; scroll-margin-top: 60px; }
+  .mv-sp.split { display: grid; gap: 10px; }
+  .mv-pg {
+    position: relative; width: 100%; overflow: hidden; scroll-snap-align: start; scroll-margin-top: 60px;
+    box-shadow: 0 24px 60px rgba(0,0,0,.6), 0 0 0 1px rgba(255,255,255,.05);
+  }
+  .mv-sp .mv-pg .spread { position: absolute; top: 0; width: 200%; height: 100%; box-shadow: none; }
+  .mvs ~ .ch-nav { scroll-snap-align: none; }
 }
 @media (prefers-reduced-motion: reduce) { .mv .sp-ln { opacity: 1 !important; translate: none !important; } }
 
