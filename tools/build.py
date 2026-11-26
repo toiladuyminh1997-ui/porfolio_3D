@@ -496,7 +496,7 @@ def build_chapter(ch, prev, nxt, placements):
     nav += (f'<a class="prev" href="{u_ch(prev["n"])}"><span>← {prev["label"]}</span>{prev["title"]}</a>'
             if prev else '<span></span>')
     nav += (f'<a class="next" href="{u_ch(nxt["n"])}"><span>{nxt["label"]} →</span>{nxt["title"]}</a>'
-            if nxt else f'<a class="next" href="{u_home("#muc-luc")}"><span>Hết phần đã đăng</span>Quay về mục lục</a>')
+            if nxt else f'<a class="next" href="{u_home("#muc-luc")}"><span>Hết · trọn bộ</span>Quay về mục lục</a>')
     nav += '</nav>'
     body = f'''
 <div class="progress"><i></i></div>
@@ -617,7 +617,7 @@ def hero_html(cover, title_letters):
     if hero_mode() == 'boar':   # kiểu Dogstudio: lợn rừng 3D cố định suốt trang, đổi góc máy theo phần (hero-boar.js)
         n = len([c for c in CFG['chapters'] if c.get('published')])
         intro = (f'<p class="hero-intro">Một tiểu thuyết giả tưởng phương Bắc, minh hoạ hoàn toàn bằng 3D. '
-                 f'{n} chương đầu đã có thể đọc trực tuyến.</p>')
+                 f'Đã hoàn thành trọn bộ {n} chương, đọc trực tuyến từ đầu tới kết.</p>')
         return (f'<div class="aurora" aria-hidden="true"></div>'
                 f'<canvas id="boar" aria-label="Lợn rừng 3D"></canvas>'
                 f'<section class="hero" id="hero">{img}'
@@ -645,7 +645,7 @@ def body_index(chapters, info, cover, rows, words, title_letters, tagline, cover
 </section>
 {covers}
 <section class="toc" id="muc-luc">
-  <div class="toc-head"><h2>Mục lục</h2><span>{len(chapters)} chương · {words_s} chữ</span></div>
+  <div class="toc-head"><h2>Mục lục</h2><span>Trọn bộ · {len(chapters)} chương · {words_s} chữ</span></div>
   <div class="toc-list">
   {chr(10).join(rows)}
   </div>

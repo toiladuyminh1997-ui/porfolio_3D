@@ -2,7 +2,7 @@
  "placements": [
   {
    "page": 0,
-   "xref": 16832,
+   "xref": 16992,
    "rect": [
     -1.4,
     6.5,
@@ -19,24 +19,24 @@
    "score": 0.0,
    "files": [
     [
-     "front/x16832-8174c3-960.webp",
+     "front/x16992-8174c3-960.webp",
      960,
      633
     ],
     [
-     "front/x16832-8174c3-1600.webp",
+     "front/x16992-8174c3-1600.webp",
      1600,
      1055
     ],
     [
-     "front/x16832-8174c3-2329.webp",
+     "front/x16992-8174c3-2329.webp",
      2329,
      1536
     ]
    ],
    "avg": "#4d4d4d",
    "pageimg": [
-    "page/x16832-8174c3-1456.webp",
+    "page/x16992-8174c3-1456.webp",
     1456,
     960
    ]
@@ -926,7 +926,7 @@
   },
   {
    "page": 9,
-   "xref": 2798,
+   "xref": 2895,
    "rect": [
     1178.4,
     392.6,
@@ -940,7 +940,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2798-8513fe-292.webp",
+     "ornament/x2895-4d36f3-292.webp",
      292,
      507
     ]
@@ -948,7 +948,7 @@
    "avg": "#281914",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2798-8513fe-292.webp",
+    "ornament/x2895-4d36f3-292.webp",
     292,
     507
    ]
@@ -1066,7 +1066,7 @@
   },
   {
    "page": 11,
-   "xref": 2802,
+   "xref": 2896,
    "rect": [
     1550.0,
     283.5,
@@ -1083,19 +1083,19 @@
    "score": 0.0,
    "files": [
     [
-     "c0/x2802-a4c6b9-480.webp",
+     "c0/x2896-650579-480.webp",
      480,
      624
     ],
     [
-     "c0/x2802-a4c6b9-862.webp",
+     "c0/x2896-650579-862.webp",
      862,
      1121
     ]
    ],
    "avg": "#0a0805",
    "pageimg": [
-    "page/x2802-a4c6b9-480.webp",
+    "page/x2896-650579-480.webp",
     480,
     624
    ]
@@ -2049,7 +2049,7 @@
   },
   {
    "page": 25,
-   "xref": 2802,
+   "xref": 2896,
    "rect": [
     1572.5,
     355.7,
@@ -2066,19 +2066,19 @@
    "score": 0.0,
    "files": [
     [
-     "c0/x2802-a4c6b9-480.webp",
+     "c0/x2896-650579-480.webp",
      480,
      624
     ],
     [
-     "c0/x2802-a4c6b9-862.webp",
+     "c0/x2896-650579-862.webp",
      862,
      1121
     ]
    ],
    "avg": "#0a0805",
    "pageimg": [
-    "page/x2802-a4c6b9-480.webp",
+    "page/x2896-650579-480.webp",
     480,
     624
    ]
@@ -2345,7 +2345,7 @@
   },
   {
    "page": 28,
-   "xref": 2805,
+   "xref": 2902,
    "rect": [
     59.1,
     0.0,
@@ -2359,12 +2359,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2805-07c29c-480.webp",
+     "ornament/x2902-e13471-480.webp",
      480,
      51
     ],
     [
-     "ornament/x2805-07c29c-900.webp",
+     "ornament/x2902-e13471-900.webp",
      900,
      96
     ]
@@ -2372,7 +2372,7 @@
    "avg": "#281c15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2805-07c29c-900.webp",
+    "ornament/x2902-e13471-900.webp",
     900,
     96
    ]
@@ -2749,7 +2749,7 @@
   },
   {
    "page": 32,
-   "xref": 2798,
+   "xref": 2895,
    "rect": [
     442.6,
     141.7,
@@ -2763,7 +2763,7 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2798-8513fe-292.webp",
+     "ornament/x2895-4d36f3-292.webp",
      292,
      507
     ]
@@ -2771,14 +2771,14 @@
    "avg": "#281914",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2798-8513fe-292.webp",
+    "ornament/x2895-4d36f3-292.webp",
     292,
     507
    ]
   },
   {
    "page": 32,
-   "xref": 2805,
+   "xref": 2902,
    "rect": [
     69.7,
     1.4,
@@ -2792,12 +2792,12 @@
    "kind": "ornament",
    "files": [
     [
-     "ornament/x2805-07c29c-480.webp",
+     "ornament/x2902-e13471-480.webp",
      480,
      51
     ],
     [
-     "ornament/x2805-07c29c-900.webp",
+     "ornament/x2902-e13471-900.webp",
      900,
      96
     ]
@@ -2805,7 +2805,7 @@
    "avg": "#281c15",
    "source": "pdf",
    "pageimg": [
-    "ornament/x2805-07c29c-900.webp",
+    "ornament/x2902-e13471-900.webp",
     900,
     96
    ]
@@ -3212,7 +3212,7 @@
    "kind": "cutout",
    "source": "pdf",
    "upscaled": 4,
-   "score": 0.714,
+   "score": 0.729,
    "files": [
     [
      "c2/x378-6800da-sr4-480.webp",
@@ -16161,12 +16161,12 @@
    "page": 283,
    "xref": 2342,
    "rect": [
-    799.8,
-    -1.1,
-    1815.4,
-    624.7
+    799.5,
+    0.1,
+    1815.6,
+    624.6
    ],
-   "fw": 1015.7,
+   "fw": 1016.1,
    "chapter": 8,
    "before": "c gần như tan vào nước. Modir chưa bao giờ nghe nàng nói bằng âm lượng yếu ớt đến thế. “Ta đã từng thử rồi.” “Ta đã thử thoát ra ngoài không biết bao nhiêu lần.",
    "after": "Rất nhiều, rất nhiều lần rồi.” Một sợi tơ lụa mảnh như sợi tóc khẽ lóe sáng quanh cổ tay đầy sẹo của nàng rồi nhanh chóng chìm vào bóng tối. “Nhưng kỳ lạ lắm… c",
@@ -16176,26 +16176,26 @@
    "score": 0.0,
    "files": [
     [
-     "c8/x2342-9f0c03-960.webp",
+     "c8/x2342-6617fb-960.webp",
      960,
-     592
+     590
     ],
     [
-     "c8/x2342-9f0c03-1600.webp",
+     "c8/x2342-6617fb-1600.webp",
      1600,
-     986
+     983
     ],
     [
-     "c8/x2342-9f0c03-2389.webp",
-     2389,
-     1472
+     "c8/x2342-6617fb-2390.webp",
+     2390,
+     1469
     ]
    ],
-   "avg": "#182b40",
+   "avg": "#182a3f",
    "pageimg": [
-    "page/x2342-9f0c03-1625.webp",
-    1625,
-    1001
+    "page/x2342-6617fb-1626.webp",
+    1626,
+    999
    ]
   },
   {
@@ -17634,7 +17634,7 @@
    ],
    "fw": 1107.9,
    "chapter": 9,
-   "before": " cổng lúc này chỉ có bóng tối đặc quánh, điểm xuyết một thứ ánh sáng bạc mỏng manh như ánh đèn hắt ra từ một căn phòng bỏ hoang đã lâu không có bước chân người.",
+   "before": "i cậu trồi lên. Đã ba lần liên tiếp cậu tự trấn an bản thân rằng đó chỉ là sự trùng hợp ngẫu nhiên, và lần tự lừa dối sau lại càng nghe gượng gạo hơn lần trước.",
    "after": "Từ trong khe tối ấy, một bóng người cao lớn thong thả bước ra. Dáng vóc của ông ta cao lớn hơn trong trí nhớ của Modir rất nhiều. Khoác trên mình tấm áo choàng ",
    "kind": "full",
    "source": "pdf",
@@ -17675,7 +17675,7 @@
    ],
    "fw": 1107.8,
    "chapter": 9,
-   "before": " cổng lúc này chỉ có bóng tối đặc quánh, điểm xuyết một thứ ánh sáng bạc mỏng manh như ánh đèn hắt ra từ một căn phòng bỏ hoang đã lâu không có bước chân người.",
+   "before": "i cậu trồi lên. Đã ba lần liên tiếp cậu tự trấn an bản thân rằng đó chỉ là sự trùng hợp ngẫu nhiên, và lần tự lừa dối sau lại càng nghe gượng gạo hơn lần trước.",
    "after": "Từ trong khe tối ấy, một bóng người cao lớn thong thả bước ra. Dáng vóc của ông ta cao lớn hơn trong trí nhớ của Modir rất nhiều. Khoác trên mình tấm áo choàng ",
    "kind": "full",
    "source": "pdf",
@@ -18293,24 +18293,24 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2659-fab4ff-960.webp",
+     "c9/x2659-5da774-960.webp",
      960,
      331
     ],
     [
-     "c9/x2659-fab4ff-1600.webp",
+     "c9/x2659-5da774-1600.webp",
      1600,
      551
     ],
     [
-     "c9/x2659-fab4ff-2560.webp",
+     "c9/x2659-5da774-2560.webp",
      2560,
      882
     ]
    ],
    "avg": "#132528",
    "pageimg": [
-    "page/x2659-fab4ff-2400.webp",
+    "page/x2659-5da774-2400.webp",
     2400,
     827
    ]
@@ -18616,24 +18616,24 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2712-593b02-960.webp",
+     "c9/x2712-ac36c9-960.webp",
      960,
      541
     ],
     [
-     "c9/x2712-593b02-1600.webp",
+     "c9/x2712-ac36c9-1600.webp",
      1600,
      902
     ],
     [
-     "c9/x2712-593b02-2560.webp",
+     "c9/x2712-ac36c9-2560.webp",
      2560,
      1443
     ]
    ],
-   "avg": "#0d191e",
+   "avg": "#141f25",
    "pageimg": [
-    "page/x2712-593b02-1771.webp",
+    "page/x2712-ac36c9-1771.webp",
     1771,
     998
    ]
@@ -18657,19 +18657,19 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2719-542053-960.webp",
+     "c9/x2719-54334e-960.webp",
      960,
      1319
     ],
     [
-     "c9/x2719-542053-1387.webp",
+     "c9/x2719-54334e-1387.webp",
      1387,
      1906
     ]
    ],
-   "avg": "#1f2d36",
+   "avg": "#191b21",
    "pageimg": [
-    "page/x2719-542053-727.webp",
+    "page/x2719-54334e-727.webp",
     727,
     999
    ]
@@ -18685,8 +18685,8 @@
    ],
    "fw": 455.9,
    "chapter": 9,
-   "before": "ạo thì luôn tìm cách trói chặt, một ý niệm sáng bừng lên trong đầu người thợ rèn. Chỉ có hơi ấm chân thật mới đủ bao dung để chờ đến lúc ta tự nguyện buông tay.",
-   "after": "Modir mở trừng đôi mắt đỏ ngầu, nhìn thẳng vào kẻ đang mang diện mạo của chính mình ở phía đối diện. Cậu nhìn thẳng vào cái hốc mắt trống rỗng tối om kia. Kỳ lạ",
+   "before": "t bản thân trong chốc lát, chính cậu đã tự tay cắt đứt nguồn dinh dưỡng nuôi sống đám nấm ấy, dưới sự chứng kiến của một người bạn đồng hành đang ngồi bên cạnh.",
+   "after": "Hóa ra, cậu đi qua chín cõi và gặp gỡ những con người ấy hoàn toàn không phải để chờ được họ cứu rỗi. Cậu gặp họ là để học lại cách tự đứng vững trên đôi chân c",
    "kind": "full",
    "source": "pdf",
    "sharp": true,
@@ -18719,36 +18719,36 @@
    "page": 331,
    "xref": 2730,
    "rect": [
-    -1.2,
     -1.3,
+    -1.2,
     454.7,
-    623.6
+    624.7
    ],
    "fw": 455.9,
    "chapter": 9,
-   "before": " thôi. Ngay dưới lớp vải áo choàng bên cánh tay trái, có một thứ gì đó đang bắt đầu nóng rực lên. Những cụm nấm ký sinh dọc theo cẳng tay Modir từ từ phát sáng.",
-   "after": "Lần này, đó không còn là thứ ánh sáng trắng xanh nhợt nhạt như ánh trăng non mà cậu từng thấy dưới đáy biển sâu nữa. Thứ ánh sáng đang rực lên lúc này mang một ",
+   "before": "giác rùng rợn nào nữa. Nó suy cho cùng cũng chỉ là một cái hốc rỗng không, trống trải và vô hồn như khung cửa sổ của một ngôi nhà hoang đã lâu không có người ở.",
+   "after": "Tôi chẳng cần ông phải mở bất kỳ cánh cổng nào cho tôi nữa, Modir tự nói với chính mình. Tất cả những gì tôi cần làm, chỉ là dám mở to đôi mắt của mình ra mà th",
    "kind": "full",
    "source": "pdf",
    "sharp": true,
    "score": 0.0,
    "files": [
     [
-     "c9/x2730-a23876-960.webp",
+     "c9/x2730-3855ca-960.webp",
      960,
-     1316
+     1318
     ],
     [
-     "c9/x2730-a23876-1448.webp",
-     1448,
-     1985
+     "c9/x2730-3855ca-1221.webp",
+     1221,
+     1676
     ]
    ],
-   "avg": "#202b2e",
+   "avg": "#1c1e22",
    "pageimg": [
-    "page/x2730-a23876-729.webp",
+    "page/x2730-3855ca-729.webp",
     729,
-    999
+    1001
    ]
   },
   {
@@ -18762,32 +18762,32 @@
    ],
    "fw": 455.9,
    "chapter": 9,
-   "before": "guyên chất được nung trong lò, và bản chất của một thỏi sắt khi đã đạt đến độ chín đỏ thì chỉ chờ đợi duy nhất một điều: chờ người thợ rèn vung búa giáng xuống!",
-   "after": "Keng.",
+   "before": " thôi. Ngay dưới lớp vải áo choàng bên cánh tay trái, có một thứ gì đó đang bắt đầu nóng rực lên. Những cụm nấm ký sinh dọc theo cẳng tay Modir từ từ phát sáng.",
+   "after": "Lần này, đó không còn là thứ ánh sáng trắng xanh nhợt nhạt như ánh trăng non mà cậu từng thấy dưới đáy biển sâu nữa. Thứ ánh sáng đang rực lên lúc này mang một ",
    "kind": "full",
    "source": "pdf",
    "sharp": true,
    "score": 0.0,
    "files": [
     [
-     "c9/x2734-2dfd6c-960.webp",
+     "c9/x2734-6d5d77-960.webp",
      960,
      1318
     ],
     [
-     "c9/x2734-2dfd6c-1600.webp",
+     "c9/x2734-6d5d77-1600.webp",
      1600,
      2196
     ],
     [
-     "c9/x2734-2dfd6c-1892.webp",
+     "c9/x2734-6d5d77-1892.webp",
      1892,
      2597
     ]
    ],
-   "avg": "#243739",
+   "avg": "#252e32",
    "pageimg": [
-    "page/x2734-2dfd6c-729.webp",
+    "page/x2734-6d5d77-729.webp",
     729,
     1001
    ]
@@ -18796,12 +18796,12 @@
    "page": 332,
    "xref": 2741,
    "rect": [
-    -1.0,
+    -1.2,
     -0.0,
-    454.5,
-    621.8
+    454.7,
+    624.8
    ],
-   "fw": 455.5,
+   "fw": 455.9,
    "chapter": 9,
    "before": "ạm vào một khúc gỗ sồi vô cùng quen thuộc. Cán của chiếc búa rèn nhỏ, cũ kỹ, có một vết lõm sâu vừa khít với đốt ngón tay cái của cậu sau hàng vạn lần vung lên.",
    "after": "lâu nay, có một đốm lửa nhỏ đang cháy rực lên, một nguồn nhiệt nguyên thủy mà chẳng một vị thần nào có thể dạy cậu biết là mình đang sở hữu.",
@@ -18811,38 +18811,38 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2741-b7626c-960.webp",
+     "c9/x2741-4ca356-960.webp",
      960,
-     1310
+     1316
     ],
     [
-     "c9/x2741-b7626c-1600.webp",
+     "c9/x2741-4ca356-1600.webp",
      1600,
-     2184
+     2193
     ],
     [
-     "c9/x2741-b7626c-1954.webp",
-     1954,
-     2667
+     "c9/x2741-4ca356-1902.webp",
+     1902,
+     2607
     ]
    ],
-   "avg": "#39403d",
+   "avg": "#383837",
    "pageimg": [
-    "page/x2741-b7626c-729.webp",
+    "page/x2741-4ca356-729.webp",
     729,
-    995
+    999
    ]
   },
   {
    "page": 332,
    "xref": 2745,
    "rect": [
-    905.8,
-    -1.3,
-    1815.4,
+    906.0,
+    -0.0,
+    1815.3,
     623.6
    ],
-   "fw": 909.6,
+   "fw": 909.2,
    "chapter": 9,
    "before": "ạm vào một khúc gỗ sồi vô cùng quen thuộc. Cán của chiếc búa rèn nhỏ, cũ kỹ, có một vết lõm sâu vừa khít với đốt ngón tay cái của cậu sau hàng vạn lần vung lên.",
    "after": "lâu nay, có một đốm lửa nhỏ đang cháy rực lên, một nguồn nhiệt nguyên thủy mà chẳng một vị thần nào có thể dạy cậu biết là mình đang sở hữu.",
@@ -18852,31 +18852,72 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2745-2bf25f-960.webp",
+     "c9/x2745-1dd34e-960.webp",
      960,
-     659
+     658
     ],
     [
-     "c9/x2745-2bf25f-1600.webp",
+     "c9/x2745-1dd34e-1600.webp",
      1600,
-     1099
+     1097
     ],
     [
-     "c9/x2745-2bf25f-2560.webp",
+     "c9/x2745-1dd34e-2560.webp",
      2560,
-     1759
+     1756
     ]
    ],
-   "avg": "#8598a1",
+   "avg": "#2b3033",
    "pageimg": [
-    "page/x2745-2bf25f-1455.webp",
+    "page/x2745-1dd34e-1455.webp",
     1455,
-    999
+    998
    ]
   },
   {
    "page": 333,
-   "xref": 2752,
+   "xref": 2750,
+   "rect": [
+    -1.2,
+    -1.0,
+    1815.6,
+    624.8
+   ],
+   "fw": 1816.7,
+   "chapter": 9,
+   "before": "ạm vào một khúc gỗ sồi vô cùng quen thuộc. Cán của chiếc búa rèn nhỏ, cũ kỹ, có một vết lõm sâu vừa khít với đốt ngón tay cái của cậu sau hàng vạn lần vung lên.",
+   "after": "lâu nay, có một đốm lửa nhỏ đang cháy rực lên, một nguồn nhiệt nguyên thủy mà chẳng một vị thần nào có thể dạy cậu biết là mình đang sở hữu.",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2750-326e90-960.webp",
+     960,
+     331
+    ],
+    [
+     "c9/x2750-326e90-1600.webp",
+     1600,
+     551
+    ],
+    [
+     "c9/x2750-326e90-2560.webp",
+     2560,
+     882
+    ]
+   ],
+   "avg": "#8f939d",
+   "pageimg": [
+    "page/x2750-326e90-2400.webp",
+    2400,
+    827
+   ]
+  },
+  {
+   "page": 334,
+   "xref": 2756,
    "rect": [
     -1.2,
     -0.0,
@@ -18893,26 +18934,734 @@
    "score": 0.0,
    "files": [
     [
-     "c9/x2752-46df7b-960.webp",
+     "c9/x2756-f76461-960.webp",
      960,
      577
     ],
     [
-     "c9/x2752-46df7b-1600.webp",
+     "c9/x2756-f76461-1600.webp",
      1600,
      962
     ],
     [
-     "c9/x2752-46df7b-2560.webp",
+     "c9/x2756-f76461-2560.webp",
      2560,
      1539
     ]
    ],
-   "avg": "#495c61",
+   "avg": "#3c5158",
    "pageimg": [
-    "page/x2752-46df7b-1659.webp",
+    "page/x2756-f76461-1659.webp",
     1659,
     998
+   ]
+  },
+  {
+   "page": 335,
+   "xref": 2763,
+   "rect": [
+    741.5,
+    -0.0,
+    1815.4,
+    623.6
+   ],
+   "fw": 1073.9,
+   "chapter": 9,
+   "before": "ó một giọng nói. Toàn bộ sức nặng và ngọn lửa trong người dồn cả vào cánh tay, Modir vung búa giáng thẳng xuống chiếc rễ cây khổng lồ ngay dưới chân mình! KENG!",
+   "after": "Nhát búa đầu tiên. Thanh âm của nó hoàn toàn xa lạ với sự tĩnh mịch của đêm tuyết cổ đại. Nó không mềm yếu, không ngân dài lê thê, cũng chẳng chịu tan biến vào ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2763-904d17-960.webp",
+     960,
+     557
+    ],
+    [
+     "c9/x2763-904d17-1600.webp",
+     1600,
+     929
+    ],
+    [
+     "c9/x2763-904d17-2560.webp",
+     2560,
+     1487
+    ]
+   ],
+   "avg": "#785c60",
+   "pageimg": [
+    "page/x2763-904d17-1718.webp",
+    1718,
+    998
+   ]
+  },
+  {
+   "page": 336,
+   "xref": 2770,
+   "rect": [
+    -1.0,
+    -1.1,
+    1060.1,
+    623.6
+   ],
+   "fw": 1061.1,
+   "chapter": 9,
+   "before": "ó một giọng nói. Toàn bộ sức nặng và ngọn lửa trong người dồn cả vào cánh tay, Modir vung búa giáng thẳng xuống chiếc rễ cây khổng lồ ngay dưới chân mình! KENG!",
+   "after": "Nhát búa đầu tiên. Thanh âm của nó hoàn toàn xa lạ với sự tĩnh mịch của đêm tuyết cổ đại. Nó không mềm yếu, không ngân dài lê thê, cũng chẳng chịu tan biến vào ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2770-d4aaac-960.webp",
+     960,
+     565
+    ],
+    [
+     "c9/x2770-d4aaac-1600.webp",
+     1600,
+     942
+    ],
+    [
+     "c9/x2770-d4aaac-2475.webp",
+     2475,
+     1457
+    ]
+   ],
+   "avg": "#79513e",
+   "pageimg": [
+    "page/x2770-d4aaac-1698.webp",
+    1698,
+    1000
+   ]
+  },
+  {
+   "page": 337,
+   "xref": 2777,
+   "rect": [
+    741.5,
+    -0.0,
+    1815.4,
+    623.6
+   ],
+   "fw": 1073.9,
+   "chapter": 9,
+   "before": " và sắc lạnh chạy dọc từ cái hốc mắt trống rỗng kéo xuống gò má, lan xuống tận cổ họng ông ta hệt như vết rạn trên bề mặt một món đồ gốm sứ cổ đã đến kỳ rã mục.",
+   "after": "Những đường nét mô phỏng gương mặt của Modir nhanh chóng phai nhạt đi, trả lại cho thực thể ấy diện mạo của một ông lão già nua. Chỉ còn lại cái hốc mắt sâu hoắ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2777-2b225c-960.webp",
+     960,
+     557
+    ],
+    [
+     "c9/x2777-2b225c-1600.webp",
+     1600,
+     929
+    ],
+    [
+     "c9/x2777-2b225c-2560.webp",
+     2560,
+     1487
+    ]
+   ],
+   "avg": "#65514a",
+   "pageimg": [
+    "page/x2777-2b225c-1718.webp",
+    1718,
+    998
+   ]
+  },
+  {
+   "page": 338,
+   "xref": 2784,
+   "rect": [
+    -1.3,
+    -1.2,
+    1060.5,
+    623.5
+   ],
+   "fw": 1061.9,
+   "chapter": 9,
+   "before": " và sắc lạnh chạy dọc từ cái hốc mắt trống rỗng kéo xuống gò má, lan xuống tận cổ họng ông ta hệt như vết rạn trên bề mặt một món đồ gốm sứ cổ đã đến kỳ rã mục.",
+   "after": "Những đường nét mô phỏng gương mặt của Modir nhanh chóng phai nhạt đi, trả lại cho thực thể ấy diện mạo của một ông lão già nua. Chỉ còn lại cái hốc mắt sâu hoắ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2784-df3fb4-960.webp",
+     960,
+     565
+    ],
+    [
+     "c9/x2784-df3fb4-1600.webp",
+     1600,
+     941
+    ],
+    [
+     "c9/x2784-df3fb4-2560.webp",
+     2560,
+     1506
+    ]
+   ],
+   "avg": "#4b4c48",
+   "pageimg": [
+    "page/x2784-df3fb4-1699.webp",
+    1699,
+    1000
+   ]
+  },
+  {
+   "page": 339,
+   "xref": 2791,
+   "rect": [
+    596.5,
+    -0.0,
+    1528.9,
+    624.7
+   ],
+   "fw": 932.4,
+   "chapter": 9,
+   "before": "thủy tinh vỡ ấy đều phản chiếu lại một góc nhỏ của đêm rừng tuyết trắng: một nhánh rễ cây, một ngôi sao xa, một bông tuyết đang",
+   "after": "rơi, một đoạn dây thừng cũ. Hàng trăm mảnh lăng kính ấy treo lơ lửng giữa không trung đúng một nhịp thở, rồi đồng loạt rơi rào rào xuống nền tuyết; vừa chạm vào",
+   "kind": "cutout",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2791-da9da0-480.webp",
+     480,
+     322
+    ],
+    [
+     "c9/x2791-da9da0-900.webp",
+     900,
+     603
+    ]
+   ],
+   "avg": "#161719",
+   "pageimg": [
+    "page/x2791-da9da0-1492.webp",
+    1492,
+    1000
+   ]
+  },
+  {
+   "page": 340,
+   "xref": 2798,
+   "rect": [
+    -1.3,
+    -0.0,
+    518.3,
+    623.6
+   ],
+   "fw": 519.7,
+   "chapter": 9,
+   "before": "iếng lẩm bẩm của một người kiểm kho vừa mới đếm lại sổ sách, và phát hiện ra mình vừa bị hao hụt mất một món đồ quan trọng nhất. Rồi nó cũng vỗ cánh bay đi mất.",
+   "after": "Tuyết rừng lại tiếp tục rơi theo nhịp điệu bình thường của tự nhiên. Một bông tuyết lớn xoay tròn đáp xuống mu bàn tay của Modir, và lần đầu tiên trong suốt đêm",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2798-038ef2-900.webp",
+     900,
+     1080
+    ]
+   ],
+   "avg": "#735a3e",
+   "pageimg": [
+    "page/x2798-038ef2-832.webp",
+    832,
+    998
+   ]
+  },
+  {
+   "page": 340,
+   "xref": 2802,
+   "rect": [
+    905.9,
+    -1.2,
+    1395.8,
+    624.8
+   ],
+   "fw": 489.8,
+   "chapter": 9,
+   "before": "y sạch hoàn toàn lời nguyền này. Thế nhưng có một điều mà cậu biết chắc chắn: kể từ giây phút này trở đi, cậu sẽ không bao giờ phải tìm cách che giấu chúng nữa.",
+   "after": "chắn giữa gương mặt thật của Modir và bầu trời đêm nữa. Cậu ngửa mặt lên, hít vào một hơi căng tràn cả lồng ngực. Ngay trên nền tuyết trắng trước đầu gối cậu, t",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2802-296302-960.webp",
+     960,
+     1227
+    ],
+    [
+     "c9/x2802-296302-1600.webp",
+     1600,
+     2045
+    ],
+    [
+     "c9/x2802-296302-1860.webp",
+     1860,
+     2377
+    ]
+   ],
+   "avg": "#615346",
+   "pageimg": [
+    "page/x2802-296302-784.webp",
+    784,
+    1002
+   ]
+  },
+  {
+   "page": 341,
+   "xref": 2809,
+   "rect": [
+    788.8,
+    -0.0,
+    1815.5,
+    623.6
+   ],
+   "fw": 1026.7,
+   "chapter": 9,
+   "before": "luồn qua mái tóc rối bời trên đỉnh đầu. Những bông tuyết trắng rơi thẳng xuống tóc cậu. Lần đầu tiên sau biết bao năm tháng, không còn bất cứ một lớp vỏ bọc nào",
+   "after": "Một khắc sau, mảnh gương cuối cùng cũng tan biến vào tuyết. Modir mỉm cười, không chút tiếc nuối. Xong xuôi, Modir kéo ống tay áo bên trái lên tận khuỷu tay. Nh",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2809-d44685-960.webp",
+     960,
+     583
+    ],
+    [
+     "c9/x2809-d44685-1600.webp",
+     1600,
+     972
+    ],
+    [
+     "c9/x2809-d44685-1778.webp",
+     1778,
+     1080
+    ]
+   ],
+   "avg": "#1d1b18",
+   "pageimg": [
+    "page/x2809-d44685-1643.webp",
+    1643,
+    998
+   ]
+  },
+  {
+   "page": 342,
+   "xref": 2816,
+   "rect": [
+    2.7,
+    -1.2,
+    1055.7,
+    623.5
+   ],
+   "fw": 1053.0,
+   "chapter": 9,
+   "before": "luồn qua mái tóc rối bời trên đỉnh đầu. Những bông tuyết trắng rơi thẳng xuống tóc cậu. Lần đầu tiên sau biết bao năm tháng, không còn bất cứ một lớp vỏ bọc nào",
+   "after": "Một khắc sau, mảnh gương cuối cùng cũng tan biến vào tuyết. Modir mỉm cười, không chút tiếc nuối. Xong xuôi, Modir kéo ống tay áo bên trái lên tận khuỷu tay. Nh",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2816-58c640-960.webp",
+     960,
+     570
+    ],
+    [
+     "c9/x2816-58c640-1600.webp",
+     1600,
+     949
+    ],
+    [
+     "c9/x2816-58c640-2560.webp",
+     2560,
+     1519
+    ]
+   ],
+   "avg": "#49381d",
+   "pageimg": [
+    "page/x2816-58c640-1685.webp",
+    1685,
+    1000
+   ]
+  },
+  {
+   "page": 343,
+   "xref": 2823,
+   "rect": [
+    -1.1,
+    47.7,
+    480.3,
+    624.9
+   ],
+   "fw": 481.4,
+   "chapter": 9,
+   "before": "uội lạnh, mùi bụi bặm tích tụ lâu ngày, và mùi của một căn phòng trống đã kiên nhẫn chờ đợi chủ nhân quay về suốt bao tháng ngày mà chẳng cần một lời báo trước.",
+   "after": "Chiếc lò rèn bằng đá nằm im lìm ở góc cuối căn phòng. Trong thùng gỗ bên cạnh, than đá vẫn còn chất đầy ắp. Hóa ra xưởng rèn này chưa bao giờ rơi vào cảnh thiếu",
+   "kind": "cutout",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2823-d7d21a-480.webp",
+     480,
+     575
+    ],
+    [
+     "c9/x2823-d7d21a-900.webp",
+     900,
+     1079
+    ]
+   ],
+   "avg": "#241c1b",
+   "pageimg": [
+    "page/x2823-d7d21a-770.webp",
+    770,
+    923
+   ]
+  },
+  {
+   "page": 343,
+   "xref": 2827,
+   "rect": [
+    905.8,
+    -1.2,
+    1815.5,
+    624.9
+   ],
+   "fw": 909.7,
+   "chapter": 9,
+   "before": "uội lạnh, mùi bụi bặm tích tụ lâu ngày, và mùi của một căn phòng trống đã kiên nhẫn chờ đợi chủ nhân quay về suốt bao tháng ngày mà chẳng cần một lời báo trước.",
+   "after": "Chiếc lò rèn bằng đá nằm im lìm ở góc cuối căn phòng. Trong thùng gỗ bên cạnh, than đá vẫn còn chất đầy ắp. Hóa ra xưởng rèn này chưa bao giờ rơi vào cảnh thiếu",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2827-db287f-960.webp",
+     960,
+     661
+    ],
+    [
+     "c9/x2827-db287f-1572.webp",
+     1572,
+     1082
+    ]
+   ],
+   "avg": "#443623",
+   "pageimg": [
+    "page/x2827-db287f-1456.webp",
+    1456,
+    1002
+   ]
+  },
+  {
+   "page": 344,
+   "xref": 2834,
+   "rect": [
+    -1.0,
+    -0.0,
+    1046.6,
+    624.8
+   ],
+   "fw": 1047.6,
+   "chapter": 9,
+   "before": "uội lạnh, mùi bụi bặm tích tụ lâu ngày, và mùi của một căn phòng trống đã kiên nhẫn chờ đợi chủ nhân quay về suốt bao tháng ngày mà chẳng cần một lời báo trước.",
+   "after": "Chiếc lò rèn bằng đá nằm im lìm ở góc cuối căn phòng. Trong thùng gỗ bên cạnh, than đá vẫn còn chất đầy ắp. Hóa ra xưởng rèn này chưa bao giờ rơi vào cảnh thiếu",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2834-37c69a-960.webp",
+     960,
+     573
+    ],
+    [
+     "c9/x2834-37c69a-1600.webp",
+     1600,
+     954
+    ],
+    [
+     "c9/x2834-37c69a-2560.webp",
+     2560,
+     1527
+    ]
+   ],
+   "avg": "#0c1515",
+   "pageimg": [
+    "page/x2834-37c69a-1676.webp",
+    1676,
+    1000
+   ]
+  },
+  {
+   "page": 345,
+   "xref": 2841,
+   "rect": [
+    767.9,
+    -1.2,
+    1815.5,
+    623.5
+   ],
+   "fw": 1047.6,
+   "chapter": 9,
+   "before": "y hơi ấm. Nó mang trong mình một nhịp điệu sống động giống hệt như nhịp đập của một trái tim vừa mới tỉnh giấc sau khi bị chính chủ nhân của nó bỏ quên quá lâu.",
+   "after": "Keng. Keng. Keng. Modir tỉ mẩn gõ uốn từng cánh hoa bằng sắt một. Mỗi một cánh hoa đều được cậu uốn thành hình một đường cong mềm mại như ngọn sóng biển đang độ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2841-be9b81-960.webp",
+     960,
+     573
+    ],
+    [
+     "c9/x2841-be9b81-1600.webp",
+     1600,
+     954
+    ],
+    [
+     "c9/x2841-be9b81-2560.webp",
+     2560,
+     1527
+    ]
+   ],
+   "avg": "#2c3a3e",
+   "pageimg": [
+    "page/x2841-be9b81-1676.webp",
+    1676,
+    1000
+   ]
+  },
+  {
+   "page": 346,
+   "xref": 2848,
+   "rect": [
+    -1.1,
+    -0.0,
+    1021.5,
+    624.9
+   ],
+   "fw": 1022.6,
+   "chapter": 9,
+   "before": "y hơi ấm. Nó mang trong mình một nhịp điệu sống động giống hệt như nhịp đập của một trái tim vừa mới tỉnh giấc sau khi bị chính chủ nhân của nó bỏ quên quá lâu.",
+   "after": "Keng. Keng. Keng. Modir tỉ mẩn gõ uốn từng cánh hoa bằng sắt một. Mỗi một cánh hoa đều được cậu uốn thành hình một đường cong mềm mại như ngọn sóng biển đang độ",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2848-f95549-960.webp",
+     960,
+     587
+    ],
+    [
+     "c9/x2848-f95549-1600.webp",
+     1600,
+     978
+    ],
+    [
+     "c9/x2848-f95549-2560.webp",
+     2560,
+     1564
+    ]
+   ],
+   "avg": "#35455a",
+   "pageimg": [
+    "page/x2848-f95549-1636.webp",
+    1636,
+    1000
+   ]
+  },
+  {
+   "page": 347,
+   "xref": 2855,
+   "rect": [
+    792.6,
+    -0.0,
+    1815.2,
+    624.9
+   ],
+   "fw": 1022.6,
+   "chapter": 9,
+   "before": "ong những khu vườn thượng uyển. Nó cứng cáp, nó sắc lạnh khi chạm vào, và nó sừng sững hiện diện ở đó. Một đóa hoa vĩnh viễn không bao giờ biết héo tàn, và cũng",
+   "after": "chẳng cần bất kỳ ai phải ban ơn tưới nước.",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2855-2ec693-960.webp",
+     960,
+     587
+    ],
+    [
+     "c9/x2855-2ec693-1600.webp",
+     1600,
+     978
+    ],
+    [
+     "c9/x2855-2ec693-2560.webp",
+     2560,
+     1564
+    ]
+   ],
+   "avg": "#35414e",
+   "pageimg": [
+    "page/x2855-2ec693-1636.webp",
+    1636,
+    1000
+   ]
+  },
+  {
+   "page": 348,
+   "xref": 2862,
+   "rect": [
+    1285.9,
+    73.7,
+    1815.3,
+    598.1
+   ],
+   "fw": 529.4,
+   "chapter": 9,
+   "before": "oàn toàn có thể tự tay gõ nên một hình hài mới từ những khối sắt thép ương ngạnh nhất, và tự bản thân mình có quyền ngắm nhìn tác phẩm đó rồi mỉm cười công nhận",
+   "after": "rằng nó thực sự rất đẹp. Modir thừa hiểu rằng một ngày nào đó, ông lão đội mũ rộng vành kia chắc chắn sẽ lại quay về. Ông ta sẽ không xuất hiện bên một cánh cổn",
+   "kind": "cutout",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2862-2ca08c-480.webp",
+     480,
+     475
+    ],
+    [
+     "c9/x2862-2ca08c-900.webp",
+     900,
+     892
+    ]
+   ],
+   "avg": "#352e25",
+   "pageimg": [
+    "page/x2862-2ca08c-847.webp",
+    847,
+    839
+   ]
+  },
+  {
+   "page": 348,
+   "xref": 2866,
+   "rect": [
+    -1.3,
+    -0.0,
+    908.2,
+    624.9
+   ],
+   "fw": 909.5,
+   "chapter": 9,
+   "before": "ong những khu vườn thượng uyển. Nó cứng cáp, nó sắc lạnh khi chạm vào, và nó sừng sững hiện diện ở đó. Một đóa hoa vĩnh viễn không bao giờ biết héo tàn, và cũng",
+   "after": "chẳng cần bất kỳ ai phải ban ơn tưới nước.",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2866-bc0f39-960.webp",
+     960,
+     660
+    ],
+    [
+     "c9/x2866-bc0f39-1600.webp",
+     1600,
+     1099
+    ],
+    [
+     "c9/x2866-bc0f39-2560.webp",
+     2560,
+     1759
+    ]
+   ],
+   "avg": "#3d2519",
+   "pageimg": [
+    "page/x2866-bc0f39-1455.webp",
+    1455,
+    1000
+   ]
+  },
+  {
+   "page": 349,
+   "xref": 2873,
+   "rect": [
+    708.0,
+    -1.2,
+    1814.2,
+    624.8
+   ],
+   "fw": 1106.1,
+   "chapter": 9,
+   "before": "ỉ đến khi đủ dũng khí để buông đôi tay ấy ra rồi, người ta mới ngỡ ngàng nhận thấy: hóa ra ngay giữa lòng bàn tay mình, ngọn lửa vẫn luôn cháy sáng từ thuở nào.",
+   "after": "",
+   "kind": "full",
+   "source": "pdf",
+   "sharp": true,
+   "score": 0.0,
+   "files": [
+    [
+     "c9/x2873-91c264-960.webp",
+     960,
+     543
+    ],
+    [
+     "c9/x2873-91c264-1600.webp",
+     1600,
+     906
+    ],
+    [
+     "c9/x2873-91c264-2560.webp",
+     2560,
+     1449
+    ]
+   ],
+   "avg": "#474c52",
+   "pageimg": [
+    "page/x2873-91c264-1770.webp",
+    1770,
+    1002
    ]
   }
  ]
